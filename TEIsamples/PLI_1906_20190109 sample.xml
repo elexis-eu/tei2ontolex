@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Stylesheet/TEI2Ontolex.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PLI-test">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Nénufar</title>
+        <title type="sub">Editions numériques du Petit Larousse illustré (1905-1947)</title>
+        <editor role="scientifique">Hervé Bohbot</editor>
+        <editor role="scientifique">Francesca Frontini</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première publication <date>janvier 2019</date></edition>
+        <respStmt>
+          <resp>Numérisation, encodage</resp>
+          <name>Hervé Bohbot</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Praxiling UMR 5267</publisher>
+        <pubPlace>
+          <address>
+          <addrLine>Bâtiment Marc Bloch (BRED)</addrLine>
+          <addrLine>Université Paul-Valéry</addrLine>
+          <addrLine>Route de Mende</addrLine>
+          <addrLine>34199 Montpellier cedex 5</addrLine>
+        </address>
+        </pubPlace>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by/4.0/deed.fr">Extraits : Attribution — Vous devez
+            créditer l’œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées. Vous
+            devez indiquer ces informations par tous les moyens possibles mais vous ne pouvez pas suggérer que les
+            éditeurs vous soutiennent ou soutiennent la façon dont vous avez utilisé leur œuvre. Les éditeurs demandent
+            que toute publication dérivée de ses ressources électroniques comporte : 1. leur nom, ainsi que les noms des
+            personnes auteurs de l’édition ; 2. l’URI permettant d’accéder à la page concernée du présent site web, ou à
+            défaut à la page d’accueil de ce site ; 3. la date et la version du fichier source utilisé (le cas échéant).
+            Pas de restrictions additionnelles — Vous n’êtes pas autorisé à appliquer des conditions légales ou des
+            mesures techniques qui empêcheraient autrui d’utiliser l’œuvre dans les conditions décrites par la
+            licence.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl> Petit Larousse 1906 - 1e édition</bibl>
+      </sourceDesc>
+
+    </fileDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+
+      <entry xml:id="a-1" n="1906-001_unknown">
+        <form type="lemma"><orth>A</orth></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>La première lettre de l'alphabet, et la première des voyelles</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>un <mentioned>A</mentioned> majuscule</quote>
+          </cit>
+          <pc>;</pc>
+          <cit type="example">
+            <quote>des <mentioned>a</mentioned> minuscules</quote>
+          </cit><pc>.</pc></sense>
+        <re type="expr"><form type="phrase">Prouver par A + B</form><pc>,</pc>
+          <sense><def>prouver mathématiquement</def><pc>.</pc></sense></re>
+        <re type="expr"><form type="phrase">Ne savoir ni A ni B</form><pc>,</pc>
+          <sense><def>être fort ignorant</def><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="a-2" n="1906-001_unknown">
+        <form type="lemma"><orth>A</orth></form>
+        <note type="orth">(sans accent)</note>
+        <sense><def>3<hi rend="sup">e</hi> pers. du sing. de l'ind. prés. du verbe <mentioned>avoir</mentioned></def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'alphabet français a vingt-cinq lettres</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="à-3" n="1906-001_unknown">
+        <form type="lemma"><orth>À</orth></form>
+        <gramGrp><pos expand="préposition">prép.</pos></gramGrp>
+        <sense><def>Prend l'accent grave et exprime un rapport de tendance</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>aller à Paris</quote>
+          </cit>
+          <pc>;</pc></sense>
+        <sense><def>de situation</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>être à la campagne</quote>
+          </cit>
+          <pc>;</pc></sense>
+        <sense><def>de provenance</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>boire à une source</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="a-4" n="1906-001_1925-015">
+        <form type="lemma"><orth>A</orth> ou <form type="variant"><orth>AB</orth></form> ou <form type="variant"
+              ><orth>ABS</orth></form></form>
+        <gramGrp><pos expand="préposition">prép.</pos></gramGrp>
+        <sense><def>qui signifie <mentioned>de</mentioned><pc>,</pc>
+            <mentioned>par</mentioned><pc>,</pc> pour indiquer un rapport d'éloignement, d'extraction, de séparation, de
+            privation, et qui entre comme préfixe dans la composition de certains mots français</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>atone, abjuration, abstention</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abaca" n="1906-001_unknown">
+        <form type="lemma"><orth>ABACA</orth></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Espèce de bananier qui fournit une matière textile appelée <mentioned>chanvre de
+            Manille</mentioned></def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abaissant" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAISSANT</orth>
+          <pron><pc>(</pc><emph rend="italic">bè-san</emph><pc>)</pc></pron><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abaissante">E</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui sert à abaisser</def><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Humiliant, dégradant</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>acte abaissant</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abaisse" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAISSE</orth>
+          <pron><pc>(</pc><emph rend="italic">bè-se</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Pâte amincie par le rouleau</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abaisse-langue" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAISSE-LANGUE</orth>
+          <pron><pc>(</pc><emph rend="italic">lan-ghe</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen>
+          <number expand="invariable">invar.</number></gramGrp>
+        <sense><def>Instrument qu'on emploie en médecine pour abaisser la langue et apercevoir l'intérieur de la
+            gorge</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abaissement" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAISSEMENT</orth>
+          <pron><pc>(</pc><emph rend="italic">bè-se-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Action de diminuer quelque chose en hauteur</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'abaissement d'un mur</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Action d'un corps qui, en baissant, s'éloigne d'un point plus élevé</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>le froid produit l'abaissement du mercure dans le thermomètre</quote>
+          </cit><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Humiliation</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>Louis XI travailla à l'abaissement des grands vassaux</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Amoindrissement</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'abaissement des salaires</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Etat de décadence</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'abaissement de la littérature</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abaisser" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABAISSER</orth>
+          <pron><pc>(</pc><emph rend="italic">bè-sé</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <etym><pc>(</pc>rad. <mentioned>bas</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Mettre plus bas pour couvrir</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abaisser les paupières</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Diminuer la hauteur</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abaisser un mur</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Faire descendre</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abaisser un store</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Réduire</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abaisser une taxe</quote>
+          </cit><pc>.</pc></sense>
+        <re type="expr"><form type="phrase">Abaisser une perpendiculaire</form><pc>,</pc>
+          <sense><def>la mener d'un point sur une ligne ou sur un plan</def><pc>.</pc></sense></re>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Humilier</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>Richelieu abaissa les grands</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><form type="derivative"><orth>S'abaisser</orth></form>
+          <gramGrp><pos expand="verbe">v.</pos>
+            <subc expand="pronominal">pr.</subc></gramGrp>
+          <sense><def>S'humilier, s'avilir</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>s'abaisser à de plates excuses</quote>
+            </cit><pc>.</pc></sense>
+          <sense><def>Devenir plus bas</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>les nuages s'abaissent</quote>
+            </cit><pc>.</pc></sense></re>
+        <xr type="antonym"><lbl expand="antonyme" rend="sc">Ant.</lbl>
+          <ref target="#élever">Elever</ref><pc>,</pc>
+          <ref target="#hausser">hausser</ref>
+          <pc>;</pc>
+          <ref target="#glorifier">glorifier</ref><pc>,</pc>
+          <ref target="#vanter">vanter</ref><pc>.</pc></xr>
+      </entry>
+      <entry xml:id="abaisseur" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABAISSEUR</orth>
+          <pc>(</pc><pron rend="italic">bè-seur</pron><pc>)</pc>
+        </form>
+        <gramGrp>
+          <pos expand="adjectif">adj.</pos>
+          <lbl>et</lbl>
+          <pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen>
+        </gramGrp>
+        <sense><def>Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est
+          attaché</def>
+          <pc>.</pc>
+        </sense>
+      </entry>
+      <entry xml:id="abajoue" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABAJOUE</orth>
+          <pron><pc>(</pc><emph rend="italic">joû</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Poche que certains animaux (singes, chéiroptères, etc.) ont à l'intérieur de chacune des joues et où
+            ils mettent en réserve des aliments</def><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Joue pendante</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abaliénation" n="1906-001_unknown">
+        <form type="lemma"><orth>ABALIÉNATION</orth>
+          <pron><pc>(</pc><emph rend="italic">si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><usg type="dom" rend="italic" expand="droit romain">Dr. rom.</usg>
+          <def>Cession, aliénation</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abaliénation de terres, de troupeaux</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abaliéner" n="1906-001_unknown">
+        <form type="lemma"><orth>ABALIÉNER</orth>
+          <pron><pc>(</pc><emph rend="italic">né</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Faire une abaliénation</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abalourdir" n="1906-001_unknown">
+        <form type="lemma"><orth>ABALOURDIR</orth></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Rendre lourd, stupide</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>les mauvais traitements abalourdissent un enfant</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abalourdissement" n="1906-001_unknown">
+        <form type="lemma"><orth>ABALOURDISSEMENT</orth>
+          <pron><pc>(</pc><emph rend="italic">di-se-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Action d'abalourdir</def><pc>.</pc></sense>
+        <sense><def>Etat d'une personne abalourdie</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abandon" n="1906-001_1906-007">
+        <form type="lemma"><orth>ABANDON</orth></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Etat d'une personne ou d'une chose délaissée</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>Christophe Colomb mourut dans l'abandon</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Négligence aimable dans le discours, le style, les manières, etc.</def></sense>
+        <sense><def>Oubli</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abandon de soi-même</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Renonciation, désistement</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abandon d'un droit</quote>
+          </cit><pc>.</pc></sense>
+        <re type="loc"><form type="phrase"><orth>À l'abandon</orth></form>
+          <gramGrp><pos expand="locution">loc.</pos>
+            <subc expand="adverbiale">adv.</subc></gramGrp>
+          <sense><def>Sans soin, en désordre</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>laisser ses enfants, sa maison à l'abandon</quote>
+            </cit><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="abandonnable" n="1906-001_unknown">
+        <form type="lemma"><orth>ABANDONNABLE</orth>
+          <pron><pc>(</pc><emph rend="italic">do-na-ble</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui peut, qui doit être abandonné</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>projet abandonnable</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abandonnataire" n="1906-001_unknown">
+        <form type="lemma"><orth>ABANDONNATAIRE</orth>
+          <pron><pc>(</pc><emph rend="italic">do-na-tè-re</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos></gramGrp>
+        <sense><usg type="dom" rend="italic" expand="droit">Dr.</usg>
+          <def>Personne au profit de qui est fait un abandon de biens</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abandonnateur" n="1906-001_unknown">
+        <form type="lemma"><orth>ABANDONNATEUR</orth><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abandonnatrice">TRICE</orth></form>
+          <pron><pc>(</pc><emph rend="italic">do-na</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos></gramGrp>
+        <sense><usg type="dom" rend="italic" expand="droit">Dr.</usg>
+          <def>Personne qui fait un abandon de ses biens</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abandonné" n="1906-001_unknown">
+        <form type="lemma"><orth>ABANDONNÉ</orth>
+          <pron><pc>(</pc><emph rend="italic">do-né</emph><pc>)</pc></pron><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abandonnée">E</orth></form></form>
+        <gramGrp><pos expand="nom">n.</pos></gramGrp>
+        <sense><def>Personne qui est dans l'abandon</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>soulageons les abandonnés</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+
+      <entry xml:id="abandonnement" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABANDONNEMENT</orth>
+          <pron><pc>(</pc><emph rend="italic">do-ne-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Délaissement entier</def><pc>.</pc></sense>
+        <sense><def>Acte de cession</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abandonnement de biens</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+
+      <entry xml:id="abandonner" n="1906-001_unknown">
+        <form type="lemma"><orth>ABANDONNER</orth>
+          <pron><pc>(</pc><emph rend="italic">do-né</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Quitter, délaisser entièrement</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abandonner sa maison</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Renoncer à</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abandonner ses prétentions</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Négliger</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abandonner ses devoirs</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Confier</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>Anne d'Autriche abandonna le pouvoir à Mazarin</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Livrer</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abandonner une ville au pillage</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><form type="derivative"><orth>S'abandonner</orth></form>
+          <gramGrp><pos expand="verbe">v.</pos>
+            <subc expand="pronominal">pr.</subc></gramGrp>
+          <sense><def>Se livrer</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>s'abandonner à la joie</quote>
+            </cit><pc>.</pc></sense>
+          <sense><def>Perdre courage</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>une âme forte ne s'abandonne jamais</quote>
+            </cit><pc>.</pc></sense></re>
+        <xr type="antonym"><lbl expand="antonyme" rend="sc">Ant.</lbl>
+          <ref target="#garder">Garder</ref><pc>,</pc>
+          <ref target="#retenir">retenir</ref><pc>.</pc></xr>
+      </entry>
+      <entry xml:id="abandonneur" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABANDONNEUR</orth><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abandonneuse">EUSE</orth></form>
+          <pron><pc>(</pc><emph rend="italic">do-neur, eu-ze</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="adjectif">adj.</pos> et <pos expand="nom">n.</pos></gramGrp>
+        <sense><def>Se dit d'une personne qui abandonne</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abaque" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABAQUE</orth></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><usg type="dom" rend="italic" expand="architecture">Archit.</usg>
+          <def>Tailloir, tablette formant la partie supérieure du chapiteau d'une colonne</def><pc>.</pc></sense>
+        <sense><usg type="dom" rend="italic" expand="antiquité">Antiq.</usg>
+          <def>Machine à calculer en usage chez les Romains</def><pc>.</pc>
+          <xr type="renvoi"><pc>(</pc><lbl expand="voir">V.</lbl>
+            <ref target="#boulier">boulier</ref><pc>.</pc><pc>)</pc></xr></sense>
+        <sense><def>Système de lignes tracées sur un plan et correspon<pb n="2"/>dant à une équation donnée qu'elles
+            permettent d'étudier</def><pc>.</pc></sense>
+        <sense><def>Table à jouer, à lire</def><pc>.</pc></sense>
+        <sense><def>Dressoir</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abasourdir" n="1906-001_unknown">
+        <form type="lemma"><orth>ABASOURDIR</orth>
+          <pron><pc>(</pc><emph rend="italic">zour</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <etym><pc>(</pc>rad. <mentioned>sourd</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Assourdir, étourdir par un grand bruit</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>coup de tonnerre qui abasourdit</quote>
+          </cit><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Consterner, hébéter</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abasourdissant" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABASOURDISSANT</orth>
+          <pron><pc>(</pc><emph rend="italic">zour-di-san</emph><pc>)</pc></pron><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abasourdissante">E</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui est propre à abasourdir, à étourdir</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>bruit abasourdissant</quote>
+          </cit><pc>,</pc>
+          <cit type="example">
+            <quote>nouvelle abasourdissante</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abasourdissement" n="1906-001_unknown">
+        <form type="lemma"><orth>ABASOURDISSEMENT</orth>
+          <pron><pc>(</pc><emph rend="italic">zour-di-se-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Assourdissement</def><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Stupeur</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abat-1" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAT</orth> ou <form type="variant"><orth>ABAS</orth></form>
+          <pron><pc>(</pc><emph rend="italic">ba</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Averse soudaine</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>un grand abat d'eau</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abat-2" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAT</orth>
+          <pron><pc>(</pc><emph rend="italic">ba</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Action d'abattre, de tuer</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'abat des animaux</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Ce qui est abattu</def><pc>.</pc></sense>
+        <sense><xr type="synonym"><lbl expand="synonyme de">Syn. de</lbl>
+            <ref target="#abatis">abatis</ref><pc>.</pc></xr></sense>
+      </entry>
+      <entry xml:id="abatage" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABATAGE</orth></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Action d'abattre les arbres, de tuer les animaux</def><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg> et <usg type="register" rend="italic"
+            expand="familier">fam.</usg>
+          <def>Verte semonce</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abâtardir" n="1906-001_unknown">
+        <form type="lemma"><orth>ABÂTARDIR</orth></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <etym><pc>(</pc>de <mentioned>bâtard</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Altérer, faire dégénérer</def><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>une longue servitude abâtardit le courage</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><form type="derivative"><orth>S'abâtardir</orth></form>
+          <gramGrp><pos expand="verbe">v.</pos>
+            <subc expand="pronominal">pr.</subc></gramGrp>
+          <sense><def>Dégénérer</def><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="abâtardissement" n="1906-001_unknown">
+        <form type="lemma"><orth>ABÂTARDISSEMENT</orth>
+          <pron><pc>(</pc><emph rend="italic">di-se-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <etym><pc>(</pc>de <mentioned>abâtardir</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Dégénération</def><pc>.</pc></sense>
+        <sense><def>Altération</def><pc>,</pc>
+          <usg type="style" expand="au propre et au figuré">au prop. et au fig.</usg>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'abâtardissement d'une race, de l'esprit</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abatée" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABATÉE</orth>
+          <pron><pc>(</pc><emph rend="italic">té</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Mouvement d'un navire qui fait que la proue s'écarte de la ligne du vent</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abat-faim" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAT-FAIM</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-fin</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen>
+          <number expand="invariable">invar.</number></gramGrp>
+        <sense><def>Pièce de résistance qu'on sert d'abord pour apaiser, abattre la faim des
+          convives</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abat-foin" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAT-FOIN</orth>
+          <pron><pc>(</pc><emph rend="italic">ba</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen>
+          <number expand="invariable">invar.</number></gramGrp>
+        <sense><def>Ouverture dans le plancher d'un grenier, au-dessus d'une écurie, d'une étable, et par laquelle on
+            jette le fourrage dans le râtelier</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abatis" n="1906-001_unknown">
+        <form type="lemma"><orth>ABATIS</orth>
+          <pron><pc>(</pc><emph rend="italic">ti</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Quantité de choses abattues, telles que bois, arbres, maisons</def>
+          <pc>;</pc>
+          <def>ou tuées, telles que bêtes fauves, gibier</def><pc>.</pc></sense>
+        <sense><def>Tête, cou, ailerons, pattes de volaille</def><pc>.</pc></sense>
+        <sense><usg type="register" expand="populaire" rend="italic">Pop.</usg>
+          <def>Bras, jambes</def>
+          <pc>;</pc>
+          <def>mains, pieds</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abat-jour" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAT-JOUR</orth>
+          <pron><pc>(</pc><emph rend="italic">ba</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen>
+          <number expand="invariable">invar.</number></gramGrp>
+        <sense><def>Réflecteur qui rabat la lumière des lampes</def><pc>.</pc></sense>
+        <sense><def>Fenêtre inclinée qui reçoit le jour d'en haut</def><pc>.</pc></sense>
+        <sense><def>Auvent élevé devant les magasins ou boutiques pour intercepter les rayons du
+          soleil</def><pc>.</pc></sense>
+        <sense><def>Sorte de visière qui sert à préserver les yeux d'une lumière trop vive</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abat-son" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAT-SON</orth> ou <form type="variant"><orth>ABAT-SONS</orth></form>
+          <pron><pc>(</pc><emph rend="italic">ba</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Série de lames que l'on pose de biais dans les baies des clochers pour renvoyer le son ou les sons
+            vers le sol</def><pc>.</pc></sense>
+        <re type="number"><gramGrp><number expand="pluriel">Pl.</number></gramGrp> des <form type="inflected"
+            >abat-son</form> ou <form type="inflected">abat-sons</form><pc>.</pc></re>
+      </entry>
+      <entry xml:id="abattable" n="1906-001_unknown">
+        <form type="lemma"><orth>ABATTABLE</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-ta-ble</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Susceptible d'être abattu</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abattant" n="1906-001_unknown">
+        <form type="lemma"><orth>ABATTANT</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-tan</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Pièce de menuiserie, qui s'élève ou s'abaisse à volonté</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>secrétaire à abattant</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abattement" n="1906-001_unknown">
+        <form type="lemma"><orth>ABATTEMENT</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-te-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <etym><pc>(</pc>de <mentioned>abattre</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Découragement, accablement, affaiblissement</def><pc>.</pc></sense>
+        <xr type="antonym"><lbl expand="antonyme" rend="sc">Ant.</lbl>
+          <ref target="#énergie">Energie</ref><pc>,</pc>
+          <ref target="#courage">courage</ref><pc>.</pc></xr>
+      </entry>
+      <entry xml:id="abatteur" n="1906-001_1907-020">
+        <form type="lemma"><orth>ABATTEUR</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-teur</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Celui qui abat</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abatteur d'arbres</quote>
+          </cit><pc>.</pc></sense>
+        <re type="expr"><form type="phrase">Grand abatteur de besogne</form><pc>,</pc>
+          <sense><def>qui en fait beaucoup</def><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="abattoir" n="1906-001_unknown">
+        <form type="lemma"><orth>ABATTOIR</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-toir</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Etablissement dans lequel les bouchers sont tenus d'abattre et de préparer les animaux destinés à la
+            consommation</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abattre" n="1906-001_1906-003">
+        <form type="lemma"><orth>ABATTRE</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-tre</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <etym><pc>(</pc>rad. <mentioned>bas</mentioned><pc>.</pc></etym>
+        <note type="conjug">— Se conj. comme <mentioned>battre</mentioned>.)</note>
+        <sense><def>Mettre à bas, renverser, détruire, démolir</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abattre un arbre, un mur</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Tuer</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abattre du gibier</quote>
+          </cit><pc>.</pc>
+          <cit type="example">
+            <quote>Bestiaux abattus</quote>
+          </cit><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Affaiblir</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>la fièvre abat</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Décourager</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>quelle peur vous abat ?</quote>
+          </cit></sense>
+        <sense><def>Abaisser</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abattre l'orgueil</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Faire cesser</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>la réflexion abattit sa colère</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Accomplir avec rapidité</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>besogne abattue</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><form type="derivative"><orth>S'abattre</orth></form>
+          <gramGrp><pos expand="verbe">v.</pos>
+            <subc expand="pronominal">pr.</subc></gramGrp>
+          <sense><def>Tomber</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>les vieux chevaux s'abattent souvent</quote>
+            </cit><pc>.</pc></sense>
+          <sense><def>Se précipiter sur</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>l'épervier s'abat sur sa proie</quote>
+            </cit><pc>.</pc></sense>
+          <sense><def>Cesser, s'apaiser, diminuer</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>le vent s'abat</quote>
+            </cit><pc>.</pc></sense></re>
+        <re type="gram"><lbl expand="proverbe" rend="sc">Prov.</lbl>
+          <pc>:</pc>
+          <re type="prov"><form type="phrase"><orth>Petite pluie abat grand vent</orth></form>
+            <sense><pc>(</pc><usg type="style" rend="italic" expand="au propre">au pr.</usg><pc>)</pc><pc>,</pc>
+              <def>quand il vient à pleuvoir, le vent s'apaise</def></sense>
+            <pc>;</pc>
+            <sense><pc>(</pc><usg type="style" rend="italic" expand="au figuré">au fig.</usg><pc>)</pc><pc>,</pc>
+              <def>souvent peu de chose suffit pour calmer une grande colère</def><pc>.</pc></sense></re></re>
+        <xr type="antonym"><lbl expand="antonyme" rend="sc">Ant.</lbl>
+          <ref target="#élever">Elever</ref><pc>,</pc>
+          <ref target="#relever">relever</ref><pc>.</pc></xr>
+      </entry>
+      <entry xml:id="abatture" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABATTURE</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-tu-re</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Action d'abattre les glands</def><pc>.</pc></sense>
+        <re type="gram"><gramGrp><pos expand="nom">N.</pos>
+            <gen expand="féminin">f.</gen>
+            <number expand="pluriel">pl.</number></gramGrp>
+          <sense><def>Foulures laissées par le cerf dans les broussailles</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>le cerf se reconnaît à ses abattures</quote>
+            </cit><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="abat-vent" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABAT-VENT</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-van</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen>
+          <number expand="invariable">invar.</number></gramGrp>
+        <sense><def>Petit auvent qui garantit de la pluie et du vent</def><pc>.</pc></sense>
+        <sense><def>Appareil en terre ou en tôle qu'on met sur les cheminées pour empêcher le vent d'y pénétrer ou d'y
+            refouler la fumée</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abat-voix" n="1906-001_unknown">
+        <form type="lemma"><orth>ABAT-VOIX</orth>
+          <pron><pc>(</pc><emph rend="italic">ba-voi</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen>
+          <number expand="invariable">invar.</number></gramGrp>
+        <sense><def>Couronnement d'une chaire à prêcher</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abbatial" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABBATIAL</orth><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abbatiale">E</orth></form><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abbatiaux">AUX</orth></form>
+          <pron><pc>(</pc><emph rend="italic">a-ba-si-al</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui se rapporte à l'abbé, à l'abbesse, à l'abbaye</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>palais abbatial</quote>
+          </cit><pc>,</pc>
+          <cit type="example">
+            <quote>église abbatiale</quote>
+          </cit>
+          <pc>;</pc>
+          <cit type="example">
+            <quote>droits abbatiaux</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abbaye" n="1906-001_unknown">
+        <form type="lemma"><orth>ABBAYE</orth>
+          <pron><pc>(</pc><emph rend="italic">a-bè-i</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Monastère gouverné par un abbé ou une abbesse</def><pc>.</pc></sense>
+        <sense><def>Bâtiments du monastère</def><pc>.</pc></sense>
+        <re type="gram"><lbl expand="proverbe" rend="sc">Prov.</lbl>
+          <pc>:</pc>
+          <re type="prov"><form type="phrase"><orth>Pour un moine l'abbaye ne se perd pas</orth></form><pc>,</pc>
+            <sense><def>l'absence d'une personne ne doit pas faire abandonner une entreprise, un
+              projet</def><pc>.</pc></sense></re></re>
+        <xr type="renvoi"><lbl expand="voir">V.</lbl>
+          <ref target="#Abbaye-1" rend="italic">Part. hist.</ref></xr>
+      </entry>
+      <entry xml:id="abbé" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABBÉ</orth>
+          <pron><pc>(</pc><emph rend="italic">a-bé</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <etym><pc>(</pc><lang expand="latin">lat.</lang>
+          <mentioned>abbas</mentioned><pc>,</pc>
+          <gloss>père</gloss><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Supérieur d'une abbaye</def><pc>.</pc></sense>
+        <sense><def>Ecclésiastique</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abbesse" n="1906-001_unknown">
+        <form type="lemma"><orth>ABBESSE</orth>
+          <pron><pc>(</pc><emph rend="italic">a-bè-se</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Supérieure d'un monastère de religieuses ayant titre d'abbaye</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="a-b-c" n="1906-001_unknown">
+        <form type="lemma"><orth>A B C</orth></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Petit livre contenant l'alphabet</def><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Premiers éléments d'un art, d'une science</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'arithmétique est l'a b c des mathématiques</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abcéder" n="1906-001_unknown">
+        <form type="lemma"><orth>ABCÉDER</orth>
+          <pron><pc>(</pc><emph rend="italic">dé</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="neutre">n.</subc></gramGrp>
+        <note type="conjug">(Se conj. comme <mentioned>accélérer</mentioned>.)</note>
+        <sense><def>Se tourner en abcès</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>tumeur qui abcède</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abcès" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABCÈS</orth>
+          <pron><pc>(</pc><emph rend="italic">sè</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Amas de pus dans une cavité accidentelle ou naturelle du corps</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abd" n="1906-001_1906-005">
+        <form type="lemma"><orth>ABD</orth></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Mot arabe qui signifie <mentioned>serviteur</mentioned> et entre dans la composition de nombreux
+            noms propres</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>Abd<mentioned>-el-Kader</mentioned></quote>
+          </cit><pc>,</pc>
+          <cit type="example">
+            <quote>Abd<mentioned>-el-Mélik</mentioned></quote>
+          </cit><pc>,</pc> etc.</sense>
+      </entry>
+      <entry xml:id="abdicable" n="1906-001_unknown">
+        <form type="lemma"><orth>ABDICABLE</orth></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui peut, qui doit être abdiqué</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>fonctions abdicables</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abdicataire" n="1906-001_unknown">
+        <form type="lemma"><orth>ABDICATAIRE</orth>
+          <pron><pc>(</pc><emph rend="italic">tè-re</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos> et <pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Se dit d'une personne qui a abdiqué</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abdication" n="1906-001_unknown">
+        <form type="lemma"><orth>ABDICATION</orth>
+          <pron><pc>(</pc><emph rend="italic">si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Action d'abdiquer</def><pc>.</pc>
+          <xr type="renvoi"><lbl expand="voir">V.</lbl>
+            <ref target="#Abdication" rend="italic">Part. hist.</ref></xr></sense>
+      </entry>
+      <entry xml:id="abdiquer" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABDIQUER</orth>
+          <pron><pc>(</pc><emph rend="italic">ké</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Renoncer volontairement ou de force à de hautes fonctions, et particulièrement à l'autorité
+            souveraine</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>Dioclétien abdiqua l'empire</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Renoncer à une chose que l'on possédait</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abdiquer toute dignité, ses devoirs, ses biens</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abdomen" n="1906-001_unknown">
+        <form type="lemma"><orth>ABDOMEN</orth>
+          <pron><pc>(</pc><emph rend="italic">mèn'</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Partie du corps entre le thorax et le bassin et qui renferme les intestins</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abdominal" n="1906-001_unknown">
+        <form type="lemma"><orth>ABDOMINAL</orth><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abdominale">E</orth></form><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abdominaux">AUX</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui appartient, qui se rapporte à l'abdomen</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>la cavité abdominale est tapissée par le péritoine</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abducteur" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABDUCTEUR</orth>
+          <pron><pc>(</pc><emph rend="italic">duk</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos> et <pos expand="adjectif">adj.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Se dit de tout muscle qui produit le mouvement d'abduction</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>muscle abducteur</quote>
+          </cit>
+          <pc>;</pc>
+          <cit type="example">
+            <quote>l'abducteur de l'œil</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abduction" n="1906-001_unknown">
+        <form type="lemma"><orth>ABDUCTION</orth>
+          <pron><pc>(</pc><emph rend="italic">duk-si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Mouvement qui écarte un membre du plan médian que l'on suppose diviser le corps en deux moitiés
+            symétriques</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abécédaire" n="1906-001_unknown">
+        <form type="lemma"><orth>ABÉCÉDAIRE</orth>
+          <pron><pc>(</pc><emph rend="italic">dè-re</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui concerne l'alphabet</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>ordre abécédaire</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><gramGrp><pos expand="nom">N.</pos>
+            <gen expand="masculin">m.</gen></gramGrp>
+          <sense><def>Livre élémentaire de lecture</def><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="abecquement" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABECQUEMENT</orth>
+          <pron><pc>(</pc><emph rend="italic">bè-ke-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Action d'abecquer</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'abecquement d'un oiseau</quote>
+          </cit><pc>.</pc>
+          <usg type="time" expand="vieux"><pc>(</pc>Vx<pc>.</pc><pc>)</pc></usg></sense>
+      </entry>
+      <entry xml:id="abecquer" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABECQUER</orth>
+          <pron><pc>(</pc><emph rend="italic">bé-ké</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <etym><pc>(</pc>rad. <mentioned>bec</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Donner la becquée</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abecquer un oiseau</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abée" n="1906-001_unknown">
+        <form type="lemma"><orth>ABÉE</orth>
+          <pron><pc>(</pc><emph rend="italic">bé</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <etym><pc>(</pc>du <lang expand="vieux français">vx fr.</lang>
+          <mentioned>bée</mentioned><pc>,</pc>
+          <usg type="time" expand="aujourd'hui">auj.</usg>
+          <mentioned>baie</mentioned><pc>,</pc>
+          <gloss>ouverture</gloss><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Ouverture par laquelle coule l'eau qui fait mouvoir un moulin</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abeillage" n="1906-001_unknown">
+        <form type="lemma"><orth>ABEILLAGE</orth>
+          <pron><pc>(</pc><emph rend="italic">bè, ll</emph> mll.<pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><usg type="dom" rend="italic" expand="droit féodal">Dr. féod.</usg>
+          <def>Droit des seigneurs sur les abeilles et les ruches de leurs vassaux</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abeille" n="1906-001_1914-097">
+        <form type="lemma"><orth>ABEILLE</orth>
+          <pron><pc>(</pc><emph rend="italic">bè, ll</emph> mll.<pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <etym><pc>(</pc><lang expand="latin">lat.</lang>
+          <mentioned>apis</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Insecte hyménoptère porte-aiguillon, produisant le miel et la cire</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'abeille est l'emblème de l'activité et du travail</quote>
+          </cit><pc>.</pc>
+          <pb n="3"/><cit type="example">
+            <quote>L'apiculture est l'art d'élever les abeilles</quote>
+          </cit><pc>.</pc></sense>
+        <note type="encycl"><pc>—</pc> Les abeilles ont un corps velu, d'un brun fauve, six pattes et quatre ailes, un
+          aiguillon très acéré à l'extrémité de l'abdomen ; leur bouche est munie d'une trompe qui leur sert à puiser le
+            <mentioned>suc</mentioned> des fleurs avec lequel elles fabriquent la <mentioned>cire</mentioned> dont elles
+          font leurs cellules ou <mentioned>alvéoles</mentioned><pc>,</pc> disposées en
+            <mentioned>rayons</mentioned><pc>,</pc> et le <mentioned>miel</mentioned> qu'elles y déposent. Chaque groupe
+          ou <mentioned>essaim</mentioned> vit en société dans une ruche, sous l'autorité d'une reine.</note>
+      </entry>
+      <entry xml:id="abeiller" n="1906-001_unknown">
+        <form type="lemma"><orth>ABEILLER</orth>
+          <pron><pc>(</pc><emph rend="italic">bè, ll</emph> mll., <emph rend="italic"
+            >é</emph><pc>)</pc></pron><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abeillère">ÈRE</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Relatif aux abeilles</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>industrie abeillère</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><gramGrp><pos expand="nom">N.</pos>
+            <gen expand="masculin">m.</gen></gramGrp>
+          <sense><def>Rucher</def><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="aberrant" n="1906-001_unknown">
+        <form type="lemma"><orth>ABERRANT</orth>
+          <pron><pc>(</pc><emph rend="italic">bèr-ran</emph><pc>)</pc></pron><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="aberrante">E</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui s'écarte, dévie</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="aberration" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABERRATION</orth>
+          <pron><pc>(</pc><emph rend="italic">bèr-ra-si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <etym><pc>(</pc><lang expand="latin">lat.</lang>
+          <mentioned>aberratio</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Mouvement apparent des étoiles fixes</def><pc>.</pc></sense>
+        <sense><usg type="dom" rend="italic" expand="optique">Optiq.</usg>
+          <def>Dispersion des rayons lumineux</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>aberration de la lumière</quote>
+          </cit><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Trouble, égarement, erreur de jugement</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>aberration du goût</quote>
+          </cit>
+          <pc>;</pc>
+          <cit type="example">
+            <quote>aberration des idées</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="aberrer" n="1906-001_unknown">
+        <form type="lemma"><orth>ABERRER</orth>
+          <pron><pc>(</pc><emph rend="italic">bèr-ré</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="neutre">n.</subc></gramGrp>
+        <sense><def>Se tromper</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abêtir" n="1906-001_unknown">
+        <form type="lemma"><orth>ABÊTIR</orth></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Rendre stupide</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>la paresse d'esprit abêtit l'homme</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><gramGrp><pos expand="verbe">V.</pos>
+            <subc expand="neutre">n.</subc></gramGrp> et <re type="gram"><form type="derivative"
+              ><orth>S'abêtir</orth></form>
+            <gramGrp><pos expand="verbe">v.</pos>
+              <subc expand="pronominal">pr.</subc></gramGrp>
+            <sense><def>Devenir stupide</def>
+              <pc>:</pc>
+              <cit type="example">
+                <quote>cet enfant abêtit, s'abêtit de jour en jour</quote>
+              </cit><pc>.</pc></sense></re></re>
+      </entry>
+      <entry xml:id="abêtissement" n="1906-001_unknown">
+        <form type="lemma"><orth>ABÊTISSEMENT</orth>
+          <pron><pc>(</pc><emph rend="italic">ti-se-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Action d'abêtir</def><pc>.</pc></sense>
+        <sense><def>Etat de celui qui est abêti</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abhorrable" n="1906-001_unknown">
+        <form type="lemma"><orth>ABHORRABLE</orth>
+          <pron><pc>(</pc><emph rend="italic">bo-ra-ble</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui mérite d'être abhorré</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abhorrer" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABHORRER</orth>
+          <pron><pc>(</pc><emph rend="italic">bo-ré</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Avoir en horreur, détester, exécrer</def><pc>.</pc></sense>
+        <xr type="antonym"><lbl expand="antonyme" rend="sc">Ant.</lbl>
+          <ref target="#aimer">Aimer</ref><pc>,</pc>
+          <ref target="#chérir">chérir</ref><pc>,</pc>
+          <ref target="#affectionner">affectionner</ref><pc>.</pc></xr>
+      </entry>
+      <entry xml:id="abies" n="1906-001_1914-097">
+        <form type="lemma"><orth>ABIÈS</orth>
+          <pron><pc>(</pc><emph rend="italic">bi-èss</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <etym><pc>(</pc><lang expand="latin">lat.</lang>
+          <mentioned>abies</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Nom scientifique du sapin</def>
+          <note type="precision">(qui a donné son nom aux <mentioned>abiétinées</mentioned>)</note><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abiétinées" n="1906-001_1914-097">
+        <form type="lemma"><orth>ABIÉTINÉES</orth>
+          <pron><pc>(</pc><emph rend="italic">né</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen>
+          <number expand="pluriel">pl.</number></gramGrp>
+        <sense><def>Tribu de conifères, comprenant des arbres résineux comme le <mentioned>pin</mentioned><pc>,</pc> le
+              <mentioned>sapin</mentioned><pc>,</pc> le <mentioned>mélèze</mentioned><pc>,</pc> etc.</def></sense>
+        <re type="number"><gramGrp><number expand="singulier">S.</number></gramGrp> une <form type="inflected"
+            >abiétinée</form><pc>.</pc></re>
+      </entry>
+      <entry xml:id="abîme" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABÎME</orth></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <etym><pc>(</pc>du <lang expand="grec">gr.</lang>
+          <mentioned>a</mentioned>
+          <gloss>priv.</gloss><pc>,</pc> et <mentioned>bussos</mentioned><pc>,</pc>
+          <gloss>fond</gloss><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Gouffre, précipice très profond</def><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Tout ce qui est extrême</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>un abîme de misère</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Impénétrable</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>le cœur de l'homme est un abîme</quote>
+          </cit><pc>.</pc></sense>
+        <re type="expr"><form type="phrase">Etre sur le bord de l'abîme</form><pc>,</pc>
+          <sense><def>être sur le point de se ruiner, de se perdre</def><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="abîmer" n="1906-001_unknown">
+        <form type="lemma"><orth>ABÎMER</orth>
+          <pron><pc>(</pc><emph rend="italic">mé</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Renverser, culbuter</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>Condé abîma l'infanterie espagnole à Rocroi</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Gâter, endommager</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>la pluie abîme les chemins</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><form type="derivative"><orth>S'abîmer</orth></form>
+          <gramGrp><pos expand="verbe">v.</pos>
+            <subc expand="pronominal">pr.</subc></gramGrp>
+          <sense><def>S'écrouler</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>la maison s'est abîmée dans les flammes</quote>
+            </cit><pc>.</pc></sense>
+          <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+            <def>Se plonger</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>s'abîmer dans sa douleur</quote>
+            </cit><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="ab-intestat" n="1906-001_unknown">
+        <form type="lemma"><orth>AB INTESTAT</orth>
+          <pron><pc>(</pc><emph rend="italic">tès-ta</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="locution">loc.</pos>
+          <subc expand="prépositive">prép.</subc></gramGrp>
+        <sense><xr type="renvoi"><lbl expand="voir">V.</lbl>
+            <ref target="#intestat">intestat</ref><pc>.</pc></xr></sense>
+      </entry>
+      <entry xml:id="abirritant" n="1906-001_unknown">
+        <form type="lemma"><orth>ABIRRITANT</orth>
+          <pron><pc>(</pc><emph rend="italic">ab-ir-ri-tan</emph><pc>)</pc></pron><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abirritante">E</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui est propre à diminuer l'irritation</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>remède abirritant</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abirritation" n="1906-001_unknown">
+        <form type="lemma"><orth>ABIRRITATION</orth>
+          <pron><pc>(</pc><emph rend="italic">ab-ir-ri-ta-si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>En médecine, le contraire de l'irritation</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abirriter" n="1906-001_unknown">
+        <form type="lemma"><orth>ABIRRITER</orth>
+          <pron><pc>(</pc><emph rend="italic">ab-ir-ri-té</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Diminuer la sensibilité, l'irritation dans une partie du corps</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abject" n="1906-001_unknown">
+        <form type="lemma"><orth>ABJECT</orth>
+          <pron><pc>(</pc><emph rend="italic">ab-jèkt'</emph><pc>)</pc></pron><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abjecte">E</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <etym><pc>(</pc><lang expand="latin">lat.</lang>
+          <mentioned>abjectus</mentioned><pc>,</pc>
+          <gloss>jeté hors</gloss><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Méprisable, bas, vil</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>homme, sentiments abjects</quote>
+          </cit><pc>.</pc></sense>
+        <xr type="antonym"><lbl expand="antonyme" rend="sc">Ant.</lbl>
+          <ref target="#élevé">Elevé</ref><pc>,</pc>
+          <ref target="#noble">noble</ref><pc>.</pc></xr>
+      </entry>
+      <entry xml:id="abjection" n="1906-001_unknown">
+        <form type="lemma"><orth>ABJECTION</orth>
+          <pron><pc>(</pc><emph rend="italic">ab-jèk-si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Abaissement, avilissement, bassesse, en parlant du caractère, des sentiments</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>vivre dans l'abjection n'est pas vivre</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abjurable" n="1906-001_unknown">
+        <form type="lemma"><orth>ABJURABLE</orth></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qu'on peut, qu'on doit abjurer</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abjuration" n="1906-001_unknown">
+        <form type="lemma"><orth>ABJURATION</orth>
+          <pron><pc>(</pc><emph rend="italic">ra-si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <etym><pc>(</pc><lang expand="latin">lat.</lang>
+          <mentioned>abjuratio</mentioned><pc>,</pc>
+          <gloss>reniement</gloss><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Renonciation solennelle à une religion</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'abjuration de Henri IV mit fin à la Ligue</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Action de renoncer à une opinion, à une doctrine, etc.</def></sense>
+      </entry>
+      <entry xml:id="abjuratoire" n="1906-001_unknown">
+        <form type="lemma"><orth>ABJURATOIRE</orth></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui concerne l'abjuration</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>acte, formule abjuratoire</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abjurer" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABJURER</orth>
+          <pron><pc>(</pc><emph rend="italic">ab-ju-ré</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Renoncer publiquement à une religion</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>Turenne abjura le calvinisme</quote>
+          </cit><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Renoncer à une opinion, à une doctrine, etc.</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abjurer Aristote, Descartes</quote>
+          </cit><pc>,</pc> etc.</sense>
+      </entry>
+      <entry xml:id="ablatif" n="1906-001_1907-020">
+        <form type="lemma"><orth>ABLATIF</orth><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="ablative">IVE</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui a le caractère, la valeur de l'ablatif</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>proposition ablative</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><gramGrp><pos expand="nom">N.</pos>
+            <gen expand="masculin">m.</gen></gramGrp>
+          <sense><def>Cas de la déclinaison grecque, latine, etc., indiquant l'instrument, l'éloignement, l'origine, la
+              matière</def><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="ablation" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABLATION</orth>
+          <pron><pc>(</pc><emph rend="italic">si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><usg type="dom" rend="italic" expand="chirurgie">Chir.</usg>
+          <def>Action de retrancher</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'ablation d'un membre, d'une tumeur</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="able" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABLE</orth>
+          <gramGrp><pos expand="nom">n.</pos>
+            <gen expand="masculin">m.</gen></gramGrp> ou <form type="variant"><orth>ABLETTE</orth>
+            <pron><pc>(</pc><emph rend="italic">blè-te</emph><pc>)</pc></pron>
+            <gramGrp><pos expand="nom">n.</pos>
+              <gen expand="féminin">f.</gen></gramGrp></form></form>
+        <sense><def>Petit poisson d'eau douce à écailles argentées</def><pc>.</pc></sense>
+        <note type="encycl"><pc>—</pc> Les ables sont appelés <mentioned>poissons blancs</mentioned> ; les espèces les
+          plus communes sont : le <mentioned>meunier</mentioned><pc>,</pc> le <mentioned>gardon</mentioned><pc>,</pc> le
+            <mentioned>rotengle</mentioned><pc>,</pc> la <mentioned>vandoise</mentioned><pc>,</pc> le
+            <mentioned>chevaine</mentioned>.</note>
+      </entry>
+      <entry xml:id="ablégat" n="1906-001_unknown">
+        <form type="lemma"><orth>ABLÉGAT</orth>
+          <pron><pc>(</pc><emph rend="italic">ga</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <etym><pc>(</pc><choice>
+            <abbr>préf.</abbr>
+            <expan>préfixe</expan>
+          </choice>
+          <mentioned>ab</mentioned><pc>,</pc> et <lang expand="latin">lat.</lang>
+          <mentioned>legatus</mentioned><pc>,</pc>
+          <gloss>envoyé</gloss><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Vicaire d'un légat</def><pc>.</pc></sense>
+        <sense><def>Commissaire chargé par la cour pontificale de Rome d'une mission gracieuse, notamment de porter la
+            barrette à un nouveau cardinal</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="ablégation" n="1906-001_unknown">
+        <form type="lemma"><orth>ABLÉGATION</orth>
+          <pron><pc>(</pc><emph rend="italic">si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Dignité, fonction d'ablégat</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="ableret" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABLERET</orth>
+          <pron><pc>(</pc><emph rend="italic">rè</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Filet carré, dit aussi <mentioned>carrelet</mentioned></def><pc>.</pc>
+          <xr type="renvoi"><pc>(</pc><lbl expand="voir">V.</lbl>
+            <ref target="#carrelet">ce mot</ref><pc>.</pc><pc>)</pc></xr></sense>
+      </entry>
+      <entry xml:id="abluant" n="1906-001_unknown">
+        <form type="lemma"><orth>ABLUANT</orth>
+          <pron><pc>(</pc><emph rend="italic">blu-an</emph><pc>)</pc></pron><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abluante">E</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Se dit des médicaments propres à enlever les matières putrides et visqueuses des
+            ulcères</def><pc>.</pc></sense>
+        <re type="gram"><gramGrp><pos expand="nom">N.</pos>
+            <gen expand="masculin">m.</gen></gramGrp>
+          <pc>:</pc> un <form type="simple">abluant</form><pc>.</pc></re>
+      </entry>
+      <entry xml:id="abluer" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABLUER</orth>
+          <pron><pc>(</pc><emph rend="italic">blu-é</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <sense><def>Laver du parchemin ou du papier avec une préparation pour enlever des taches ou raviver
+            l'écriture</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="ablution" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABLUTION</orth>
+          <pron><pc>(</pc><emph rend="italic">si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Chez les Orientaux, purification religieuse qui consiste à se laver le corps ou une partie du
+            corps</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>l'ablution est en usage dans tous les cultes de l'Orient</quote>
+          </cit><pc>.</pc></sense>
+        <sense><def>Vin et eau que le prêtre verse sur ses doigts après la communion</def><pc>.</pc></sense>
+        <sense><usg type="register" rend="italic" expand="familier">Fam.</usg>
+          <def>Action de se laver</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abnégation" n="1906-001_unknown">
+        <form type="lemma"><orth>ABNÉGATION</orth>
+          <pron><pc>(</pc><emph rend="italic">si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <etym><pc>(</pc><lang expand="latin">lat.</lang>
+          <mentioned>abnegatio</mentioned><pc>,</pc>
+          <gloss>action de nier</gloss><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Renoncement, sacrifice</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>faire abnégation de soi</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="aboi" n="1906-001_unknown">
+        <form type="lemma"><orth>ABOI</orth></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <etym><pc>(</pc>de <mentioned>aboyer</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Cri du chien</def><pc>.</pc></sense>
+        <re type="gram"><gramGrp><pos expand="nom">N.</pos>
+            <gen expand="masculin">m.</gen>
+            <number expand="pluriel">pl.</number></gramGrp>
+          <sense><def>Dernières extrémités où le cerf est réduit</def><pc>.</pc></sense>
+          <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+            <def>Situation désespérée</def>
+            <pc>:</pc>
+            <cit type="example">
+              <quote>commerçant ruiné et aux abois</quote>
+            </cit><pc>.</pc></sense></re>
+      </entry>
+      <entry xml:id="aboiement" n="1906-001_unknown">
+        <form type="lemma"><orth>ABOIEMENT</orth> ou <form type="variant"><orth>ABOÎMENT</orth></form>
+          <pron><pc>(</pc><emph rend="italic">boi-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Cri du chien</def><pc>.</pc></sense>
+        <sense><usg type="style" rend="italic" expand="figuré">Fig.</usg>
+          <def>Cris importuns, réitérés, fatigants</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abolir" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABOLIR</orth></form>
+        <gramGrp><pos expand="verbe">v.</pos>
+          <subc expand="actif">a.</subc></gramGrp>
+        <etym><pc>(</pc><lang expand="latin">lat.</lang>
+          <mentioned>abolere</mentioned><pc>)</pc><pc>.</pc></etym>
+        <sense><def>Supprimer, annuler, anéantir</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>abolir une loi</quote>
+          </cit><pc>.</pc>
+          <cit type="example">
+            <quote>La Constituante abolit les droits féodaux</quote>
+          </cit><pc>.</pc></sense>
+        <xr type="antonym"><lbl expand="antonyme" rend="sc">Ant.</lbl>
+          <ref target="#conserver">Conserver</ref><pc>,</pc>
+          <ref target="#maintenir">maintenir</ref><pc>.</pc></xr>
+      </entry>
+      <entry xml:id="abolissable" n="1906-001_unknown">
+        <form type="lemma"><orth>ABOLISSABLE</orth>
+          <pron><pc>(</pc><emph rend="italic">li-sa-ble</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui doit ou peut être aboli</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>coutume abolissable</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abolissement" n="1906-001_unknown">
+        <form type="lemma"><orth>ABOLISSEMENT</orth>
+          <pron><pc>(</pc><emph rend="italic">li-se-man</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Action d'abolir</def>
+          <pc>;</pc>
+          <def>suppression, anéantissement</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abolitif" n="1906-001_unknown">
+        <form type="lemma"><orth>ABOLITIF</orth><pc>,</pc>
+          <form type="inflected"><orth extent="suff" value="abolitive">IVE</orth></form></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui abolit</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>loi abolitive</quote>
+          </cit><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abolition" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABOLITION</orth>
+          <pron><pc>(</pc><emph rend="italic">si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Annulation (en parlant des lois)</def><pc>.</pc></sense>
+        <sense><def>Suppression</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>Louis XVI ordonna l'abolition de la torture</quote>
+          </cit><pc>.</pc>
+          <cit type="example">
+            <quote>La Convention vota l'abolition de la royauté</quote>
+          </cit><pc>.</pc></sense>
+        <xr type="antonym"><lbl expand="antonyme" rend="sc">Ant.</lbl>
+          <ref target="#conservation">Conservation</ref><pc>,</pc>
+          <ref target="#maintien">maintien</ref><pc>.</pc></xr>
+      </entry>
+      <entry xml:id="abolitionnisme" n="1906-001_unknown">
+        <form type="lemma"><orth>ABOLITIONNISME</orth>
+          <pron><pc>(</pc><emph rend="italic">si-o-nis-me</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="masculin">m.</gen></gramGrp>
+        <sense><def>Doctrine des partisans de l'abolition de l'esclavage</def><pc>.</pc></sense>
+      </entry>
+      <entry xml:id="abolitionniste" n="1906-001_1925-015">
+        <form type="lemma"><orth>ABOLITIONNISTE</orth>
+          <pron><pc>(</pc><emph rend="italic">si-o-nis-te</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="adjectif">adj.</pos></gramGrp>
+        <sense><def>Qui se rapporte à l'abolitionnisme</def>
+          <pc>:</pc>
+          <cit type="example">
+            <quote>système abolitionniste</quote>
+          </cit><pc>.</pc></sense>
+        <re type="gram"><gramGrp><pos expand="nom">N.</pos></gramGrp>
+          <sense><def>Partisan de ce système</def><pc>.</pc></sense></re>
+      </entry>
+    </body>
+  </text>
+</TEI>
