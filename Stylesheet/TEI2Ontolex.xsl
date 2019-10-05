@@ -8,7 +8,8 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:terms="http://purl.org/dc/terms/"
     xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
     xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:lime1="http://www.w3.org/ns/lemon/lime#" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+    xmlns:lime1="http://www.w3.org/ns/lemon/lime#" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 
     <xsl:variable name="LexiconURI" select="'http://www.mylexica.perso/PLI1906'"/>
 
@@ -17,7 +18,6 @@
     <xsl:template match="/">
         <rdf:RDF>
             <xsl:apply-templates select="descendant::entry"/>
-            <xsl:apply-templates select="descendant::sense" mode="createLexicalSense"/>
         </rdf:RDF>
     </xsl:template>
 
@@ -30,10 +30,9 @@
                 </owl:NamedIndividual>
             </xsl:when>
             <xsl:otherwise>
-                <owl:NamedIndividual rdf:about="{$LexiconURI}#{@xml:id}">
-                    <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+                <ontolex:LexicalEntry rdf:ID="{@xml:id}">
                     <xsl:apply-templates/>
-                </owl:NamedIndividual>
+                </ontolex:LexicalEntry>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -104,36 +103,18 @@
     <!-- Sense related transformation in two ways: a) reference within an entry and b) creation of the actual LexicalSense node -->
 
     <xsl:template match="sense">
-        <!-- We first compute the sense Refenrence that will be used in the URI  -->
-        <!--  -->
-        <xsl:variable name="theEntry" select="ancestor::entry[1]"/>
-        <xsl:variable name="theSense" select="."/>
-        <xsl:variable name="senseReference">
-            <xsl:for-each select="$theEntry/descendant::sense">
-                <xsl:if test="generate-id(.) = generate-id($theSense)">
-                    <xsl:value-of select="position()"/>
-                </xsl:if>
-            </xsl:for-each>
-        </xsl:variable>
-        <ontolex:sense rdf:resource="{$LexiconURI}#{$theEntry/@xml:id}_sense_{$senseReference}"/>
-    </xsl:template>
-
-    <xsl:template match="sense" mode="createLexicalSense">
-        <xsl:variable name="theEntry" select="ancestor::entry[1]"/>
-        <xsl:variable name="theSense" select="."/>
-        <xsl:variable name="senseReference">
-            <xsl:for-each select="$theEntry/descendant::sense">
-                <xsl:if test="generate-id(.) = generate-id($theSense)">
-                    <xsl:value-of select="position()"/>
-                </xsl:if>
-            </xsl:for-each>
-        </xsl:variable>
-        <owl:NamedIndividual rdf:about="{$LexiconURI}#{$theEntry/@xml:id}_sense_{$senseReference}">
-            <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+        <ontolex:sense>
             <xsl:apply-templates/>
-        </owl:NamedIndividual>
+        </ontolex:sense>
     </xsl:template>
 
+    <xsl:template match="def">
+        <rdf:Description>
+            <skos:definition xml:lang="fr">
+                <xsl:apply-templates/>
+            </skos:definition>
+        </rdf:Description>
+    </xsl:template>
 
     <!-- Copy all template to account for possible missed elemnts -->
     <xsl:template match="@* | node()">
