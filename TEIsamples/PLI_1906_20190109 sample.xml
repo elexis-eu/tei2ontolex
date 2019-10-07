@@ -1528,6 +1528,23 @@
         <re type="gram"><gramGrp><pos expand="nom">N.</pos></gramGrp>
           <sense><def>Partisan de ce système</def><pc>.</pc></sense></re>
       </entry>
+      <entry xml:id="allitération" n="1906-001_unknown">
+        <form type="lemma"><orth>ALLITÉRATION</orth>
+          <pron><pc>(</pc><emph rend="italic">al-li, si-on</emph><pc>)</pc></pron></form>
+        <gramGrp><pos expand="nom">n.</pos>
+          <gen expand="féminin">f.</gen></gramGrp>
+        <sense><def>Répétition, volontaire ou involontaire, des mêmes lettres, des mêmes syllabes</def><pc>.</pc>
+          <usg type="hint" expand="exemple">Ex.</usg>
+          <pc>:</pc>
+          <cit type="quote">
+            <quote>Non, il n'est rien que Nanine n'honore<pc>.</pc></quote>
+            <bibl><author>(Volt.)</author></bibl>
+          </cit>
+          <cit type="quote">
+            <quote>Pour qui sont ces serpents qui sifflent sur vos têtes<pc>.</pc></quote>
+            <bibl><author>(Rac.)</author></bibl>
+          </cit></sense>
+      </entry>
     </body>
   </text>
 </TEI>
