@@ -1,0 +1,34 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>The shortest TEI Document Imaginable</title>
+   </titleStmt>
+   <publicationStmt>
+    <p>First published as part of TEI P2, this is the P5
+         version using a name space.</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>No source: this is an original work.</p>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <entry xml:id="entry1" xml:lang="en">
+     <form>   
+       <orth>disproof</orth>
+      </form>
+      <sense n="1">
+          <def>facts that disprove something.</def>
+      </sense>
+      <sense n="2">
+        <def>the act of disproving.</def>  
+        <cit type="example">
+            <quote xml:lang="fr">boire à une source</quote>
+        </cit>
+      </sense> 
+   </entry>
+  </body>
+ </text>
+</TEI>
