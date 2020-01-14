@@ -1,0 +1,24 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Test 3 - inflected forms</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <entry xml:id="go" xml:lang="en">
+                <form type="lemma">
+                    <orth>go</orth>
+                </form>
+                <form type="inflected">
+                    <orth>went</orth>
+                    <gramGrp>
+                        <tns>past</tns>
+                    </gramGrp>
+                </form>
+            </entry> 
+        </body>
+    </text>
+</TEI>

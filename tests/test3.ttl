@@ -1,0 +1,14 @@
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<#Flussschifffahrt> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ 
+    ontolex:writtenRep "Flussschifffahrt"@de , 
+    "Fluss-Schifffahrt"@de, "Flußschifffahrt"@de 
+  ] .
+
+<#osama_bin_laden> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [
+    ontolex:phoneticRep "ow."sa.mabɪnˈlaːdn̹"@en-fonipa
+  ] .
+

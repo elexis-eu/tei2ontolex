@@ -1,0 +1,44 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Test 3 - variant forms</title>
+   </titleStmt>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <body>
+      <entry xml:id="Flussschifffahrt" xml:lang="de" type="compound">
+        <form type="lemma">
+            <orth type="segmeted">
+                <seg>Fluss</seg>
+                <seg>schifffahrt</seg>
+            </orth>
+            <form type="variant">
+                <orth>
+                    <seg>Fluss</seg>
+                    <pc>-</pc>
+                    <seg>Schifffahrt</seg>
+                </orth>
+            </form>
+            <form type="variant">
+                <orth notAfter="1996">
+                    <seg>Fluß</seg>
+                    <seg>schifffahrt</seg>
+                </orth>
+                <usg type="time">Vor 1996 Rechtschreibung Reform</usg>
+            </form>
+        </form>
+    </entry>
+    <entry xml:id="osama_bin_laden" xml:lang="en">
+        <form type="lemma">
+            <pron notation="ipa">
+                <seg xml:id="ousma" corresp="#usma #osma">ow."sa.ma</seg>
+                <seg>bɪn</seg>
+                <seg>ˈlaːdn̹</seg>
+            </pron>
+        </form>
+    </entry>
+   </body>
+ </text>
+</TEI>
