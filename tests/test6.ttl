@@ -1,0 +1,16 @@
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+
+<#horrifier> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "horrifier"@fr ]
+  lexinfo:partOfSpeech lexinfo:verb ;
+  ontolex:sense [
+    lexinfo:translation [
+      ontolex:isSenseOf [
+        ontolex:canonicalForm [
+          ontolex:writtenRep [ "horrify"@en ]
+        ]
+      ]
+    ]
+  ] .

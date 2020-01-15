@@ -1,0 +1,28 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Test 6 - Translations</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <entry xml:lang="fr" xml:id="horrifier"
+                type="mainEntry">
+                <form type="lemma">
+                    <orth>horrifier</orth>
+                </form>
+                <gramGrp>
+                    <gram type="pos" norm="VERB">v</gram>
+                </gramGrp>
+                <sense>
+                    <cit type="translationEquivalent"
+                        xml:lang="en">
+                        <quote>horrify</quote>
+                    </cit>
+                </sense>
+            </entry>
+        </body>
+    </text>
+</TEI>
