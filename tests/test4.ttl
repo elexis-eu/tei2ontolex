@@ -1,0 +1,8 @@
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+
+<#go> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ "go"@en ] ;
+  ontolex:otherForm [ "went"@ en ;
+    lexinfo:tense lexinfo:past ] .
