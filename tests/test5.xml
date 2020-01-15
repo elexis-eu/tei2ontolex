@@ -1,0 +1,128 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Test 5 - grammatical properties</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Part of speech values -->
+            <entry xml:id="yellow" xml:lang="en">
+                <form type="lemma"><orth>yellow</orth></form>
+                <gramGrp><gram type="pos" norm="ADJ">adjective</gram></gramGrp>
+            </entry>
+            <entry xml:id="for" xml:lang="en">
+                <form type="lemma"><orth>for</orth></form>
+                <gramGrp><gram type="pos" norm="ADP">preposition</gram></gramGrp>
+            </entry>
+            <entry xml:id="today" xml:lang="en">
+                <form type="lemma"><orth>today</orth></form>
+                <gramGrp><gram type="pos" norm="ADV">adverb</gram></gramGrp>
+            </entry>
+            <entry xml:id="can" xml:lang="en">
+                <form type="lemma"><orth>can</orth></form>
+                <gramGrp><gram type="pos" norm="AUX">auxiliary</gram></gramGrp>
+            </entry>
+            <entry xml:id="and" xml:lang="en">
+                <form type="lemma"><orth>and</orth></form>
+                <gramGrp><gram type="pos" norm="CCONJ">coordinating conjunction</gram></gramGrp>
+            </entry>
+            <entry xml:id="the" xml:lang="en">
+                <form type="lemma"><orth>the</orth></form>
+                <gramGrp><gram type="pos" norm="DET">determiner</gram></gramGrp>
+            </entry>
+            <entry xml:id="yes" xml:lang="en">
+                <form type="lemma"><orth>yes</orth></form>
+                <gramGrp><gram type="pos" norm="INTJ">interjection</gram></gramGrp>
+            </entry>
+            <entry xml:id="cat" xml:lang="en">
+                <form type="lemma"><orth>cat</orth></form>
+                <gramGrp><gram type="pos" norm="NOUN">noun</gram></gramGrp>
+            </entry>
+            <entry xml:id="one" xml:lang="en">
+                <form type="lemma"><orth>1</orth></form>
+                <gramGrp><gram type="pos" norm="NUM">number</gram></gramGrp>
+            </entry>
+            <entry xml:id="to" xml:lang="en">
+                <form type="lemma"><orth>to</orth></form>
+                <gramGrp><gram type="pos" norm="PART">particle</gram></gramGrp>
+            </entry>
+            <entry xml:id="you" xml:lang="en">
+                <form type="lemma"><orth>you</orth></form>
+                <gramGrp><gram type="pos" norm="PRON">pronoun</gram></gramGrp>
+            </entry>
+            <entry xml:id="John" xml:lang="en">
+                <form type="lemma"><orth>John</orth></form>
+                <gramGrp><gram type="pos" norm="PROPN">proper noun</gram></gramGrp>
+            </entry>
+            <entry xml:id="comma" xml:lang="en">
+                <form type="lemma"><orth>,</orth></form>
+                <gramGrp><gram type="pos" norm="PUNCT">punctuation</gram></gramGrp>
+            </entry>
+            <entry xml:id="which" xml:lang="en">
+                <form type="lemma"><orth>which</orth></form>
+                <gramGrp><gram type="pos" norm="SCONJ">subordinating conjunction</gram></gramGrp>
+            </entry>
+            <entry xml:id="hash" xml:lang="en">
+                <form type="lemma"><orth>#</orth></form>
+                <gramGrp><gram type="pos" norm="SYM">symbol</gram></gramGrp>
+            </entry>
+            <entry xml:id="fly" xml:lang="en">
+                <form type="lemma"><orth>fly</orth></form>
+                <gramGrp><gram type="pos" norm="VERB">verb</gram></gramGrp>
+            </entry>
+            <entry xml:id="typo" xml:lang="en">
+                <form type="lemma"><orth>sdfioa</orth></form>
+                <gramGrp><gram type="pos" norm="X">unknown</gram></gramGrp>
+            </entry>
+            <!-- gender -->
+            <entry xml:id="Mann" xml:lang="de">
+                <form type="lemma"><orth>Mann</orth></form>
+                <gramGrp><gram type="gen" norm="masculine">m</gram></gramGrp>
+            </entry>
+            <entry xml:id="Frau" xml:lang="de">
+                <form type="lemma"><orth>Frau</orth></form>
+                <gramGrp><gram type="gen" norm="feminine">f</gram></gramGrp>
+            </entry>
+            <entry xml:id="Kind" xml:lang="de">
+                <form type="lemma"><orth>Kind</orth></form>
+                <gramGrp><gram type="gen" norm="neuter">n</gram></gramGrp>
+            </entry>
+            <!-- number -->
+            <entry xml:id="vyras" xml:lang="lt">
+                <form type="lemma">
+                    <orth>vyras</orth>
+                    <gramGrp><gram type="num" norm="singular">singular</gram></gramGrp>
+                </form>
+                <form type="inflected">
+                    <orth>vyru</orth>
+                    <gramGrp><gram type="num" norm="dual">dual</gram></gramGrp>
+                </form>
+                <form type="inflected">
+                    <orth>vyrai</orth>
+                    <gramGrp><gram type="num" norm="plural">plural</gram></gramGrp>
+                </form>
+            </entry>
+            <!-- animacy -->
+            <entry xml:id="mus" xml:lang="ru">
+                <form type="lemma"><orth>муж</orth></form>
+                <gramGrp><gram type="animate" norm="animate">animate</gram></gramGrp>
+            </entry>
+            <entry xml:id="stol" xml:lang="ru">
+                <form type="lemma"><orth>стол</orth></form>
+                <gramGrp><gram type="animate" norm="inanimate">inanimate</gram></gramGrp>
+            </entry>
+            <!-- proper category -->
+            <entry xml:id="Mary" xml:lang="en">
+                <form type="lemma"><orth>Mary</orth></form>
+                <gramGrp><gram type="proper" norm="PROPN">proper</gram></gramGrp>
+            </entry>
+            <entry xml:id="fish" xml:lang="en">
+                <form type="lemma"><orth>fish</orth></form>
+                <gramGrp><gram type="proper" norm="NOUN">common</gram></gramGrp>
+            </entry>
+        </body>
+    </text>
+</TEI>
