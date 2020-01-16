@@ -1,0 +1,29 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Test 8 - Etymology</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <entry xml:lang="de" xml:id="Probe">
+                <form type="lemma"><orth>Probe</orth></form>
+                <etym type="borrowing">
+                    <seg type="desc">aus</seg>
+                    <cit type="etymon" xml:lang="sl">
+                        <lang>slow.</lang>
+                    </cit>
+                </etym>
+                <etym type="inheritance">
+                    <cit type="etymon" xml:lang="gmh">
+                        <lang>mhd.</lang>
+                        <ref type="bibl">Lexer Wb. III 324</ref>
+                    </cit>
+                </etym> 
+            </entry>
+        </body>
+    </text>
+</TEI>
+ 
