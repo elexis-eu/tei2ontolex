@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs" version="2.0" xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
+    exclude-result-prefixes="xs" version="1.0" xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
     xml:base="http://lari-datasets.ilc.cnr.it/nenu_sample" xmlns:void="http://rdfs.org/ns/void#"
     xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ns="http://creativecommons.org/ns#"
     xmlns:lime="http://www.w3.org/ns/lemon/lime" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -10,7 +10,7 @@
     xmlns:terms="http://purl.org/dc/terms/" xmlns:xml="http://www.w3.org/XML/1998/namespace"
     xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#" xmlns:vann="http://purl.org/vocab/vann/"
     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lime1="http://www.w3.org/ns/lemon/lime#"
-    xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 
     <xsl:variable name="LexiconURI" select="'http://www.mylexica.perso/PLI1906'"/>
 
@@ -18,13 +18,13 @@
 
     <xsl:template match="/">
         <rdf:RDF>
-            <xsl:apply-templates select="descendant::entry"/>
+            <xsl:apply-templates select="descendant::tei:entry"/>
         </rdf:RDF>
     </xsl:template>
 
-    <xsl:template match="entry">
+    <xsl:template match="tei:entry">
         <xsl:choose>
-            <xsl:when test="gramGrp/pos/@expand = 'locution'">
+            <xsl:when test="tei:gramGrp/tei:pos/@expand = 'locution'">
                 <owl:NamedIndividual rdf:about="{$LexiconURI}#{@xml:id}">
                     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiwordExpression"/>
                     <xsl:apply-templates/>
@@ -38,7 +38,7 @@
         </xsl:choose>
     </xsl:template>
 
-    <xsl:template match="form[@type = 'lemma']">
+    <xsl:template match="tei:form[@type = 'lemma']">
         <ontolex:canonicalForm>
             <rdf:Description>
                 <xsl:apply-templates/>
@@ -49,27 +49,27 @@
         </ontolex:canonicalForm>
     </xsl:template>
 
-    <xsl:template match="orth">
+    <xsl:template match="tei:orth">
         <ontolex:writtenRep xml:lang="fr">
             <xsl:apply-templates/>
         </ontolex:writtenRep>
     </xsl:template>
 
-    <xsl:template match="pron">
+    <xsl:template match="tei:pron">
         <ontolex:phoneticRep xml:lang="fr">
             <xsl:apply-templates/>
         </ontolex:phoneticRep>
     </xsl:template>
 
-    <xsl:template match="form[@type = 'lemma']/form[@type = 'variant']">
+    <xsl:template match="tei:form[@type = 'lemma']/tei:form[@type = 'variant']">
         <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template match="gramGrp">
+    <xsl:template match="tei:gramGrp">
         <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template match="pos">
+    <xsl:template match="tei:pos">
         <xsl:if test="not(@expan = 'locution')">
             <xsl:variable name="lexinfoCategory">
                 <xsl:choose>
@@ -92,7 +92,7 @@
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="gen">
+    <xsl:template match="tei:gen">
         <xsl:variable name="lexinfoGender">
             <xsl:choose>
                 <xsl:when test="@expand = 'masculin'">masculine</xsl:when>
@@ -106,17 +106,17 @@
 
     <!-- Punctuations are not kept in Ontolex -->
 
-    <xsl:template match="pc"/>
+    <xsl:template match="tei:pc"/>
 
     <!-- Sense related transformation in two ways: a) reference within an entry and b) creation of the actual LexicalSense node -->
 
-    <xsl:template match="sense">
+    <xsl:template match="tei:sense">
         <ontolex:sense>
             <xsl:apply-templates/>
         </ontolex:sense>
     </xsl:template>
 
-    <xsl:template match="def">
+    <xsl:template match="tei:def">
         <rdf:Description>
             <skos:definition xml:lang="fr">
                 <xsl:apply-templates/>
@@ -124,44 +124,44 @@
         </rdf:Description>
     </xsl:template>
 
-    <xsl:template match="cit[@type = 'example' or @type = 'quote']">
+    <xsl:template match="tei:cit[@type = 'example' or @type = 'quote']">
         <lexicog:usageExample>
             <xsl:apply-templates/>
         </lexicog:usageExample>
     </xsl:template>
 
-    <xsl:template match="cit[@type = 'example' or @type = 'quote']/quote">
+    <xsl:template match="tei:cit[@type = 'example' or @type = 'quote']/quote">
         <rdf:value xml:lang="fr">
             <xsl:apply-templates/>
         </rdf:value>
     </xsl:template>
 
-    <xsl:template match="bibl">
+    <xsl:template match="tei:bibl">
         <dct:source>
             <xsl:apply-templates/>
         </dct:source>
     </xsl:template>
 
-    <xsl:template match="author">
+    <xsl:template match="tei:author">
         <dc:creator>
             <xsl:apply-templates/>
         </dc:creator>
     </xsl:template>
 
 
-    <xsl:template match="title">
+    <xsl:template match="tei:title">
         <dc:title>
             <xsl:apply-templates/>
         </dc:title>
     </xsl:template>
 
-    <xsl:template match="date">
+    <xsl:template match="tei:date">
         <dc:date>
             <xsl:apply-templates/>
         </dc:date>
     </xsl:template>
 
-    <xsl:template match="publisher">
+    <xsl:template match="tei:publisher">
         <dc:publisher>
             <xsl:apply-templates/>
         </dc:publisher>
@@ -169,30 +169,30 @@
     
     <!-- Small annotation elements or intermediate text that disappear in Ontolex -->
     
-    <xsl:template match="emph">
+    <xsl:template match="tei:emph">
         <xsl:apply-templates/>
     </xsl:template>
     
-    <xsl:template match="form/text()"/>
+    <xsl:template match="tei:form/text()"/>
     
     <!-- Copy all template to account for possible missed elements -->
-    <xsl:template match="@* | node()">
+    <!--    <xsl:template match="@* | node()">
         <xsl:choose>
             <xsl:when test="element()">
                 <xsl:message>
                     <xsl:value-of select="name()"/>
                 </xsl:message>
-            </xsl:when>
-            <!--  <xsl:when test="attribute()">
-                <xsl:message>
+            </xsl:when> -->
+            <!--  <xsl:when test="attribute()"> -->
+        <!--        <xsl:message>
                     <xsl:value-of select="concat('@', name())"/>
                 </xsl:message>
             </xsl:when>-->
-        </xsl:choose>
+<!--        </xsl:choose>
 
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
-    </xsl:template>
+    </xsl:template>-->
 
 </xsl:stylesheet>
