@@ -1,0 +1,41 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Test 8 - Etymology</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- This is not really a word in Dutch -->
+            <entry xml:id="borcht" xml:lang="nl">
+                <form type="lemma">
+                    <orth>borcht</orth>
+                </form>
+                <xr type="related">
+                    <lbl>Cf.</lbl>
+                    <ref xml:lang="nl"
+                        target="#M012340">burcht</ref>
+                </xr>
+                <sense n="1">
+                    <xr type="synonymy">
+                        <ref target="#syn"/>
+                    </xr>
+                    <xr type="hyponymy">
+                        <ref target="#hypo"/>
+                    </xr>
+                    <xr type="hypernymy">
+                        <ref target="#hyp"/>
+                    </xr>
+                    <xr type="meronymy">
+                        <ref target="#mero"/>
+                    </xr>
+                    <xr type="antonymy">
+                        <ref target="#anto"/>
+                    </xr>
+                </sense>
+            </entry>
+        </body>
+    </text>
+</TEI>
