@@ -5,15 +5,12 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ns="http://creativecommons.org/ns#"
     xmlns:lime="http://www.w3.org/ns/lemon/lime" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
-    xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#"
-    xmlns:dct="http://purl.org/dc/terms/"
-    xmlns:bibo="http://purl.org/ontology/bibo/"
-    
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:terms="http://purl.org/dc/terms/"
-    xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
-    xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:lime1="http://www.w3.org/ns/lemon/lime#" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#" xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:terms="http://purl.org/dc/terms/" xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#" xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lime1="http://www.w3.org/ns/lemon/lime#"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 
     <xsl:variable name="LexiconURI" select="'http://www.mylexica.perso/PLI1906'"/>
 
@@ -45,6 +42,9 @@
         <ontolex:canonicalForm>
             <rdf:Description>
                 <xsl:apply-templates/>
+                <xsl:if test="form[@type = 'variant']">
+                    <xsl:apply-templates select="form[@type = 'variant']"/>
+                </xsl:if>
             </rdf:Description>
         </ontolex:canonicalForm>
     </xsl:template>
@@ -59,6 +59,10 @@
         <ontolex:phoneticRep xml:lang="fr">
             <xsl:apply-templates/>
         </ontolex:phoneticRep>
+    </xsl:template>
+
+    <xsl:template match="form[@type = 'lemma']/form[@type = 'variant']">
+        <xsl:apply-templates/>
     </xsl:template>
 
     <xsl:template match="gramGrp">
@@ -119,52 +123,59 @@
             </skos:definition>
         </rdf:Description>
     </xsl:template>
-    
-    <xsl:template match="cit[@type='example' or @type='quote']">
+
+    <xsl:template match="cit[@type = 'example' or @type = 'quote']">
         <lexicog:usageExample>
             <xsl:apply-templates/>
         </lexicog:usageExample>
     </xsl:template>
-    
-    <xsl:template match="cit[@type='example' or @type='quote']/quote">
+
+    <xsl:template match="cit[@type = 'example' or @type = 'quote']/quote">
         <rdf:value xml:lang="fr">
             <xsl:apply-templates/>
         </rdf:value>
     </xsl:template>
-    
+
     <xsl:template match="bibl">
         <dct:source>
             <xsl:apply-templates/>
         </dct:source>
     </xsl:template>
-    
+
     <xsl:template match="author">
         <dc:creator>
             <xsl:apply-templates/>
         </dc:creator>
     </xsl:template>
-    
-    
+
+
     <xsl:template match="title">
         <dc:title>
             <xsl:apply-templates/>
         </dc:title>
     </xsl:template>
-    
+
     <xsl:template match="date">
         <dc:date>
             <xsl:apply-templates/>
         </dc:date>
     </xsl:template>
-    
+
     <xsl:template match="publisher">
         <dc:publisher>
             <xsl:apply-templates/>
         </dc:publisher>
     </xsl:template>
     
+    <!-- Small annotation elements or intermediate text that disappear in Ontolex -->
     
-    <!-- Copy all template to account for possible missed elemnts -->
+    <xsl:template match="emph">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="form/text()"/>
+    
+    <!-- Copy all template to account for possible missed elements -->
     <xsl:template match="@* | node()">
         <xsl:choose>
             <xsl:when test="element()">
