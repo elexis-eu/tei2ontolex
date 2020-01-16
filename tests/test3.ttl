@@ -9,6 +9,6 @@
 
 <#osama_bin_laden> a ontolex:LexicalEntry ;
   ontolex:canonicalForm [
-    ontolex:phoneticRep "ow."sa.mabɪnˈlaːdn̹"@en-fonipa
+    ontolex:phoneticRep "ow.\"sa.mabɪnˈlaːdn̹"@en-fonipa
   ] .
 
