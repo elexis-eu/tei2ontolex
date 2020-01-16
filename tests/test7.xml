@@ -1,0 +1,30 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Test 7 - Usage</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <entry xml:lang="en" xml:id="test">
+                <form type="lemma"><orth>test</orth></form>
+                <sense n="1">
+                    <def>This is a test entry</def>
+                    <usg type="time">time information</usg>
+                    <usg type="geographic">geographic information</usg>
+                    <usg type="socioCultural">socioCultural information</usg>
+                    <usg type="domain">domain information</usg>
+                    <usg type="frequency">frequency information</usg>
+                    <usg type="attitude">attitude information</usg>
+                    <usg type="normativity">normativity information</usg>
+                    <usg type="meaningType">meaningType information</usg>
+                    <usg type="textType">textType information</usg>
+                    <usg type="hint">hint information</usg>
+                </sense>
+            </entry>
+        </body>
+    </text>
+</TEI>
+ 
