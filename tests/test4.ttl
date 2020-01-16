@@ -3,6 +3,6 @@
 @prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
 
 <#go> a ontolex:LexicalEntry ;
-  ontolex:canonicalForm [ "go"@en ] ;
-  ontolex:otherForm [ "went"@ en ;
+  ontolex:canonicalForm [ ontolex:writtenRep "go"@en ] ;
+  ontolex:otherForm [ ontolex:writtenRep "went"@en ;
     lexinfo:tense lexinfo:past ] .

@@ -65,5 +65,53 @@ class TestTEI2OntoLex(unittest.TestCase):
         actual = convert_tei_to_ontolex("tests/test3.xml")
         compare_rdf_graphs(expected, actual, self)
 
+
+    def test4(self):
+        expected = Graph()
+        with open("tests/test4.ttl") as ttl:
+            expected.parse(ttl, format="turtle")
+        actual = convert_tei_to_ontolex("tests/test4.xml")
+        compare_rdf_graphs(expected, actual, self)
+
+
+    def test5(self):
+        expected = Graph()
+        with open("tests/test5.ttl") as ttl:
+            expected.parse(ttl, format="turtle")
+        actual = convert_tei_to_ontolex("tests/test5.xml")
+        compare_rdf_graphs(expected, actual, self)
+
+
+    def test6(self):
+        expected = Graph()
+        with open("tests/test6.ttl") as ttl:
+            expected.parse(ttl, format="turtle")
+        actual = convert_tei_to_ontolex("tests/test6.xml")
+        compare_rdf_graphs(expected, actual, self)
+
+
+    def test7(self):
+        expected = Graph()
+        with open("tests/test7.ttl") as ttl:
+            expected.parse(ttl, format="turtle")
+        actual = convert_tei_to_ontolex("tests/test7.xml")
+        compare_rdf_graphs(expected, actual, self)
+
+
+    def test8(self):
+        expected = Graph()
+        with open("tests/test8.ttl") as ttl:
+            expected.parse(ttl, format="turtle")
+        actual = convert_tei_to_ontolex("tests/test8.xml")
+        compare_rdf_graphs(expected, actual, self)
+
+
+    def test9(self):
+        expected = Graph()
+        with open("tests/test9.ttl") as ttl:
+            expected.parse(ttl, format="turtle")
+        actual = convert_tei_to_ontolex("tests/test9.xml")
+        compare_rdf_graphs(expected, actual, self)
+
 if __name__ == "__main__":
     unittest.main()
