@@ -157,10 +157,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Humiliant, dégradant</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">acte abaissant</quote>
@@ -227,10 +226,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Humiliation</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">Louis XI travailla à l'abaissement des grands vassaux</quote>
@@ -263,8 +261,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">rad. <mentioned>bas</mentioned>
-      </etym>
+      <lexinfo:etymology>(rad. bas).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Mettre plus bas pour couvrir</skos:definition>
@@ -307,10 +304,9 @@
       </re>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Humilier</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">Richelieu abaissa les grands</quote>
@@ -383,10 +379,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Joue pendante</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -402,10 +397,9 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="dom"
-                 rend="italic"
-                 expand="droit romain">Dr. rom.</usg>
+            <lexinfo:register>
+               <rdf:Description>Dr. rom.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Cession, aliénation</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">abaliénation de terres, de troupeaux</quote>
@@ -546,10 +540,9 @@
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="dom"
-                 rend="italic"
-                 expand="droit">Dr.</usg>
+            <lexinfo:register>
+               <rdf:Description>Dr.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Personne au profit de qui est fait un abandon de biens</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -567,10 +560,9 @@
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="dom"
-                 rend="italic"
-                 expand="droit">Dr.</usg>
+            <lexinfo:register>
+               <rdf:Description>Dr.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Personne qui fait un abandon de ses biens</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -724,19 +716,17 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="dom"
-                 rend="italic"
-                 expand="architecture">Archit.</usg>
+            <lexinfo:register>
+               <rdf:Description>Archit.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Tailloir, tablette formant la partie supérieure du chapiteau d'une colonne</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="dom"
-                 rend="italic"
-                 expand="antiquité">Antiq.</usg>
+            <lexinfo:register>
+               <rdf:Description>Antiq.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Machine à calculer en usage chez les Romains</skos:definition>
             <xr xmlns="http://www.tei-c.org/ns/1.0" type="renvoi">
                <lbl expand="voir">V.</lbl>
@@ -770,8 +760,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">rad. <mentioned>sourd</mentioned>
-      </etym>
+      <lexinfo:etymology>(rad. sourd).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Assourdir, étourdir par un grand bruit</skos:definition>
@@ -782,10 +771,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Consterner, hébéter</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -829,10 +817,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Stupeur</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -902,13 +889,11 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg> et <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="register"
-                 rend="italic"
-                 expand="familier">fam.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register> et <lexinfo:register>
+               <rdf:Description>fam.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Verte semonce</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -921,8 +906,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">de <mentioned>bâtard</mentioned>
-      </etym>
+      <lexinfo:etymology>(de bâtard).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Altérer, faire dégénérer</skos:definition>
@@ -930,10 +914,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">une longue servitude abâtardit le courage</quote>
             </lexicog:usageExample>
@@ -962,8 +945,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">de <mentioned>abâtardir</mentioned>
-      </etym>
+      <lexinfo:etymology>(de abâtardir).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Dégénération</skos:definition>
@@ -972,9 +954,9 @@
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Altération</skos:definition>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 expand="au propre et au figuré">au prop. et au fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>au prop. et au fig.</rdf:Description>
+            </lexinfo:register>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">l'abâtardissement d'une race, de l'esprit</quote>
             </lexicog:usageExample>
@@ -1052,10 +1034,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="register"
-                 expand="populaire"
-                 rend="italic">Pop.</usg>
+            <lexinfo:register>
+               <rdf:Description>Pop.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Bras, jambes</skos:definition>
             <skos:definition xml:lang="fr">mains, pieds</skos:definition>
          </rdf:Description>
@@ -1154,8 +1135,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">de <mentioned>abattre</mentioned>
-      </etym>
+      <lexinfo:etymology>(de abattre).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Découragement, accablement, affaiblissement</skos:definition>
@@ -1218,8 +1198,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">rad. <mentioned>bas</mentioned>
-      </etym>
+      <lexinfo:etymology>(rad. bas.</lexinfo:etymology>
       <note xmlns="http://www.tei-c.org/ns/1.0" type="conjug">— Se conj. comme <mentioned>battre</mentioned>.)</note>
       <ontolex:sense>
          <rdf:Description>
@@ -1242,10 +1221,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Affaiblir</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">la fièvre abat</quote>
@@ -1324,19 +1302,17 @@
             </form>
             <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
                <rdf:Description>
-                  <usg xmlns="http://www.tei-c.org/ns/1.0"
-                       type="style"
-                       rend="italic"
-                       expand="au propre">au pr.</usg>
+                  <lexinfo:register>
+                     <rdf:Description>au pr.</rdf:Description>
+                  </lexinfo:register>
                   <skos:definition xml:lang="fr">quand il vient à pleuvoir, le vent s'apaise</skos:definition>
                </rdf:Description>
             </ontolex:sense>
             <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
                <rdf:Description>
-                  <usg xmlns="http://www.tei-c.org/ns/1.0"
-                       type="style"
-                       rend="italic"
-                       expand="au figuré">au fig.</usg>
+                  <lexinfo:register>
+                     <rdf:Description>au fig.</rdf:Description>
+                  </lexinfo:register>
                   <skos:definition xml:lang="fr">souvent peu de chose suffit pour calmer une grande colère</skos:definition>
                </rdf:Description>
             </ontolex:sense>
@@ -1492,11 +1468,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">
-         <lang expand="latin">lat.</lang>
-         <mentioned>abbas</mentioned>
-         <gloss>père</gloss>
-      </etym>
+      <lexinfo:etymology>(lat.abbas,père).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Supérieur d'une abbaye</skos:definition>
@@ -1538,10 +1510,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Premiers éléments d'un art, d'une science</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">l'arithmétique est l'a b c des mathématiques</quote>
@@ -1798,7 +1769,9 @@
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">l'abecquement d'un oiseau</quote>
             </lexicog:usageExample>
-            <usg xmlns="http://www.tei-c.org/ns/1.0" type="time" expand="vieux">Vx</usg>
+            <lexinfo:register>
+               <rdf:Description>Vx</rdf:Description>
+            </lexinfo:register>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1811,8 +1784,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">rad. <mentioned>bec</mentioned>
-      </etym>
+      <lexinfo:etymology>(rad. bec).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Donner la becquée</skos:definition>
@@ -1831,12 +1803,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">du <lang expand="vieux français">vx fr.</lang>
-         <mentioned>bée</mentioned>
-         <usg type="time" expand="aujourd'hui">auj.</usg>
-         <mentioned>baie</mentioned>
-         <gloss>ouverture</gloss>
-      </etym>
+      <lexinfo:etymology>(du vx fr.bée,auj.baie,ouverture).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Ouverture par laquelle coule l'eau qui fait mouvoir un moulin</skos:definition>
@@ -1854,10 +1821,9 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="dom"
-                 rend="italic"
-                 expand="droit féodal">Dr. féod.</usg>
+            <lexinfo:register>
+               <rdf:Description>Dr. féod.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Droit des seigneurs sur les abeilles et les ruches de leurs vassaux</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -1871,10 +1837,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">
-         <lang expand="latin">lat.</lang>
-         <mentioned>apis</mentioned>
-      </etym>
+      <lexinfo:etymology>(lat.apis).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Insecte hyménoptère porte-aiguillon, produisant le miel et la cire</skos:definition>
@@ -1951,10 +1914,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">
-         <lang expand="latin">lat.</lang>
-         <mentioned>aberratio</mentioned>
-      </etym>
+      <lexinfo:etymology>(lat.aberratio).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Mouvement apparent des étoiles fixes</skos:definition>
@@ -1962,10 +1922,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="dom"
-                 rend="italic"
-                 expand="optique">Optiq.</usg>
+            <lexinfo:register>
+               <rdf:Description>Optiq.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Dispersion des rayons lumineux</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">aberration de la lumière</quote>
@@ -1974,10 +1933,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Trouble, égarement, erreur de jugement</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">aberration du goût</quote>
@@ -2104,10 +2062,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">
-         <lang expand="latin">lat.</lang>
-         <mentioned>abies</mentioned>
-      </etym>
+      <lexinfo:etymology>(lat.abies).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Nom scientifique du sapin</skos:definition>
@@ -2143,11 +2098,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">du <lang expand="grec">gr.</lang>
-         <mentioned>a</mentioned>
-         <gloss>priv.</gloss> et <mentioned>bussos</mentioned>
-         <gloss>fond</gloss>
-      </etym>
+      <lexinfo:etymology>(du gr.apriv., et bussos,fond).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Gouffre, précipice très profond</skos:definition>
@@ -2155,10 +2106,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Tout ce qui est extrême</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">un abîme de misère</quote>
@@ -2224,10 +2174,9 @@
          </ontolex:sense>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
-               <usg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="style"
-                    rend="italic"
-                    expand="figuré">Fig.</usg>
+               <lexinfo:register>
+                  <rdf:Description>Fig.</rdf:Description>
+               </lexinfo:register>
                <skos:definition xml:lang="fr">Se plonger</skos:definition>
                <lexicog:usageExample>
                   <quote xmlns="http://www.tei-c.org/ns/1.0">s'abîmer dans sa douleur</quote>
@@ -2316,11 +2265,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">
-         <lang expand="latin">lat.</lang>
-         <mentioned>abjectus</mentioned>
-         <gloss>jeté hors</gloss>
-      </etym>
+      <lexinfo:etymology>(lat.abjectus,jeté hors).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Méprisable, bas, vil</skos:definition>
@@ -2375,11 +2320,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">
-         <lang expand="latin">lat.</lang>
-         <mentioned>abjuratio</mentioned>
-         <gloss>reniement</gloss>
-      </etym>
+      <lexinfo:etymology>(lat.abjuratio,reniement).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renonciation solennelle à une religion</skos:definition>
@@ -2429,10 +2370,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Renoncer à une opinion, à une doctrine, etc.</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">abjurer Aristote, Descartes</quote>
@@ -2481,10 +2421,9 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="dom"
-                 rend="italic"
-                 expand="chirurgie">Chir.</usg>
+            <lexinfo:register>
+               <rdf:Description>Chir.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Action de retrancher</skos:definition>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">l'ablation d'un membre, d'une tumeur</quote>
@@ -2523,15 +2462,8 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">
-         <choice>
-            <abbr>préf.</abbr>
-            <expan>préfixe</expan>
-         </choice>
-         <mentioned>ab</mentioned> et <lang expand="latin">lat.</lang>
-         <mentioned>legatus</mentioned>
-         <gloss>envoyé</gloss>
-      </etym>
+      <lexinfo:etymology>(<abbr xmlns="http://www.tei-c.org/ns/1.0">préf.</abbr>
+         <expan xmlns="http://www.tei-c.org/ns/1.0">préfixe</expan>ab, et lat.legatus,envoyé).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Vicaire d'un légat</skos:definition>
@@ -2644,10 +2576,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="register"
-                 rend="italic"
-                 expand="familier">Fam.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fam.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Action de se laver</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -2661,11 +2592,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">
-         <lang expand="latin">lat.</lang>
-         <mentioned>abnegatio</mentioned>
-         <gloss>action de nier</gloss>
-      </etym>
+      <lexinfo:etymology>(lat.abnegatio,action de nier).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncement, sacrifice</skos:definition>
@@ -2683,8 +2610,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">de <mentioned>aboyer</mentioned>
-      </etym>
+      <lexinfo:etymology>(de aboyer).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Cri du chien</skos:definition>
@@ -2703,10 +2629,9 @@
          </ontolex:sense>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
-               <usg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="style"
-                    rend="italic"
-                    expand="figuré">Fig.</usg>
+               <lexinfo:register>
+                  <rdf:Description>Fig.</rdf:Description>
+               </lexinfo:register>
                <skos:definition xml:lang="fr">Situation désespérée</skos:definition>
                <lexicog:usageExample>
                   <quote xmlns="http://www.tei-c.org/ns/1.0">commerçant ruiné et aux abois</quote>
@@ -2732,10 +2657,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <usg xmlns="http://www.tei-c.org/ns/1.0"
-                 type="style"
-                 rend="italic"
-                 expand="figuré">Fig.</usg>
+            <lexinfo:register>
+               <rdf:Description>Fig.</rdf:Description>
+            </lexinfo:register>
             <skos:definition xml:lang="fr">Cris importuns, réitérés, fatigants</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -2748,10 +2672,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
-      <etym xmlns="http://www.tei-c.org/ns/1.0">
-         <lang expand="latin">lat.</lang>
-         <mentioned>abolere</mentioned>
-      </etym>
+      <lexinfo:etymology>(lat.abolere).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Supprimer, annuler, anéantir</skos:definition>
@@ -2905,7 +2826,9 @@
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Répétition, volontaire ou involontaire, des mêmes lettres, des mêmes syllabes</skos:definition>
-            <usg xmlns="http://www.tei-c.org/ns/1.0" type="hint" expand="exemple">Ex.</usg>
+            <lexinfo:register>
+               <rdf:Description>Ex.</rdf:Description>
+            </lexinfo:register>
             <lexicog:usageExample>
                <quote xmlns="http://www.tei-c.org/ns/1.0">Non, il n'est rien que Nanine n'honore</quote>
                <dct:source>

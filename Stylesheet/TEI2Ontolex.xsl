@@ -55,7 +55,7 @@
             <xsl:apply-templates/>
         </ontolex:writtenRep>
     </xsl:template>
-    
+
     <xsl:template match="tei:orth/tei:seg">
         <xsl:apply-templates/>
     </xsl:template>
@@ -66,11 +66,11 @@
             <xsl:apply-templates/>
         </ontolex:phoneticRep>
     </xsl:template>
-    
+
     <xsl:template match="tei:pron/tei:seg">
         <xsl:apply-templates/>
     </xsl:template>
-    
+
 
     <xsl:template match="tei:form[@type = 'lemma']/tei:form[@type = 'variant']">
         <xsl:apply-templates/>
@@ -129,6 +129,14 @@
         </ontolex:sense>
     </xsl:template>
 
+    <xsl:template match="tei:usg">
+        <lexinfo:register>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:register>
+    </xsl:template>
+
     <xsl:template match="tei:def">
         <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
         <skos:definition xml:lang="{$workingLanguage}">
@@ -147,6 +155,20 @@
         <rdf:value xml:lang="{$workingLanguage}">
             <xsl:apply-templates/>
         </rdf:value>
+    </xsl:template>
+
+    <xsl:template match="tei:etym">
+        <lexinfo:etymology>
+            <xsl:apply-templates/>
+        </lexinfo:etymology>
+    </xsl:template>
+
+    <xsl:template match="tei:etym/*">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:etym/text()[ normalize-space() = '']">
+        <xsl:text> </xsl:text>
     </xsl:template>
 
     <xsl:template match="tei:bibl">
@@ -187,8 +209,8 @@
     </xsl:template>
 
     <xsl:template match="tei:form/text()"/>
-    
-    <xsl:template match="text()[normalize-space() ='']"/>
+
+    <xsl:template match="text()[normalize-space() = '']"/>
 
     <!-- Copy all template to account for possible missed elements -->
     <xsl:template match="@* | node()">
