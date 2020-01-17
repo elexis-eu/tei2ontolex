@@ -55,6 +55,10 @@
             <xsl:apply-templates/>
         </ontolex:writtenRep>
     </xsl:template>
+    
+    <xsl:template match="tei:orth/tei:seg">
+        <xsl:apply-templates/>
+    </xsl:template>
 
     <xsl:template match="tei:pron">
         <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
@@ -62,6 +66,11 @@
             <xsl:apply-templates/>
         </ontolex:phoneticRep>
     </xsl:template>
+    
+    <xsl:template match="tei:pron/tei:seg">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
 
     <xsl:template match="tei:form[@type = 'lemma']/tei:form[@type = 'variant']">
         <xsl:apply-templates/>
@@ -178,6 +187,8 @@
     </xsl:template>
 
     <xsl:template match="tei:form/text()"/>
+    
+    <xsl:template match="text()[normalize-space() ='']"/>
 
     <!-- Copy all template to account for possible missed elements -->
     <xsl:template match="@* | node()">

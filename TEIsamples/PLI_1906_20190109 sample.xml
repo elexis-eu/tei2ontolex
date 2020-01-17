@@ -241,8 +241,7 @@
           <pos expand="nom">n.</pos>
           <gen expand="masculin">m.</gen>
         </gramGrp>
-        <sense><def>Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est
-          attaché</def>
+        <sense><def>Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché</def>
           <pc>.</pc>
         </sense>
       </entry>
@@ -653,7 +652,10 @@
             consommation</def><pc>.</pc></sense>
       </entry>
       <entry xml:id="abattre" n="1906-001_1906-003">
-        <form type="lemma"><orth>ABATTRE</orth>
+        <form type="lemma"><orth>
+            <seg>A</seg>
+            <seg>BATTRE</seg>
+          </orth>
           <pron><pc>(</pc><emph rend="italic">ba-tre</emph><pc>)</pc></pron></form>
         <gramGrp><pos expand="verbe">v.</pos>
           <subc expand="actif">a.</subc></gramGrp>
