@@ -176,23 +176,23 @@
     <xsl:template match="tei:form/text()"/>
     
     <!-- Copy all template to account for possible missed elements -->
-    <!--    <xsl:template match="@* | node()">
+    <xsl:template match="@* | node()">
         <xsl:choose>
-            <xsl:when test="element()">
+            <xsl:when test="name()">
                 <xsl:message>
                     <xsl:value-of select="name()"/>
                 </xsl:message>
-            </xsl:when> -->
-            <!--  <xsl:when test="attribute()"> -->
-        <!--        <xsl:message>
+            </xsl:when>
+            <!--  <xsl:when test="attribute()">
+                <xsl:message>
                     <xsl:value-of select="concat('@', name())"/>
                 </xsl:message>
             </xsl:when>-->
-<!--        </xsl:choose>
+        </xsl:choose>
 
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
-    </xsl:template>-->
+    </xsl:template>
 
 </xsl:stylesheet>
