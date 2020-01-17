@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Stylesheet/TEI2Ontolex.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PLI-test">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PLI-test" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -233,7 +233,7 @@
       </entry>
       <entry xml:id="abaisseur" n="1906-001_1925-015">
         <form type="lemma"><orth>ABAISSEUR</orth>
-          <pc>(</pc><pron rend="italic">bè-seur</pron><pc>)</pc>
+          <pc>(</pc><pron rend="italic" extent="part">bè-seur</pron><pc>)</pc>
         </form>
         <gramGrp>
           <pos expand="adjectif">adj.</pos>

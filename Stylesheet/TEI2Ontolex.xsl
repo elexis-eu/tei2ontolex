@@ -56,7 +56,16 @@
     </xsl:template>
 
     <xsl:template match="pron">
-        <ontolex:phoneticRep xml:lang="fr">
+        <xsl:variable name="theLanguage" select="ancestor-or-self::*/@xml:lang[1]"/>
+        <xsl:variable name="theLanguageTag">
+            <xsl:choose>
+                <xsl:when test="@notation">
+                    <xsl:value-of select="concat($theLanguage,'-fon',@notation)"/>
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
+        </xsl:variable>
+        <ontolex:phoneticRep xml:lang="{$theLanguageTag}">
             <xsl:apply-templates/>
         </ontolex:phoneticRep>
     </xsl:template>
@@ -116,7 +125,7 @@
         </ontolex:sense>
     </xsl:template>
 
-    <xsl:template match="def">
+       <xsl:template match="def">
         <rdf:Description>
             <skos:definition xml:lang="fr">
                 <xsl:apply-templates/>
