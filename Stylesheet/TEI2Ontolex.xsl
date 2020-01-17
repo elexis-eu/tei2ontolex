@@ -114,17 +114,17 @@
 
     <xsl:template match="tei:sense">
         <ontolex:sense>
-            <xsl:apply-templates/>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
         </ontolex:sense>
     </xsl:template>
 
     <xsl:template match="tei:def">
         <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
-        <rdf:Description>
-            <skos:definition xml:lang="{$workingLanguage}">
-                <xsl:apply-templates/>
-            </skos:definition>
-        </rdf:Description>
+        <skos:definition xml:lang="{$workingLanguage}">
+            <xsl:apply-templates/>
+        </skos:definition>
     </xsl:template>
 
     <xsl:template match="tei:cit[@type = 'example' or @type = 'quote']">
@@ -170,15 +170,15 @@
             <xsl:apply-templates/>
         </dc:publisher>
     </xsl:template>
-    
+
     <!-- Small annotation elements or intermediate text that disappear in Ontolex -->
-    
+
     <xsl:template match="tei:emph">
         <xsl:apply-templates/>
     </xsl:template>
-    
+
     <xsl:template match="tei:form/text()"/>
-    
+
     <!-- Copy all template to account for possible missed elements -->
     <xsl:template match="@* | node()">
         <xsl:choose>
