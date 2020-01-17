@@ -3,13 +3,13 @@
 @prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
 
 <#horrifier> a ontolex:LexicalEntry ;
-  ontolex:canonicalForm [ ontolex:writtenRep "horrifier"@fr ]
+  ontolex:canonicalForm [ ontolex:writtenRep "horrifier"@fr ] ;
   lexinfo:partOfSpeech lexinfo:verb ;
   ontolex:sense [
     lexinfo:translation [
       ontolex:isSenseOf [
         ontolex:canonicalForm [
-          ontolex:writtenRep [ "horrify"@en ]
+          ontolex:writtenRep [ ontolex:writtenRep "horrify"@en ]
         ]
       ]
     ]

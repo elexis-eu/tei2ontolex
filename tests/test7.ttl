@@ -1,0 +1,21 @@
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<#test> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "test"@en ] ;
+  ontolex:sense [
+    skos:definition "This is a test entry"@en ;
+    lexinfo:temporalQualifier [ rdf:value "time information" ] ;
+    lexinfo:geographic [ rdf:value "geographic information" ] ;
+    lexinfo:domain [ rdf:value "domain information" ] ;
+    lexinfo:frequency [ rdf:value "frequency information" ] ;
+    lexinfo:attitude [ rdf:value "attitude information" ] ;
+    lexinfo:normativity [ rdf:value "normativity information" ] ;
+    lexinfo:meaningType [ rdf:value "meaningType information" ] ;
+    lexinfo:textType [ rdf:value "textType information" ] ;
+    lexinfo:hint [ rdf:value "hint information" ] ;
+    lexinfo:socioCultural [ rdf:value "socioCultural information" ] 
+  ] .
+

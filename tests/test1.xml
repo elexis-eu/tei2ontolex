@@ -16,7 +16,7 @@
  <text>
   <body>
    <entry xml:id="entry1" xml:lang="en">
-     <form>   
+     <form type="lemma">   
        <orth>disproof</orth>
       </form>
       <sense n="1">
