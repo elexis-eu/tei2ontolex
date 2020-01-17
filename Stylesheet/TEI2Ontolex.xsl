@@ -50,13 +50,15 @@
     </xsl:template>
 
     <xsl:template match="tei:orth">
-        <ontolex:writtenRep xml:lang="fr">
+        <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
+        <ontolex:writtenRep xml:lang="{$workingLanguage}">
             <xsl:apply-templates/>
         </ontolex:writtenRep>
     </xsl:template>
 
     <xsl:template match="tei:pron">
-        <ontolex:phoneticRep xml:lang="fr">
+        <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
+        <ontolex:phoneticRep xml:lang="{$workingLanguage}">
             <xsl:apply-templates/>
         </ontolex:phoneticRep>
     </xsl:template>
@@ -117,8 +119,9 @@
     </xsl:template>
 
     <xsl:template match="tei:def">
+        <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
         <rdf:Description>
-            <skos:definition xml:lang="fr">
+            <skos:definition xml:lang="{$workingLanguage}">
                 <xsl:apply-templates/>
             </skos:definition>
         </rdf:Description>
@@ -131,7 +134,8 @@
     </xsl:template>
 
     <xsl:template match="tei:cit[@type = 'example' or @type = 'quote']/quote">
-        <rdf:value xml:lang="fr">
+        <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
+        <rdf:value xml:lang="{$workingLanguage}">
             <xsl:apply-templates/>
         </rdf:value>
     </xsl:template>

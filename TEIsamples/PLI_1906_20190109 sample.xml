@@ -53,7 +53,7 @@
         <form type="lemma"><orth>A</orth></form>
         <gramGrp><pos expand="nom">n.</pos>
           <gen expand="masculin">m.</gen></gramGrp>
-        <sense><def>La première lettre de l'alphabet, et la première des voyelles</def>
+        <sense xml:lang="ar"><def>La première lettre de l'alphabet, et la première des voyelles</def>
           <pc>:</pc>
           <cit type="example">
             <quote>un <mentioned>A</mentioned> majuscule</quote>
