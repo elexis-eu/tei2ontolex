@@ -80,6 +80,8 @@
     <xsl:template match="tei:pron/tei:seg">
         <xsl:apply-templates/>
     </xsl:template>
+    
+    <xsl:template match="tei:form/text() | tei:orth/text()[normalize-space() = ''] | tei:pron/text()[normalize-space() = '']"/>
 
     <xsl:template match="tei:form[@type = 'lemma']/tei:form[@type = 'variant']">
         <xsl:apply-templates/>
@@ -159,11 +161,15 @@
         </lexicog:usageExample>
     </xsl:template>
 
-    <xsl:template match="tei:cit[@type = 'example' or @type = 'quote']/quote">
+    <xsl:template match="tei:cit[@type = 'example' or @type = 'quote']/tei:quote">
         <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
         <rdf:value xml:lang="{$workingLanguage}">
             <xsl:apply-templates/>
         </rdf:value>
+    </xsl:template>
+    
+    <xsl:template match="tei:quote/tei:mentioned | tei:def/tei:mentioned">
+        <xsl:apply-templates/>
     </xsl:template>
 
     <xsl:template match="tei:etym">
@@ -176,7 +182,7 @@
         <xsl:apply-templates/>
     </xsl:template>
     
-    <xsl:template match="tei:etym/text()[ normalize-space() = '']">
+    <xsl:template match="tei:etym/text()[normalize-space() = '']">
         <xsl:text> </xsl:text>
     </xsl:template>
 
@@ -217,16 +223,13 @@
         <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template match="tei:form/text()"/>
-
-    <xsl:template match="text()[normalize-space() = '']"/>
 
     <!-- Copy all template to account for possible missed elements -->
     <xsl:template match="@* | node()">
         <xsl:choose>
             <xsl:when test="name()">
                 <xsl:message>
-                    <xsl:value-of select="name()"/>
+                    <xsl:value-of select="name()"/> - <xsl:value-of select="."/>
                 </xsl:message>
             </xsl:when>
             <!--  <xsl:when test="attribute()">

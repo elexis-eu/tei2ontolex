@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-         xmlns:void="http://rdfs.org/ns/void#"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:ns="http://creativecommons.org/ns#"
-         xmlns:lime="http://www.w3.org/ns/lemon/lime"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
-         xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#"
-         xmlns:dct="http://purl.org/dc/terms/"
-         xmlns:bibo="http://purl.org/ontology/bibo/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:terms="http://purl.org/dc/terms/"
-         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
-         xmlns:vann="http://purl.org/vocab/vann/"
-         xmlns:dc="http://purl.org/dc/elements/1.1/"
-         xmlns:lime1="http://www.w3.org/ns/lemon/lime#"
-         xmlns:tei="http://www.tei-c.org/ns/1.0"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<rdf:RDF xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xmlns:void="http://rdfs.org/ns/void#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ns="http://creativecommons.org/ns#"
+   xmlns:lime="http://www.w3.org/ns/lemon/lime" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+   xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#" xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:terms="http://purl.org/dc/terms/" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+   xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:lime1="http://www.w3.org/ns/lemon/lime#" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#">
    <ontolex:LexicalEntry rdf:ID="a-1">
       <ontolex:canonicalForm>
          <rdf:Description>
@@ -28,12 +19,13 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="ar">La première lettre de l'alphabet, et la première des voyelles</skos:definition>
+            <skos:definition xml:lang="ar">La première lettre de l'alphabet, et la première des
+               voyelles</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">un <mentioned>A</mentioned> majuscule</quote>
+               <rdf:value xml:lang="ar">un A majuscule</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">des <mentioned>a</mentioned> minuscules</quote>
+               <rdf:value xml:lang="ar">des a minuscules</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -63,10 +55,10 @@
       <note xmlns="http://www.tei-c.org/ns/1.0" type="orth">(sans accent)</note>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">3<hi xmlns="http://www.tei-c.org/ns/1.0" rend="sup">e</hi> pers. du sing. de l'ind. prés. du verbe <mentioned xmlns="http://www.tei-c.org/ns/1.0">avoir</mentioned>
-            </skos:definition>
+            <skos:definition xml:lang="fr">3<hi xmlns="http://www.tei-c.org/ns/1.0" rend="sup">e</hi> pers. du sing. de
+               l'ind. prés. du verbe avoir</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'alphabet français a vingt-cinq lettres</quote>
+               <rdf:value xml:lang="fr">l'alphabet français a vingt-cinq lettres</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -82,7 +74,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Prend l'accent grave et exprime un rapport de tendance</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">aller à Paris</quote>
+               <rdf:value xml:lang="fr">aller à Paris</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -90,7 +82,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">de situation</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">être à la campagne</quote>
+               <rdf:value xml:lang="fr">être à la campagne</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -98,7 +90,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">de provenance</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">boire à une source</quote>
+               <rdf:value xml:lang="fr">boire à une source</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -114,11 +106,11 @@
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Preposition"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">qui signifie <mentioned xmlns="http://www.tei-c.org/ns/1.0">de</mentioned>
-               <mentioned xmlns="http://www.tei-c.org/ns/1.0">par</mentioned> pour indiquer un rapport d'éloignement, d'extraction, de séparation, de
-            privation, et qui entre comme préfixe dans la composition de certains mots français</skos:definition>
+            <skos:definition xml:lang="fr">qui signifie de par pour indiquer un rapport d'éloignement, d'extraction, de
+               séparation, de privation, et qui entre comme préfixe dans la composition de certains mots
+               français</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">atone, abjuration, abstention</quote>
+               <rdf:value xml:lang="fr">atone, abjuration, abstention</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -133,9 +125,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Espèce de bananier qui fournit une matière textile appelée <mentioned xmlns="http://www.tei-c.org/ns/1.0">chanvre de
-            Manille</mentioned>
-            </skos:definition>
+            <skos:definition xml:lang="fr">Espèce de bananier qui fournit une matière textile appelée chanvre de
+               Manille</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -145,7 +136,8 @@
             <ontolex:writtenRep xml:lang="fr">ABAISSANT</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">bè-san</ontolex:phoneticRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">E</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >E</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -162,7 +154,7 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Humiliant, dégradant</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">acte abaissant</quote>
+               <rdf:value xml:lang="fr">acte abaissant</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -194,8 +186,8 @@
       <number xmlns="http://www.tei-c.org/ns/1.0" expand="invariable">invar.</number>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Instrument qu'on emploie en médecine pour abaisser la langue et apercevoir l'intérieur de la
-            gorge</skos:definition>
+            <skos:definition xml:lang="fr">Instrument qu'on emploie en médecine pour abaisser la langue et apercevoir
+               l'intérieur de la gorge</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -212,15 +204,16 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Action de diminuer quelque chose en hauteur</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'abaissement d'un mur</quote>
+               <rdf:value xml:lang="fr">l'abaissement d'un mur</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Action d'un corps qui, en baissant, s'éloigne d'un point plus élevé</skos:definition>
+            <skos:definition xml:lang="fr">Action d'un corps qui, en baissant, s'éloigne d'un point plus
+               élevé</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">le froid produit l'abaissement du mercure dans le thermomètre</quote>
+               <rdf:value xml:lang="fr">le froid produit l'abaissement du mercure dans le thermomètre</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -231,7 +224,7 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Humiliation</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Louis XI travailla à l'abaissement des grands vassaux</quote>
+               <rdf:value xml:lang="fr">Louis XI travailla à l'abaissement des grands vassaux</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -239,7 +232,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Amoindrissement</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'abaissement des salaires</quote>
+               <rdf:value xml:lang="fr">l'abaissement des salaires</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -247,7 +240,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Etat de décadence</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'abaissement de la littérature</quote>
+               <rdf:value xml:lang="fr">l'abaissement de la littérature</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -266,7 +259,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Mettre plus bas pour couvrir</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abaisser les paupières</quote>
+               <rdf:value xml:lang="fr">abaisser les paupières</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -274,7 +267,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Diminuer la hauteur</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abaisser un mur</quote>
+               <rdf:value xml:lang="fr">abaisser un mur</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -282,7 +275,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Faire descendre</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abaisser un store</quote>
+               <rdf:value xml:lang="fr">abaisser un store</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -290,7 +283,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Réduire</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abaisser une taxe</quote>
+               <rdf:value xml:lang="fr">abaisser une taxe</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -309,22 +302,23 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Humilier</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Richelieu abaissa les grands</quote>
+               <rdf:value xml:lang="fr">Richelieu abaissa les grands</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <form type="derivative">
-            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">S'abaisser</ontolex:writtenRep>
+            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+               >S'abaisser</ontolex:writtenRep>
          </form>
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
          <subc expand="pronominal">pr.</subc>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
                <skos:definition xml:lang="fr">S'humilier, s'avilir</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">s'abaisser à de plates excuses</quote>
+                  <rdf:value xml:lang="fr">s'abaisser à de plates excuses</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -332,7 +326,7 @@
             <rdf:Description>
                <skos:definition xml:lang="fr">Devenir plus bas</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">les nuages s'abaissent</quote>
+                  <rdf:value xml:lang="fr">les nuages s'abaissent</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -340,8 +334,7 @@
       <xr xmlns="http://www.tei-c.org/ns/1.0" type="antonym">
          <lbl expand="antonyme" rend="sc">Ant.</lbl>
          <ref target="#élever">Elever</ref>
-         <ref target="#hausser">hausser</ref>
-         <ref target="#glorifier">glorifier</ref>
+         <ref target="#hausser">hausser</ref> <ref target="#glorifier">glorifier</ref>
          <ref target="#vanter">vanter</ref>
       </xr>
    </ontolex:LexicalEntry>
@@ -351,14 +344,14 @@
             <ontolex:writtenRep xml:lang="fr">ABAISSEUR</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">bè-seur</ontolex:phoneticRep>
          </rdf:Description>
-      </ontolex:canonicalForm>
-      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/>
+      </ontolex:canonicalForm> <lexinfo:partOfSpeech
+         rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/>
       <lbl xmlns="http://www.tei-c.org/ns/1.0">et</lbl>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
-      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <ontolex:sense>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/> <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché</skos:definition>
+            <skos:definition xml:lang="fr">Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est
+               attaché</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -373,8 +366,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Poche que certains animaux (singes, chéiroptères, etc.) ont à l'intérieur de chacune des joues et où
-            ils mettent en réserve des aliments</skos:definition>
+            <skos:definition xml:lang="fr">Poche que certains animaux (singes, chéiroptères, etc.) ont à l'intérieur de
+               chacune des joues et où ils mettent en réserve des aliments</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
@@ -402,7 +395,7 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Cession, aliénation</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abaliénation de terres, de troupeaux</quote>
+               <rdf:value xml:lang="fr">abaliénation de terres, de troupeaux</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -434,7 +427,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Rendre lourd, stupide</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">les mauvais traitements abalourdissent un enfant</quote>
+               <rdf:value xml:lang="fr">les mauvais traitements abalourdissent un enfant</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -471,20 +464,21 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Etat d'une personne ou d'une chose délaissée</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Christophe Colomb mourut dans l'abandon</quote>
+               <rdf:value xml:lang="fr">Christophe Colomb mourut dans l'abandon</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Négligence aimable dans le discours, le style, les manières, etc.</skos:definition>
+            <skos:definition xml:lang="fr">Négligence aimable dans le discours, le style, les manières,
+               etc.</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Oubli</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abandon de soi-même</quote>
+               <rdf:value xml:lang="fr">abandon de soi-même</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -492,22 +486,23 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Renonciation, désistement</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abandon d'un droit</quote>
+               <rdf:value xml:lang="fr">abandon d'un droit</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="loc">
          <form type="phrase">
-            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">À l'abandon</ontolex:writtenRep>
+            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">À
+               l'abandon</ontolex:writtenRep>
          </form>
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
          <subc expand="adverbiale">adv.</subc>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
                <skos:definition xml:lang="fr">Sans soin, en désordre</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">laisser ses enfants, sa maison à l'abandon</quote>
+                  <rdf:value xml:lang="fr">laisser ses enfants, sa maison à l'abandon</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -525,7 +520,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui peut, qui doit être abandonné</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">projet abandonnable</quote>
+               <rdf:value xml:lang="fr">projet abandonnable</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -552,7 +547,8 @@
          <rdf:Description>
             <ontolex:writtenRep xml:lang="fr">ABANDONNATEUR</ontolex:writtenRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">TRICE</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >TRICE</ontolex:writtenRep>
             </form>
             <ontolex:phoneticRep xml:lang="fr">do-na</ontolex:phoneticRep>
          </rdf:Description>
@@ -573,7 +569,8 @@
             <ontolex:writtenRep xml:lang="fr">ABANDONNÉ</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">do-né</ontolex:phoneticRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">E</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >E</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -582,7 +579,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Personne qui est dans l'abandon</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">soulageons les abandonnés</quote>
+               <rdf:value xml:lang="fr">soulageons les abandonnés</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -605,7 +602,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Acte de cession</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abandonnement de biens</quote>
+               <rdf:value xml:lang="fr">abandonnement de biens</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -623,7 +620,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Quitter, délaisser entièrement</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abandonner sa maison</quote>
+               <rdf:value xml:lang="fr">abandonner sa maison</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -631,7 +628,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncer à</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abandonner ses prétentions</quote>
+               <rdf:value xml:lang="fr">abandonner ses prétentions</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -639,7 +636,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Négliger</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abandonner ses devoirs</quote>
+               <rdf:value xml:lang="fr">abandonner ses devoirs</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -647,7 +644,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Confier</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Anne d'Autriche abandonna le pouvoir à Mazarin</quote>
+               <rdf:value xml:lang="fr">Anne d'Autriche abandonna le pouvoir à Mazarin</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -655,22 +652,23 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Livrer</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abandonner une ville au pillage</quote>
+               <rdf:value xml:lang="fr">abandonner une ville au pillage</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <form type="derivative">
-            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">S'abandonner</ontolex:writtenRep>
+            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+               >S'abandonner</ontolex:writtenRep>
          </form>
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
          <subc expand="pronominal">pr.</subc>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
                <skos:definition xml:lang="fr">Se livrer</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">s'abandonner à la joie</quote>
+                  <rdf:value xml:lang="fr">s'abandonner à la joie</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -678,7 +676,7 @@
             <rdf:Description>
                <skos:definition xml:lang="fr">Perdre courage</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">une âme forte ne s'abandonne jamais</quote>
+                  <rdf:value xml:lang="fr">une âme forte ne s'abandonne jamais</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -694,12 +692,14 @@
          <rdf:Description>
             <ontolex:writtenRep xml:lang="fr">ABANDONNEUR</ontolex:writtenRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">EUSE</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >EUSE</ontolex:writtenRep>
             </form>
             <ontolex:phoneticRep xml:lang="fr">do-neur, eu-ze</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/> et <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/> et
+         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se dit d'une personne qui abandonne</skos:definition>
@@ -719,7 +719,8 @@
             <lexinfo:register>
                <rdf:Description>Archit.</rdf:Description>
             </lexinfo:register>
-            <skos:definition xml:lang="fr">Tailloir, tablette formant la partie supérieure du chapiteau d'une colonne</skos:definition>
+            <skos:definition xml:lang="fr">Tailloir, tablette formant la partie supérieure du chapiteau d'une
+               colonne</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
@@ -736,8 +737,9 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Système de lignes tracées sur un plan et correspon<pb xmlns="http://www.tei-c.org/ns/1.0" n="2"/>dant à une équation donnée qu'elles
-            permettent d'étudier</skos:definition>
+            <skos:definition xml:lang="fr">Système de lignes tracées sur un plan et correspon<pb
+                  xmlns="http://www.tei-c.org/ns/1.0" n="2"/>dant à une équation donnée qu'elles permettent
+               d'étudier</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
@@ -765,7 +767,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Assourdir, étourdir par un grand bruit</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">coup de tonnerre qui abasourdit</quote>
+               <rdf:value xml:lang="fr">coup de tonnerre qui abasourdit</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -784,7 +786,8 @@
             <ontolex:writtenRep xml:lang="fr">ABASOURDISSANT</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">zour-di-san</ontolex:phoneticRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">E</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >E</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -793,10 +796,10 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui est propre à abasourdir, à étourdir</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">bruit abasourdissant</quote>
+               <rdf:value xml:lang="fr">bruit abasourdissant</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">nouvelle abasourdissante</quote>
+               <rdf:value xml:lang="fr">nouvelle abasourdissante</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -838,7 +841,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Averse soudaine</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">un grand abat d'eau</quote>
+               <rdf:value xml:lang="fr">un grand abat d'eau</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -856,7 +859,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abattre, de tuer</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'abat des animaux</quote>
+               <rdf:value xml:lang="fr">l'abat des animaux</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -918,16 +921,17 @@
                <rdf:Description>Fig.</rdf:Description>
             </lexinfo:register>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">une longue servitude abâtardit le courage</quote>
+               <rdf:value xml:lang="fr">une longue servitude abâtardit le courage</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <form type="derivative">
-            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">S'abâtardir</ontolex:writtenRep>
+            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+               >S'abâtardir</ontolex:writtenRep>
          </form>
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
          <subc expand="pronominal">pr.</subc>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
@@ -958,7 +962,7 @@
                <rdf:Description>au prop. et au fig.</rdf:Description>
             </lexinfo:register>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'abâtardissement d'une race, de l'esprit</quote>
+               <rdf:value xml:lang="fr">l'abâtardissement d'une race, de l'esprit</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -974,7 +978,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Mouvement d'un navire qui fait que la proue s'écarte de la ligne du vent</skos:definition>
+            <skos:definition xml:lang="fr">Mouvement d'un navire qui fait que la proue s'écarte de la ligne du
+               vent</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -991,7 +996,7 @@
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Pièce de résistance qu'on sert d'abord pour apaiser, abattre la faim des
-          convives</skos:definition>
+               convives</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1007,8 +1012,8 @@
       <number xmlns="http://www.tei-c.org/ns/1.0" expand="invariable">invar.</number>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Ouverture dans le plancher d'un grenier, au-dessus d'une écurie, d'une étable, et par laquelle on
-            jette le fourrage dans le râtelier</skos:definition>
+            <skos:definition xml:lang="fr">Ouverture dans le plancher d'un grenier, au-dessus d'une écurie, d'une
+               étable, et par laquelle on jette le fourrage dans le râtelier</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1023,7 +1028,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Quantité de choses abattues, telles que bois, arbres, maisons</skos:definition>
+            <skos:definition xml:lang="fr">Quantité de choses abattues, telles que bois, arbres,
+               maisons</skos:definition>
             <skos:definition xml:lang="fr">ou tuées, telles que bêtes fauves, gibier</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -1065,12 +1071,13 @@
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Auvent élevé devant les magasins ou boutiques pour intercepter les rayons du
-          soleil</skos:definition>
+               soleil</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Sorte de visière qui sert à préserver les yeux d'une lumière trop vive</skos:definition>
+            <skos:definition xml:lang="fr">Sorte de visière qui sert à préserver les yeux d'une lumière trop
+               vive</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1086,8 +1093,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Série de lames que l'on pose de biais dans les baies des clochers pour renvoyer le son ou les sons
-            vers le sol</skos:definition>
+            <skos:definition xml:lang="fr">Série de lames que l'on pose de biais dans les baies des clochers pour
+               renvoyer le son ou les sons vers le sol</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="number">
@@ -1121,7 +1128,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Pièce de menuiserie, qui s'élève ou s'abaisse à volonté</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">secrétaire à abattant</quote>
+               <rdf:value xml:lang="fr">secrétaire à abattant</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1160,7 +1167,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Celui qui abat</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abatteur d'arbres</quote>
+               <rdf:value xml:lang="fr">abatteur d'arbres</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1184,8 +1191,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Etablissement dans lequel les bouchers sont tenus d'abattre et de préparer les animaux destinés à la
-            consommation</skos:definition>
+            <skos:definition xml:lang="fr">Etablissement dans lequel les bouchers sont tenus d'abattre et de préparer
+               les animaux destinés à la consommation</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1204,7 +1211,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Mettre à bas, renverser, détruire, démolir</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abattre un arbre, un mur</quote>
+               <rdf:value xml:lang="fr">abattre un arbre, un mur</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1212,10 +1219,10 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Tuer</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abattre du gibier</quote>
+               <rdf:value xml:lang="fr">abattre du gibier</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Bestiaux abattus</quote>
+               <rdf:value xml:lang="fr">Bestiaux abattus</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1226,7 +1233,7 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Affaiblir</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">la fièvre abat</quote>
+               <rdf:value xml:lang="fr">la fièvre abat</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1234,7 +1241,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Décourager</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">quelle peur vous abat ?</quote>
+               <rdf:value xml:lang="fr">quelle peur vous abat ?</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1242,7 +1249,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Abaisser</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abattre l'orgueil</quote>
+               <rdf:value xml:lang="fr">abattre l'orgueil</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1250,7 +1257,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Faire cesser</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">la réflexion abattit sa colère</quote>
+               <rdf:value xml:lang="fr">la réflexion abattit sa colère</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1258,22 +1265,23 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Accomplir avec rapidité</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">besogne abattue</quote>
+               <rdf:value xml:lang="fr">besogne abattue</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <form type="derivative">
-            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">S'abattre</ontolex:writtenRep>
+            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+               >S'abattre</ontolex:writtenRep>
          </form>
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
          <subc expand="pronominal">pr.</subc>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
                <skos:definition xml:lang="fr">Tomber</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">les vieux chevaux s'abattent souvent</quote>
+                  <rdf:value xml:lang="fr">les vieux chevaux s'abattent souvent</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -1281,7 +1289,7 @@
             <rdf:Description>
                <skos:definition xml:lang="fr">Se précipiter sur</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">l'épervier s'abat sur sa proie</quote>
+                  <rdf:value xml:lang="fr">l'épervier s'abat sur sa proie</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -1289,16 +1297,16 @@
             <rdf:Description>
                <skos:definition xml:lang="fr">Cesser, s'apaiser, diminuer</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">le vent s'abat</quote>
+                  <rdf:value xml:lang="fr">le vent s'abat</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
       </re>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
-         <lbl expand="proverbe" rend="sc">Prov.</lbl>
-         <re type="prov">
+         <lbl expand="proverbe" rend="sc">Prov.</lbl> <re type="prov">
             <form type="phrase">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">Petite pluie abat grand vent</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">Petite pluie abat
+                  grand vent</ontolex:writtenRep>
             </form>
             <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
                <rdf:Description>
@@ -1307,13 +1315,13 @@
                   </lexinfo:register>
                   <skos:definition xml:lang="fr">quand il vient à pleuvoir, le vent s'apaise</skos:definition>
                </rdf:Description>
-            </ontolex:sense>
-            <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
+            </ontolex:sense> <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
                <rdf:Description>
                   <lexinfo:register>
                      <rdf:Description>au fig.</rdf:Description>
                   </lexinfo:register>
-                  <skos:definition xml:lang="fr">souvent peu de chose suffit pour calmer une grande colère</skos:definition>
+                  <skos:definition xml:lang="fr">souvent peu de chose suffit pour calmer une grande
+                     colère</skos:definition>
                </rdf:Description>
             </ontolex:sense>
          </re>
@@ -1340,15 +1348,15 @@
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
          <lexinfo:gender xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                         rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
          <number expand="pluriel">pl.</number>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
                <skos:definition xml:lang="fr">Foulures laissées par le cerf dans les broussailles</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">le cerf se reconnaît à ses abattures</quote>
+                  <rdf:value xml:lang="fr">le cerf se reconnaît à ses abattures</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -1371,8 +1379,8 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Appareil en terre ou en tôle qu'on met sur les cheminées pour empêcher le vent d'y pénétrer ou d'y
-            refouler la fumée</skos:definition>
+            <skos:definition xml:lang="fr">Appareil en terre ou en tôle qu'on met sur les cheminées pour empêcher le
+               vent d'y pénétrer ou d'y refouler la fumée</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1397,10 +1405,12 @@
          <rdf:Description>
             <ontolex:writtenRep xml:lang="fr">ABBATIAL</ontolex:writtenRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">E</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >E</ontolex:writtenRep>
             </form>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">AUX</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >AUX</ontolex:writtenRep>
             </form>
             <ontolex:phoneticRep xml:lang="fr">a-ba-si-al</ontolex:phoneticRep>
          </rdf:Description>
@@ -1410,13 +1420,13 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui se rapporte à l'abbé, à l'abbesse, à l'abbaye</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">palais abbatial</quote>
+               <rdf:value xml:lang="fr">palais abbatial</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">église abbatiale</quote>
+               <rdf:value xml:lang="fr">église abbatiale</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">droits abbatiaux</quote>
+               <rdf:value xml:lang="fr">droits abbatiaux</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1441,15 +1451,15 @@
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
-         <lbl expand="proverbe" rend="sc">Prov.</lbl>
-         <re type="prov">
+         <lbl expand="proverbe" rend="sc">Prov.</lbl> <re type="prov">
             <form type="phrase">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">Pour un moine l'abbaye ne se perd pas</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">Pour un moine
+                  l'abbaye ne se perd pas</ontolex:writtenRep>
             </form>
             <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
                <rdf:Description>
-                  <skos:definition xml:lang="fr">l'absence d'une personne ne doit pas faire abandonner une entreprise, un
-              projet</skos:definition>
+                  <skos:definition xml:lang="fr">l'absence d'une personne ne doit pas faire abandonner une entreprise,
+                     un projet</skos:definition>
                </rdf:Description>
             </ontolex:sense>
          </re>
@@ -1468,7 +1478,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <lexinfo:etymology>(lat.abbas,père).</lexinfo:etymology>
+      <lexinfo:etymology>(lat. abbas, père).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Supérieur d'une abbaye</skos:definition>
@@ -1491,7 +1501,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Supérieure d'un monastère de religieuses ayant titre d'abbaye</skos:definition>
+            <skos:definition xml:lang="fr">Supérieure d'un monastère de religieuses ayant titre
+               d'abbaye</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1515,7 +1526,7 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Premiers éléments d'un art, d'une science</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'arithmétique est l'a b c des mathématiques</quote>
+               <rdf:value xml:lang="fr">l'arithmétique est l'a b c des mathématiques</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1534,7 +1545,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Se tourner en abcès</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">tumeur qui abcède</quote>
+               <rdf:value xml:lang="fr">tumeur qui abcède</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1550,7 +1561,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Amas de pus dans une cavité accidentelle ou naturelle du corps</skos:definition>
+            <skos:definition xml:lang="fr">Amas de pus dans une cavité accidentelle ou naturelle du
+               corps</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1564,15 +1576,13 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Mot arabe qui signifie <mentioned xmlns="http://www.tei-c.org/ns/1.0">serviteur</mentioned> et entre dans la composition de nombreux
-            noms propres</skos:definition>
+            <skos:definition xml:lang="fr">Mot arabe qui signifie serviteur et entre dans la composition de nombreux
+               noms propres</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Abd<mentioned>-el-Kader</mentioned>
-               </quote>
+               <rdf:value xml:lang="fr">Abd-el-Kader</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Abd<mentioned>-el-Mélik</mentioned>
-               </quote>
+               <rdf:value xml:lang="fr">Abd-el-Mélik</rdf:value>
             </lexicog:usageExample> etc.</rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1587,7 +1597,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui peut, qui doit être abdiqué</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">fonctions abdicables</quote>
+               <rdf:value xml:lang="fr">fonctions abdicables</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1599,7 +1609,8 @@
             <ontolex:phoneticRep xml:lang="fr">tè-re</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/> et <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/> et <lexinfo:partOfSpeech
+         rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se dit d'une personne qui a abdiqué</skos:definition>
@@ -1636,10 +1647,10 @@
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Renoncer volontairement ou de force à de hautes fonctions, et particulièrement à l'autorité
-            souveraine</skos:definition>
+            <skos:definition xml:lang="fr">Renoncer volontairement ou de force à de hautes fonctions, et
+               particulièrement à l'autorité souveraine</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Dioclétien abdiqua l'empire</quote>
+               <rdf:value xml:lang="fr">Dioclétien abdiqua l'empire</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1647,7 +1658,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncer à une chose que l'on possédait</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abdiquer toute dignité, ses devoirs, ses biens</quote>
+               <rdf:value xml:lang="fr">abdiquer toute dignité, ses devoirs, ses biens</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1663,7 +1674,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Partie du corps entre le thorax et le bassin et qui renferme les intestins</skos:definition>
+            <skos:definition xml:lang="fr">Partie du corps entre le thorax et le bassin et qui renferme les
+               intestins</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1672,10 +1684,12 @@
          <rdf:Description>
             <ontolex:writtenRep xml:lang="fr">ABDOMINAL</ontolex:writtenRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">E</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >E</ontolex:writtenRep>
             </form>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">AUX</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >AUX</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -1684,7 +1698,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui appartient, qui se rapporte à l'abdomen</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">la cavité abdominale est tapissée par le péritoine</quote>
+               <rdf:value xml:lang="fr">la cavité abdominale est tapissée par le péritoine</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1696,16 +1710,17 @@
             <ontolex:phoneticRep xml:lang="fr">duk</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/> et <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/> et <lexinfo:partOfSpeech
+         rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se dit de tout muscle qui produit le mouvement d'abduction</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">muscle abducteur</quote>
+               <rdf:value xml:lang="fr">muscle abducteur</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'abducteur de l'œil</quote>
+               <rdf:value xml:lang="fr">l'abducteur de l'œil</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1721,8 +1736,8 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Mouvement qui écarte un membre du plan médian que l'on suppose diviser le corps en deux moitiés
-            symétriques</skos:definition>
+            <skos:definition xml:lang="fr">Mouvement qui écarte un membre du plan médian que l'on suppose diviser le
+               corps en deux moitiés symétriques</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1738,15 +1753,15 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui concerne l'alphabet</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">ordre abécédaire</quote>
+               <rdf:value xml:lang="fr">ordre abécédaire</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
          <lexinfo:gender xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                         rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
                <skos:definition xml:lang="fr">Livre élémentaire de lecture</skos:definition>
@@ -1767,7 +1782,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abecquer</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'abecquement d'un oiseau</quote>
+               <rdf:value xml:lang="fr">l'abecquement d'un oiseau</rdf:value>
             </lexicog:usageExample>
             <lexinfo:register>
                <rdf:Description>Vx</rdf:Description>
@@ -1789,7 +1804,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Donner la becquée</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abecquer un oiseau</quote>
+               <rdf:value xml:lang="fr">abecquer un oiseau</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1803,10 +1818,11 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <lexinfo:etymology>(du vx fr.bée,auj.baie,ouverture).</lexinfo:etymology>
+      <lexinfo:etymology>(du vx fr. bée, auj. baie, ouverture).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Ouverture par laquelle coule l'eau qui fait mouvoir un moulin</skos:definition>
+            <skos:definition xml:lang="fr">Ouverture par laquelle coule l'eau qui fait mouvoir un
+               moulin</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1824,7 +1840,8 @@
             <lexinfo:register>
                <rdf:Description>Dr. féod.</rdf:Description>
             </lexinfo:register>
-            <skos:definition xml:lang="fr">Droit des seigneurs sur les abeilles et les ruches de leurs vassaux</skos:definition>
+            <skos:definition xml:lang="fr">Droit des seigneurs sur les abeilles et les ruches de leurs
+               vassaux</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -1837,25 +1854,26 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <lexinfo:etymology>(lat.apis).</lexinfo:etymology>
+      <lexinfo:etymology>(lat. apis).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Insecte hyménoptère porte-aiguillon, produisant le miel et la cire</skos:definition>
+            <skos:definition xml:lang="fr">Insecte hyménoptère porte-aiguillon, produisant le miel et la
+               cire</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'abeille est l'emblème de l'activité et du travail</quote>
+               <rdf:value xml:lang="fr">l'abeille est l'emblème de l'activité et du travail</rdf:value>
             </lexicog:usageExample>
             <pb xmlns="http://www.tei-c.org/ns/1.0" n="3"/>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">L'apiculture est l'art d'élever les abeilles</quote>
+               <rdf:value xml:lang="fr">L'apiculture est l'art d'élever les abeilles</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
-      <note xmlns="http://www.tei-c.org/ns/1.0" type="encycl"> Les abeilles ont un corps velu, d'un brun fauve, six pattes et quatre ailes, un
-          aiguillon très acéré à l'extrémité de l'abdomen ; leur bouche est munie d'une trompe qui leur sert à puiser le
-            <mentioned>suc</mentioned> des fleurs avec lequel elles fabriquent la <mentioned>cire</mentioned> dont elles
-          font leurs cellules ou <mentioned>alvéoles</mentioned> disposées en
-            <mentioned>rayons</mentioned> et le <mentioned>miel</mentioned> qu'elles y déposent. Chaque groupe
-          ou <mentioned>essaim</mentioned> vit en société dans une ruche, sous l'autorité d'une reine.</note>
+      <note xmlns="http://www.tei-c.org/ns/1.0" type="encycl"> Les abeilles ont un corps velu, d'un brun fauve, six
+         pattes et quatre ailes, un aiguillon très acéré à l'extrémité de l'abdomen ; leur bouche est munie d'une trompe
+         qui leur sert à puiser le <mentioned>suc</mentioned> des fleurs avec lequel elles fabriquent la
+            <mentioned>cire</mentioned> dont elles font leurs cellules ou <mentioned>alvéoles</mentioned> disposées en
+            <mentioned>rayons</mentioned> et le <mentioned>miel</mentioned> qu'elles y déposent. Chaque groupe ou
+            <mentioned>essaim</mentioned> vit en société dans une ruche, sous l'autorité d'une reine.</note>
    </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="abeiller">
       <ontolex:canonicalForm>
@@ -1863,7 +1881,8 @@
             <ontolex:writtenRep xml:lang="fr">ABEILLER</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">bè, ll mll., é</ontolex:phoneticRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">ÈRE</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >ÈRE</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -1872,15 +1891,15 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Relatif aux abeilles</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">industrie abeillère</quote>
+               <rdf:value xml:lang="fr">industrie abeillère</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
          <lexinfo:gender xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                         rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
                <skos:definition xml:lang="fr">Rucher</skos:definition>
@@ -1894,7 +1913,8 @@
             <ontolex:writtenRep xml:lang="fr">ABERRANT</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">bèr-ran</ontolex:phoneticRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">E</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >E</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -1914,7 +1934,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <lexinfo:etymology>(lat.aberratio).</lexinfo:etymology>
+      <lexinfo:etymology>(lat. aberratio).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Mouvement apparent des étoiles fixes</skos:definition>
@@ -1927,7 +1947,7 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Dispersion des rayons lumineux</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">aberration de la lumière</quote>
+               <rdf:value xml:lang="fr">aberration de la lumière</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1938,10 +1958,10 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Trouble, égarement, erreur de jugement</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">aberration du goût</quote>
+               <rdf:value xml:lang="fr">aberration du goût</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">aberration des idées</quote>
+               <rdf:value xml:lang="fr">aberration des idées</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -1973,25 +1993,26 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Rendre stupide</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">la paresse d'esprit abêtit l'homme</quote>
+               <rdf:value xml:lang="fr">la paresse d'esprit abêtit l'homme</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
          <subc expand="neutre">n.</subc> et <re type="gram">
             <form type="derivative">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">S'abêtir</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >S'abêtir</ontolex:writtenRep>
             </form>
             <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                                  rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
+               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
             <subc expand="pronominal">pr.</subc>
             <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
                <rdf:Description>
                   <skos:definition xml:lang="fr">Devenir stupide</skos:definition>
                   <lexicog:usageExample>
-                     <quote xmlns="http://www.tei-c.org/ns/1.0">cet enfant abêtit, s'abêtit de jour en jour</quote>
+                     <rdf:value xml:lang="fr">cet enfant abêtit, s'abêtit de jour en jour</rdf:value>
                   </lexicog:usageExample>
                </rdf:Description>
             </ontolex:sense>
@@ -2062,11 +2083,12 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <lexinfo:etymology>(lat.abies).</lexinfo:etymology>
+      <lexinfo:etymology>(lat. abies).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Nom scientifique du sapin</skos:definition>
-            <note xmlns="http://www.tei-c.org/ns/1.0" type="precision">(qui a donné son nom aux <mentioned>abiétinées</mentioned>)</note>
+            <note xmlns="http://www.tei-c.org/ns/1.0" type="precision">(qui a donné son nom aux
+                  <mentioned>abiétinées</mentioned>)</note>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -2082,8 +2104,8 @@
       <number xmlns="http://www.tei-c.org/ns/1.0" expand="pluriel">pl.</number>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Tribu de conifères, comprenant des arbres résineux comme le <mentioned xmlns="http://www.tei-c.org/ns/1.0">pin</mentioned> le
-              <mentioned xmlns="http://www.tei-c.org/ns/1.0">sapin</mentioned> le <mentioned xmlns="http://www.tei-c.org/ns/1.0">mélèze</mentioned> etc.</skos:definition>
+            <skos:definition xml:lang="fr">Tribu de conifères, comprenant des arbres résineux comme le pin le sapin le
+               mélèze etc.</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="number">
@@ -2098,7 +2120,7 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <lexinfo:etymology>(du gr.apriv., et bussos,fond).</lexinfo:etymology>
+      <lexinfo:etymology>(du gr. a priv., et bussos, fond).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Gouffre, précipice très profond</skos:definition>
@@ -2111,7 +2133,7 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Tout ce qui est extrême</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">un abîme de misère</quote>
+               <rdf:value xml:lang="fr">un abîme de misère</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2119,7 +2141,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Impénétrable</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">le cœur de l'homme est un abîme</quote>
+               <rdf:value xml:lang="fr">le cœur de l'homme est un abîme</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2145,7 +2167,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Renverser, culbuter</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Condé abîma l'infanterie espagnole à Rocroi</quote>
+               <rdf:value xml:lang="fr">Condé abîma l'infanterie espagnole à Rocroi</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2153,22 +2175,23 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Gâter, endommager</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">la pluie abîme les chemins</quote>
+               <rdf:value xml:lang="fr">la pluie abîme les chemins</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <form type="derivative">
-            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">S'abîmer</ontolex:writtenRep>
+            <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+               >S'abîmer</ontolex:writtenRep>
          </form>
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
          <subc expand="pronominal">pr.</subc>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
                <skos:definition xml:lang="fr">S'écrouler</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">la maison s'est abîmée dans les flammes</quote>
+                  <rdf:value xml:lang="fr">la maison s'est abîmée dans les flammes</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -2179,7 +2202,7 @@
                </lexinfo:register>
                <skos:definition xml:lang="fr">Se plonger</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">s'abîmer dans sa douleur</quote>
+                  <rdf:value xml:lang="fr">s'abîmer dans sa douleur</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -2210,7 +2233,8 @@
             <ontolex:writtenRep xml:lang="fr">ABIRRITANT</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">ab-ir-ri-tan</ontolex:phoneticRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">E</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >E</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -2219,7 +2243,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui est propre à diminuer l'irritation</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">remède abirritant</quote>
+               <rdf:value xml:lang="fr">remède abirritant</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2250,7 +2274,8 @@
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Diminuer la sensibilité, l'irritation dans une partie du corps</skos:definition>
+            <skos:definition xml:lang="fr">Diminuer la sensibilité, l'irritation dans une partie du
+               corps</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -2260,17 +2285,18 @@
             <ontolex:writtenRep xml:lang="fr">ABJECT</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">ab-jèkt'</ontolex:phoneticRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">E</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >E</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/>
-      <lexinfo:etymology>(lat.abjectus,jeté hors).</lexinfo:etymology>
+      <lexinfo:etymology>(lat. abjectus, jeté hors).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Méprisable, bas, vil</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">homme, sentiments abjects</quote>
+               <rdf:value xml:lang="fr">homme, sentiments abjects</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2291,9 +2317,10 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Abaissement, avilissement, bassesse, en parlant du caractère, des sentiments</skos:definition>
+            <skos:definition xml:lang="fr">Abaissement, avilissement, bassesse, en parlant du caractère, des
+               sentiments</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">vivre dans l'abjection n'est pas vivre</quote>
+               <rdf:value xml:lang="fr">vivre dans l'abjection n'est pas vivre</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2320,12 +2347,12 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <lexinfo:etymology>(lat.abjuratio,reniement).</lexinfo:etymology>
+      <lexinfo:etymology>(lat. abjuratio, reniement).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renonciation solennelle à une religion</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'abjuration de Henri IV mit fin à la Ligue</quote>
+               <rdf:value xml:lang="fr">l'abjuration de Henri IV mit fin à la Ligue</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2346,7 +2373,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui concerne l'abjuration</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">acte, formule abjuratoire</quote>
+               <rdf:value xml:lang="fr">acte, formule abjuratoire</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2364,7 +2391,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncer publiquement à une religion</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Turenne abjura le calvinisme</quote>
+               <rdf:value xml:lang="fr">Turenne abjura le calvinisme</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2375,7 +2402,7 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Renoncer à une opinion, à une doctrine, etc.</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abjurer Aristote, Descartes</quote>
+               <rdf:value xml:lang="fr">abjurer Aristote, Descartes</rdf:value>
             </lexicog:usageExample> etc.</rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -2384,7 +2411,8 @@
          <rdf:Description>
             <ontolex:writtenRep xml:lang="fr">ABLATIF</ontolex:writtenRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">IVE</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >IVE</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -2393,19 +2421,19 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui a le caractère, la valeur de l'ablatif</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">proposition ablative</quote>
+               <rdf:value xml:lang="fr">proposition ablative</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
          <lexinfo:gender xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                         rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
-               <skos:definition xml:lang="fr">Cas de la déclinaison grecque, latine, etc., indiquant l'instrument, l'éloignement, l'origine, la
-              matière</skos:definition>
+               <skos:definition xml:lang="fr">Cas de la déclinaison grecque, latine, etc., indiquant l'instrument,
+                  l'éloignement, l'origine, la matière</skos:definition>
             </rdf:Description>
          </ontolex:sense>
       </re>
@@ -2426,7 +2454,7 @@
             </lexinfo:register>
             <skos:definition xml:lang="fr">Action de retrancher</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'ablation d'un membre, d'une tumeur</quote>
+               <rdf:value xml:lang="fr">l'ablation d'un membre, d'une tumeur</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2448,9 +2476,9 @@
             <skos:definition xml:lang="fr">Petit poisson d'eau douce à écailles argentées</skos:definition>
          </rdf:Description>
       </ontolex:sense>
-      <note xmlns="http://www.tei-c.org/ns/1.0" type="encycl"> Les ables sont appelés <mentioned>poissons blancs</mentioned> ; les espèces les
-          plus communes sont : le <mentioned>meunier</mentioned> le <mentioned>gardon</mentioned> le
-            <mentioned>rotengle</mentioned> la <mentioned>vandoise</mentioned> le
+      <note xmlns="http://www.tei-c.org/ns/1.0" type="encycl"> Les ables sont appelés <mentioned>poissons
+            blancs</mentioned> ; les espèces les plus communes sont : le <mentioned>meunier</mentioned> le
+            <mentioned>gardon</mentioned> le <mentioned>rotengle</mentioned> la <mentioned>vandoise</mentioned> le
             <mentioned>chevaine</mentioned>.</note>
    </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="ablégat">
@@ -2462,8 +2490,8 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
-      <lexinfo:etymology>(<abbr xmlns="http://www.tei-c.org/ns/1.0">préf.</abbr>
-         <expan xmlns="http://www.tei-c.org/ns/1.0">préfixe</expan>ab, et lat.legatus,envoyé).</lexinfo:etymology>
+      <lexinfo:etymology>( <abbr xmlns="http://www.tei-c.org/ns/1.0">préf.</abbr>
+         <expan xmlns="http://www.tei-c.org/ns/1.0">préfixe</expan> ab, et lat. legatus, envoyé).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Vicaire d'un légat</skos:definition>
@@ -2471,8 +2499,8 @@
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Commissaire chargé par la cour pontificale de Rome d'une mission gracieuse, notamment de porter la
-            barrette à un nouveau cardinal</skos:definition>
+            <skos:definition xml:lang="fr">Commissaire chargé par la cour pontificale de Rome d'une mission gracieuse,
+               notamment de porter la barrette à un nouveau cardinal</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -2502,8 +2530,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Filet carré, dit aussi <mentioned xmlns="http://www.tei-c.org/ns/1.0">carrelet</mentioned>
-            </skos:definition>
+            <skos:definition xml:lang="fr">Filet carré, dit aussi carrelet</skos:definition>
             <xr xmlns="http://www.tei-c.org/ns/1.0" type="renvoi">
                <lbl expand="voir">V.</lbl>
                <ref target="#carrelet">ce mot</ref>
@@ -2517,22 +2544,23 @@
             <ontolex:writtenRep xml:lang="fr">ABLUANT</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">blu-an</ontolex:phoneticRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">E</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >E</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Adjective"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Se dit des médicaments propres à enlever les matières putrides et visqueuses des
-            ulcères</skos:definition>
+            <skos:definition xml:lang="fr">Se dit des médicaments propres à enlever les matières putrides et visqueuses
+               des ulcères</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
          <lexinfo:gender xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                         rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/> un <form type="simple"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/> un <form type="simple"/>
       </re>
    </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="abluer">
@@ -2546,8 +2574,8 @@
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Laver du parchemin ou du papier avec une préparation pour enlever des taches ou raviver
-            l'écriture</skos:definition>
+            <skos:definition xml:lang="fr">Laver du parchemin ou du papier avec une préparation pour enlever des taches
+               ou raviver l'écriture</skos:definition>
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
@@ -2562,16 +2590,17 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Chez les Orientaux, purification religieuse qui consiste à se laver le corps ou une partie du
-            corps</skos:definition>
+            <skos:definition xml:lang="fr">Chez les Orientaux, purification religieuse qui consiste à se laver le corps
+               ou une partie du corps</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">l'ablution est en usage dans tous les cultes de l'Orient</quote>
+               <rdf:value xml:lang="fr">l'ablution est en usage dans tous les cultes de l'Orient</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Vin et eau que le prêtre verse sur ses doigts après la communion</skos:definition>
+            <skos:definition xml:lang="fr">Vin et eau que le prêtre verse sur ses doigts après la
+               communion</skos:definition>
          </rdf:Description>
       </ontolex:sense>
       <ontolex:sense>
@@ -2592,12 +2621,12 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
-      <lexinfo:etymology>(lat.abnegatio,action de nier).</lexinfo:etymology>
+      <lexinfo:etymology>(lat. abnegatio, action de nier).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncement, sacrifice</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">faire abnégation de soi</quote>
+               <rdf:value xml:lang="fr">faire abnégation de soi</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2618,9 +2647,9 @@
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
          <lexinfo:gender xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                         rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#masculine"/>
          <number expand="pluriel">pl.</number>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
@@ -2634,7 +2663,7 @@
                </lexinfo:register>
                <skos:definition xml:lang="fr">Situation désespérée</skos:definition>
                <lexicog:usageExample>
-                  <quote xmlns="http://www.tei-c.org/ns/1.0">commerçant ruiné et aux abois</quote>
+                  <rdf:value xml:lang="fr">commerçant ruiné et aux abois</rdf:value>
                </lexicog:usageExample>
             </rdf:Description>
          </ontolex:sense>
@@ -2672,15 +2701,15 @@
       </ontolex:canonicalForm>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Verb"/>
       <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
-      <lexinfo:etymology>(lat.abolere).</lexinfo:etymology>
+      <lexinfo:etymology>(lat. abolere).</lexinfo:etymology>
       <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Supprimer, annuler, anéantir</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">abolir une loi</quote>
+               <rdf:value xml:lang="fr">abolir une loi</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">La Constituante abolit les droits féodaux</quote>
+               <rdf:value xml:lang="fr">La Constituante abolit les droits féodaux</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2702,7 +2731,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui doit ou peut être aboli</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">coutume abolissable</quote>
+               <rdf:value xml:lang="fr">coutume abolissable</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2728,7 +2757,8 @@
          <rdf:Description>
             <ontolex:writtenRep xml:lang="fr">ABOLITIF</ontolex:writtenRep>
             <form xmlns="http://www.tei-c.org/ns/1.0" type="inflected">
-               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">IVE</ontolex:writtenRep>
+               <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr"
+                  >IVE</ontolex:writtenRep>
             </form>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -2737,7 +2767,7 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui abolit</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">loi abolitive</quote>
+               <rdf:value xml:lang="fr">loi abolitive</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2760,10 +2790,10 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Suppression</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Louis XVI ordonna l'abolition de la torture</quote>
+               <rdf:value xml:lang="fr">Louis XVI ordonna l'abolition de la torture</rdf:value>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">La Convention vota l'abolition de la royauté</quote>
+               <rdf:value xml:lang="fr">La Convention vota l'abolition de la royauté</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
@@ -2800,13 +2830,13 @@
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui se rapporte à l'abolitionnisme</skos:definition>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">système abolitionniste</quote>
+               <rdf:value xml:lang="fr">système abolitionniste</rdf:value>
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
       <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
          <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                               rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
+            rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#Noun"/>
          <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
             <rdf:Description>
                <skos:definition xml:lang="fr">Partisan de ce système</skos:definition>
@@ -2825,18 +2855,19 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#feminine"/>
       <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Répétition, volontaire ou involontaire, des mêmes lettres, des mêmes syllabes</skos:definition>
+            <skos:definition xml:lang="fr">Répétition, volontaire ou involontaire, des mêmes lettres, des mêmes
+               syllabes</skos:definition>
             <lexinfo:register>
                <rdf:Description>Ex.</rdf:Description>
             </lexinfo:register>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Non, il n'est rien que Nanine n'honore</quote>
+               <rdf:value xml:lang="fr">Non, il n'est rien que Nanine n'honore</rdf:value>
                <dct:source>
                   <dc:creator>(Volt.)</dc:creator>
                </dct:source>
             </lexicog:usageExample>
             <lexicog:usageExample>
-               <quote xmlns="http://www.tei-c.org/ns/1.0">Pour qui sont ces serpents qui sifflent sur vos têtes</quote>
+               <rdf:value xml:lang="fr">Pour qui sont ces serpents qui sifflent sur vos têtes</rdf:value>
                <dct:source>
                   <dc:creator>(Rac.)</dc:creator>
                </dct:source>
