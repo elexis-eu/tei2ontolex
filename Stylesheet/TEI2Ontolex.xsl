@@ -62,7 +62,17 @@
 
     <xsl:template match="tei:pron">
         <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
-        <ontolex:phoneticRep xml:lang="{$workingLanguage}">
+        <xsl:variable name="languageWithNotation">
+            <xsl:choose>
+                <xsl:when test="@notation">
+                    <xsl:value-of select="concat($workingLanguage,'-fon',@notation)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$workingLanguage"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <ontolex:phoneticRep xml:lang="{$languageWithNotation}">
             <xsl:apply-templates/>
         </ontolex:phoneticRep>
     </xsl:template>
@@ -70,7 +80,6 @@
     <xsl:template match="tei:pron/tei:seg">
         <xsl:apply-templates/>
     </xsl:template>
-
 
     <xsl:template match="tei:form[@type = 'lemma']/tei:form[@type = 'variant']">
         <xsl:apply-templates/>
