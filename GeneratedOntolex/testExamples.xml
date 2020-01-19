@@ -74,9 +74,11 @@
             <ontolex:writtenRep xml:lang="de">Flussschifffahrt</ontolex:writtenRep>
             <ontolex:writtenRep xml:lang="de">Fluss-Schifffahrt</ontolex:writtenRep>
             <ontolex:writtenRep xml:lang="de">Flußschifffahrt</ontolex:writtenRep>
-            <lexinfo:register>
-               <rdf:Description>Vor 1996 Rechtschreibung Reform</rdf:Description>
-            </lexinfo:register>
+            <lexinfo:TemporalQualifier>
+               <rdf:Description>
+                  <rdf:value>Vor 1996 Rechtschreibung Reform</rdf:value>
+               </rdf:Description>
+            </lexinfo:TemporalQualifier>
          </rdf:Description>
       </ontolex:canonicalForm>
          </ontolex:LexicalEntry>
@@ -327,36 +329,42 @@
             <ontolex:sense>
          <rdf:Description>
                <skos:definition xml:lang="en">This is a test entry</skos:definition>
-               <lexinfo:register>
-               <rdf:Description>time information</rdf:Description>
-            </lexinfo:register>
-               <lexinfo:register>
-               <rdf:Description>geographic information</rdf:Description>
-            </lexinfo:register>
-               <lexinfo:register>
-               <rdf:Description>socioCultural information</rdf:Description>
-            </lexinfo:register>
-               <lexinfo:register>
-               <rdf:Description>domain information</rdf:Description>
-            </lexinfo:register>
-               <lexinfo:register>
-               <rdf:Description>frequency information</rdf:Description>
-            </lexinfo:register>
-               <lexinfo:register>
-               <rdf:Description>attitude information</rdf:Description>
-            </lexinfo:register>
-               <lexinfo:register>
-               <rdf:Description>normativity information</rdf:Description>
-            </lexinfo:register>
-               <lexinfo:register>
-               <rdf:Description>meaningType information</rdf:Description>
-            </lexinfo:register>
-               <lexinfo:register>
-               <rdf:Description>textType information</rdf:Description>
-            </lexinfo:register>
-               <lexinfo:register>
-               <rdf:Description>hint information</rdf:Description>
-            </lexinfo:register>
+               <lexinfo:TemporalQualifier>
+               <rdf:Description>
+                  <rdf:value>time information</rdf:value>
+               </rdf:Description>
+            </lexinfo:TemporalQualifier>
+               <usg xmlns="http://www.tei-c.org/ns/1.0" type="geographic">
+               <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">geographic information</rdf:value>
+            </usg>
+               <lexinfo:Register>
+               <rdf:Description>
+                  <rdf:value>socioCultural information</rdf:value>
+               </rdf:Description>
+            </lexinfo:Register>
+               <usg xmlns="http://www.tei-c.org/ns/1.0" type="domain">
+               <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">domain information</rdf:value>
+            </usg>
+               <lexinfo:Frequency>
+               <rdf:Description>
+                  <rdf:value>frequency information</rdf:value>
+               </rdf:Description>
+            </lexinfo:Frequency>
+               <usg xmlns="http://www.tei-c.org/ns/1.0" type="attitude">
+               <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">attitude information</rdf:value>
+            </usg>
+               <usg xmlns="http://www.tei-c.org/ns/1.0" type="normativity">
+               <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">normativity information</rdf:value>
+            </usg>
+               <usg xmlns="http://www.tei-c.org/ns/1.0" type="meaningType">
+               <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">meaningType information</rdf:value>
+            </usg>
+               <usg xmlns="http://www.tei-c.org/ns/1.0" type="textType">
+               <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">textType information</rdf:value>
+            </usg>
+               <usg xmlns="http://www.tei-c.org/ns/1.0" type="hint">
+               <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">hint information</rdf:value>
+            </usg>
             </rdf:Description>
       </ontolex:sense>
          </ontolex:LexicalEntry>

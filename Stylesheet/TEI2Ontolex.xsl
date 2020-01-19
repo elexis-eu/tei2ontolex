@@ -249,6 +249,7 @@
         </xsl:variable>
         <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoAnimacy}"/>
     </xsl:template>
+   
 
     <!-- Punctuations are not kept in Ontolex -->
 
@@ -263,13 +264,40 @@
             </rdf:Description>
         </ontolex:sense>
     </xsl:template>
+    
+    <!-- Dealing with the general <usg> values and mapping them to possible lexinfo SenseContext information types -->
 
-    <xsl:template match="tei:usg">
-        <lexinfo:register>
+    <xsl:template match="tei:usg[@type='frequency']">
+        <lexinfo:Frequency>
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
-        </lexinfo:register>
+        </lexinfo:Frequency>
+    </xsl:template>
+    
+    <!-- Note (LR): the  official value for this category in TEI Lex 0 is socioCultural (opening source values to deal with legacy data) -->
+    <xsl:template match="tei:usg[@type='register' or @type='reg' or @type='socioCultural']">
+        <lexinfo:Register>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:Register>
+    </xsl:template>
+    
+    
+    <!-- Note (LR): the  official value for this category in TEI Lex 0 is temporal (opening source values to deal with legacy data) -->
+    <xsl:template match="tei:usg[@type='time' or @type='temporal']">
+        <lexinfo:TemporalQualifier>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:TemporalQualifier>
+    </xsl:template>
+    
+    <xsl:template match="tei:usg/text()">
+        <rdf:value>
+            <xsl:value-of select="."/>
+        </rdf:value>
     </xsl:template>
 
     <xsl:template match="tei:def">
