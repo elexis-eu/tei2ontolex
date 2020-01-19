@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Stylesheet/TEI2Ontolex.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="go" xml:lang="en">
+            <form type="lemma">
+               <orth>go</orth>
+            </form>
+            <form type="inflected">
+               <orth>went</orth>
+               <gramGrp>
+                  <tns>past</tns>
+               </gramGrp>
+            </form>
+         </entry> 
+         
+         <entry xml:id="entry1-1" xml:lang="en">
+            <form type="lemma">
+               <orth>disproof</orth>
+            </form>
+            <sense n="1">
+               <def>facts that disprove something.</def>
+            </sense>
+            <sense n="2">
+               <def>the act of disproving.</def>
+            </sense>
+         </entry>
+         <entry xml:id="entry1-2" xml:lang="en">
+            <form>
+               <orth>disproof</orth>
+            </form>
+            <sense n="1">
+               <def>facts that disprove something.</def>
+            </sense>
+            <sense n="2">
+               <def>the act of disproving.</def>
+               <cit type="example">
+                  <quote xml:lang="fr">boire à une source</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry xml:id="Flussschifffahrt" xml:lang="de" type="compound">
+            <form type="lemma">
+               <orth type="segmeted">
+                  <seg>Fluss</seg>
+                  <seg>schifffahrt</seg>
+               </orth>
+               <form type="variant">
+                  <orth>
+                     <seg>Fluss</seg>
+                     <pc>-</pc>
+                     <seg>Schifffahrt</seg>
+                  </orth>
+               </form>
+               <form type="variant">
+                  <orth notAfter="1996">
+                     <seg>Fluß</seg>
+                     <seg>schifffahrt</seg>
+                  </orth>
+                  <usg type="time">Vor 1996 Rechtschreibung Reform</usg>
+               </form>
+            </form>
+         </entry>
+         <entry xml:id="osama_bin_laden" xml:lang="en">
+            <form type="lemma">
+               <pron notation="ipa">
+                  <seg xml:id="ousma" corresp="#usma #osma">ow."sa.ma</seg>
+                  <seg>bɪn</seg>
+                  <seg>ˈlaːdn̹</seg>
+               </pron>
+            </form>
+         </entry>
+         <!-- Part of speech values -->
+         <entry xml:id="yellow" xml:lang="en">
+            <form type="lemma"><orth>yellow</orth></form>
+            <gramGrp><gram type="pos" norm="ADJ">adjective</gram></gramGrp>
+         </entry>
+         <entry xml:id="for" xml:lang="en">
+            <form type="lemma"><orth>for</orth></form>
+            <gramGrp><gram type="pos" norm="ADP">preposition</gram></gramGrp>
+         </entry>
+         <entry xml:id="today" xml:lang="en">
+            <form type="lemma"><orth>today</orth></form>
+            <gramGrp><gram type="pos" norm="ADV">adverb</gram></gramGrp>
+         </entry>
+         <entry xml:id="can" xml:lang="en">
+            <form type="lemma"><orth>can</orth></form>
+            <gramGrp><gram type="pos" norm="AUX">auxiliary</gram></gramGrp>
+         </entry>
+         <entry xml:id="and" xml:lang="en">
+            <form type="lemma"><orth>and</orth></form>
+            <gramGrp><gram type="pos" norm="CCONJ">coordinating conjunction</gram></gramGrp>
+         </entry>
+         <entry xml:id="the" xml:lang="en">
+            <form type="lemma"><orth>the</orth></form>
+            <gramGrp><gram type="pos" norm="DET">determiner</gram></gramGrp>
+         </entry>
+         <entry xml:id="yes" xml:lang="en">
+            <form type="lemma"><orth>yes</orth></form>
+            <gramGrp><gram type="pos" norm="INTJ">interjection</gram></gramGrp>
+         </entry>
+         <entry xml:id="cat" xml:lang="en">
+            <form type="lemma"><orth>cat</orth></form>
+            <gramGrp><gram type="pos" norm="NOUN">noun</gram></gramGrp>
+         </entry>
+         <entry xml:id="one" xml:lang="en">
+            <form type="lemma"><orth>1</orth></form>
+            <gramGrp><gram type="pos" norm="NUM">number</gram></gramGrp>
+         </entry>
+         <entry xml:id="to" xml:lang="en">
+            <form type="lemma"><orth>to</orth></form>
+            <gramGrp><gram type="pos" norm="PART">particle</gram></gramGrp>
+         </entry>
+         <entry xml:id="you" xml:lang="en">
+            <form type="lemma"><orth>you</orth></form>
+            <gramGrp><gram type="pos" norm="PRON">pronoun</gram></gramGrp>
+         </entry>
+         <entry xml:id="John" xml:lang="en">
+            <form type="lemma"><orth>John</orth></form>
+            <gramGrp><gram type="pos" norm="PROPN">proper noun</gram></gramGrp>
+         </entry>
+         <entry xml:id="comma" xml:lang="en">
+            <form type="lemma"><orth>,</orth></form>
+            <gramGrp><gram type="pos" norm="PUNCT">punctuation</gram></gramGrp>
+         </entry>
+         <entry xml:id="which" xml:lang="en">
+            <form type="lemma"><orth>which</orth></form>
+            <gramGrp><gram type="pos" norm="SCONJ">subordinating conjunction</gram></gramGrp>
+         </entry>
+         <entry xml:id="hash" xml:lang="en">
+            <form type="lemma"><orth>#</orth></form>
+            <gramGrp><gram type="pos" norm="SYM">symbol</gram></gramGrp>
+         </entry>
+         <entry xml:id="fly" xml:lang="en">
+            <form type="lemma"><orth>fly</orth></form>
+            <gramGrp><gram type="pos" norm="VERB">verb</gram></gramGrp>
+         </entry>
+         <entry xml:id="typo" xml:lang="en">
+            <form type="lemma"><orth>sdfioa</orth></form>
+            <gramGrp><gram type="pos" norm="X">unknown</gram></gramGrp>
+         </entry>
+         <!-- gender -->
+         <entry xml:id="Mann" xml:lang="de">
+            <form type="lemma"><orth>Mann</orth></form>
+            <gramGrp><gram type="gen" norm="masculine">m</gram></gramGrp>
+         </entry>
+         <entry xml:id="Frau" xml:lang="de">
+            <form type="lemma"><orth>Frau</orth></form>
+            <gramGrp><gram type="gen" norm="feminine">f</gram></gramGrp>
+         </entry>
+         <entry xml:id="Kind" xml:lang="de">
+            <form type="lemma"><orth>Kind</orth></form>
+            <gramGrp><gram type="gen" norm="neuter">n</gram></gramGrp>
+         </entry>
+         <!-- number -->
+         <entry xml:id="vyras" xml:lang="lt">
+            <form type="lemma">
+               <orth>vyras</orth>
+               <gramGrp><gram type="num" norm="singular">singular</gram></gramGrp>
+            </form>
+            <form type="inflected">
+               <orth>vyru</orth>
+               <gramGrp><gram type="num" norm="dual">dual</gram></gramGrp>
+            </form>
+            <form type="inflected">
+               <orth>vyrai</orth>
+               <gramGrp><gram type="num" norm="plural">plural</gram></gramGrp>
+            </form>
+         </entry>
+         <!-- animacy -->
+         <entry xml:id="mus" xml:lang="ru">
+            <form type="lemma"><orth>муж</orth></form>
+            <gramGrp><gram type="animate" norm="animate">animate</gram></gramGrp>
+         </entry>
+         <entry xml:id="stol" xml:lang="ru">
+            <form type="lemma"><orth>стол</orth></form>
+            <gramGrp><gram type="animate" norm="inanimate">inanimate</gram></gramGrp>
+         </entry>
+         <!-- proper category -->
+         <entry xml:id="Mary" xml:lang="en">
+            <form type="lemma"><orth>Mary</orth></form>
+            <gramGrp><gram type="proper" norm="PROPN">proper</gram></gramGrp>
+         </entry>
+         <entry xml:id="fish" xml:lang="en">
+            <form type="lemma"><orth>fish</orth></form>
+            <gramGrp><gram type="proper" norm="NOUN">common</gram></gramGrp>
+         </entry>
+         <entry xml:lang="fr" xml:id="horrifier" type="mainEntry">
+            <form type="lemma">
+               <orth>horrifier</orth>
+            </form>
+            <gramGrp>
+               <gram type="pos" norm="VERB">v</gram>
+            </gramGrp>
+            <sense>
+               <cit type="translationEquivalent" xml:lang="en">
+                  <quote>horrify</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry xml:lang="en" xml:id="test">
+            <form type="lemma"><orth>test</orth></form>
+            <sense n="1">
+               <def>This is a test entry</def>
+               <usg type="time">time information</usg>
+               <usg type="geographic">geographic information</usg>
+               <usg type="socioCultural">socioCultural information</usg>
+               <usg type="domain">domain information</usg>
+               <usg type="frequency">frequency information</usg>
+               <usg type="attitude">attitude information</usg>
+               <usg type="normativity">normativity information</usg>
+               <usg type="meaningType">meaningType information</usg>
+               <usg type="textType">textType information</usg>
+               <usg type="hint">hint information</usg>
+            </sense>
+         </entry>
+         <entry xml:lang="de" xml:id="Probe">
+            <form type="lemma"><orth>Probe</orth></form>
+            <etym type="borrowing">
+               <seg type="desc">aus</seg>
+               <cit type="etymon" xml:lang="sl">
+                  <lang>slow.</lang>
+               </cit>
+            </etym>
+            <etym type="inheritance">
+               <cit type="etymon" xml:lang="gmh">
+                  <lang>mhd.</lang>
+                  <ref type="bibl">Lexer Wb. III 324</ref>
+               </cit>
+            </etym>
+         </entry>
+         <!-- This is not really a word in Dutch -->
+         <entry xml:id="borcht" xml:lang="nl">
+            <form type="lemma">
+               <orth>borcht</orth>
+            </form>
+            <xr type="related">
+               <lbl>Cf.</lbl>
+               <ref xml:lang="nl" target="#M012340">burcht</ref>
+            </xr>
+            <sense n="1">
+               <xr type="synonymy">
+                  <ref target="#syn"/>
+               </xr>
+               <xr type="hyponymy">
+                  <ref target="#hypo"/>
+               </xr>
+               <xr type="hypernymy">
+                  <ref target="#hyp"/>
+               </xr>
+               <xr type="meronymy">
+                  <ref target="#mero"/>
+               </xr>
+               <xr type="antonymy">
+                  <ref target="#anto"/>
+               </xr>
+            </sense>
+         </entry>
+      </body>
+   </text>
+</TEI>
