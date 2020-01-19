@@ -116,11 +116,10 @@
             <xsl:variable name="lexinfoCategory">
                 <xsl:choose>
                     <xsl:when test="$sourceReference = 'nom' or $sourceReference = 'noun' or $sourceReference = 'NOUN'">Noun</xsl:when>
-                    <xsl:when test="@expand = 'préposition'">Preposition</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'adjectif' or $sourceReference = 'adjective' or $sourceReference = 'ADJ'"
                         >Adjective</xsl:when>
-                    <xsl:when test="@expand = 'verbe'">Verb</xsl:when>
+                    <xsl:when test="$sourceReference = 'verbe' or $sourceReference = 'verb' or $sourceReference = 'VERB'">Verb</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'adverbe' or $sourceReference = 'adverb' or $sourceReference = 'ADV'"
                         >Adverb</xsl:when>
@@ -130,7 +129,7 @@
                     <xsl:when test="$sourceReference = 'nombre' or $sourceReference = 'number' or $sourceReference = 'NUM'">Number</xsl:when>
                     <xsl:when test="$sourceReference = 'particule' or $sourceReference = 'particle' or $sourceReference = 'PART'">Particle</xsl:when>
                     
-                    <xsl:when test="@expand = 'préfixe'">Prefix</xsl:when>
+                    <xsl:when test="$sourceReference = 'préfixe' or $sourceReference = 'prefix'">Prefix</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'conjonction de coordination' or $sourceReference = 'coordinating conjunction' or $sourceReference = 'CCONJ'"
                         >CoordinatingConjunction</xsl:when>
@@ -172,8 +171,6 @@
                 <xsl:otherwise>GenderValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:message>Gender transformation from <xsl:value-of select="$sourceReference"/> to <xsl:value-of
-                select="$lexinfoGender"/></xsl:message>
         <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoGender}"/>
     </xsl:template>
     
@@ -200,8 +197,6 @@
                 <xsl:otherwise>GenderValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:message>Number transformation from <xsl:value-of select="$sourceReference"/> to <xsl:value-of
-            select="$lexinfoNumber"/></xsl:message>
         <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoNumber}"/>
     </xsl:template>
     
@@ -228,11 +223,32 @@
                 <xsl:otherwise>TenseValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:message>Tense transformation from <xsl:value-of select="$sourceReference"/> to <xsl:value-of
-            select="$lexinfoTense"/></xsl:message>
         <lexinfo:tense rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoTense}"/>
     </xsl:template>
 
+    <xsl:template match="tei:gram[@type = 'animate'] | tei:gram[@type = 'animacy']">
+        <xsl:variable name="sourceReference">
+            <xsl:choose>
+                <xsl:when test="@norm">
+                    <xsl:value-of select="@norm"/>
+                </xsl:when>
+                <xsl:when test="@expand">
+                    <xsl:value-of select="@expand"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:variable name="lexinfoAnimacy">
+            <xsl:choose>
+                <xsl:when test="$sourceReference = 'animé' or $sourceReference = 'animate'">animate</xsl:when>
+                <xsl:when test="$sourceReference = 'inanimé' or $sourceReference = 'inanimate'">inanimate</xsl:when>
+                <xsl:otherwise>AnimacyValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoAnimacy}"/>
+    </xsl:template>
 
     <!-- Punctuations are not kept in Ontolex -->
 
