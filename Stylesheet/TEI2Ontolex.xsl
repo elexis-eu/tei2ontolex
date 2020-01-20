@@ -145,7 +145,7 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoCategory}"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoCategory}"/>
         </xsl:if>
     </xsl:template>
 
@@ -171,7 +171,7 @@
                 <xsl:otherwise>GenderValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoGender}"/>
+        <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoGender}"/>
     </xsl:template>
     
     
@@ -197,7 +197,7 @@
                 <xsl:otherwise>GenderValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoNumber}"/>
+        <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoNumber}"/>
     </xsl:template>
     
     <xsl:template match="tei:tns | tei:gram[@type = 'tns'] | tei:gram[@type = 'tense']">
@@ -223,7 +223,7 @@
                 <xsl:otherwise>TenseValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <lexinfo:tense rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoTense}"/>
+        <lexinfo:tense rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoTense}"/>
     </xsl:template>
 
     <xsl:template match="tei:gram[@type = 'animate'] | tei:gram[@type = 'animacy']">
@@ -247,7 +247,7 @@
                 <xsl:otherwise>AnimacyValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#{$lexinfoAnimacy}"/>
+        <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoAnimacy}"/>
     </xsl:template>
    
 
