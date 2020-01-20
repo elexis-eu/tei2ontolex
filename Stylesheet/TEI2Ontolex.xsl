@@ -4,7 +4,7 @@
     xml:base="http://lari-datasets.ilc.cnr.it/nenu_sample" xmlns:void="http://rdfs.org/ns/void#"
     xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ns="http://creativecommons.org/ns#"
     xmlns:lime="http://www.w3.org/ns/lemon/lime" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
     xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#" xmlns:dct="http://purl.org/dc/terms/"
     xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:terms="http://purl.org/dc/terms/" xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -287,11 +287,11 @@
     
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is temporal (opening source values to deal with legacy data) -->
     <xsl:template match="tei:usg[@type='time' or @type='temporal']">
-        <lexinfo:TemporalQualifier>
+        <lexinfo:temporalQualifier>
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
-        </lexinfo:TemporalQualifier>
+        </lexinfo:temporalQualifier>
     </xsl:template>
     
     <xsl:template match="tei:usg/text()">
