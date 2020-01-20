@@ -283,23 +283,24 @@
 
     <!-- Dealing with the general <usg> values and mapping them to possible lexinfo SenseContext information types -->
 
-    <xsl:template match="tei:usg[@type = 'frequency']">
-        <lexinfo:Frequency>
+    <!-- Note (LR): the  official value for this category in TEI Lex 0 is frequency (opening source values to deal with legacy data) -->
+    <xsl:template match="tei:usg[@type = 'plev' or @type = 'frequency']">
+        <lexinfo:frequency>
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
-        </lexinfo:Frequency>
+        </lexinfo:frequency>
     </xsl:template>
 
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is socioCultural (opening source values to deal with legacy data) -->
     <xsl:template match="tei:usg[@type = 'register' or @type = 'reg' or @type = 'socioCultural']">
-        <lexinfo:Register>
+        <!-- socioCultural?!?! -->
+        <lexinfo:register>
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
-        </lexinfo:Register>
+        </lexinfo:register>
     </xsl:template>
-
 
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is temporal (opening source values to deal with legacy data) -->
     <xsl:template match="tei:usg[@type = 'time' or @type = 'temporal']">
@@ -309,7 +310,66 @@
             </rdf:Description>
         </lexinfo:temporalQualifier>
     </xsl:template>
-
+    
+    <!-- Note (LR): the  official value for this category in TEI Lex 0 is geographic (opening source values to deal with legacy data) -->
+    <xsl:template match="tei:usg[@type = 'geo' or @type = 'geographic']">
+        <lexinfo:geographic>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:geographic>
+    </xsl:template>
+   
+    <!-- Note (LR): the  official value for this category in TEI Lex 0 is domain (opening source values to deal with legacy data) -->
+    <xsl:template match="tei:usg[@type = 'dom' or @type = 'domain']">
+        <lexinfo:domain>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:domain>
+    </xsl:template>
+    
+    <xsl:template match="tei:usg[@type = 'attitude']">
+        <lexinfo:attitude>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:attitude>
+    </xsl:template>
+    
+    <xsl:template match="tei:usg[@type = 'normativity']">
+        <lexinfo:normativity>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:normativity>
+    </xsl:template>
+    
+    <!-- Note (LR): the  official value for this category in TEI Lex 0 is meaningType (opening source values to deal with legacy data) -->
+    <xsl:template match="tei:usg[@type = 'style' or @type = 'meaningType']">
+        <lexinfo:meaningType>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:meaningType>
+    </xsl:template>
+    
+    <xsl:template match="tei:usg[@type = 'hint']">
+        <lexinfo:hint>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:hint>
+    </xsl:template>
+    
+    <xsl:template match="tei:usg[@type = 'textType']">
+        <lexinfo:textType>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:textType>
+    </xsl:template>
+    
     <xsl:template match="tei:usg/text()">
         <rdf:value>
             <xsl:value-of select="."/>
