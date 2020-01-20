@@ -45,7 +45,7 @@
             </rdf:Description>
         </ontolex:canonicalForm>
     </xsl:template>
-    
+
     <xsl:template match="tei:entry/tei:form[@type = 'inflected']">
         <ontolex:otherForm>
             <rdf:Description>
@@ -53,7 +53,7 @@
             </rdf:Description>
         </ontolex:otherForm>
     </xsl:template>
-    
+
 
     <xsl:template match="tei:orth">
         <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
@@ -115,20 +115,32 @@
             </xsl:variable>
             <xsl:variable name="lexinfoCategory">
                 <xsl:choose>
-                    <xsl:when test="$sourceReference = 'nom' or $sourceReference = 'noun' or $sourceReference = 'NOUN'">Noun</xsl:when>
+                    <xsl:when test="$sourceReference = 'nom' or $sourceReference = 'noun' or $sourceReference = 'NOUN'"
+                        >Noun</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'adjectif' or $sourceReference = 'adjective' or $sourceReference = 'ADJ'"
                         >Adjective</xsl:when>
-                    <xsl:when test="$sourceReference = 'verbe' or $sourceReference = 'verb' or $sourceReference = 'VERB'">Verb</xsl:when>
+                    <xsl:when
+                        test="$sourceReference = 'verbe' or $sourceReference = 'verb' or $sourceReference = 'VERB'"
+                        >Verb</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'adverbe' or $sourceReference = 'adverb' or $sourceReference = 'ADV'"
                         >Adverb</xsl:when>
-                    <xsl:when test="$sourceReference = 'pronom' or $sourceReference = 'pronoun' or $sourceReference = 'PRON'">Pronoun</xsl:when>
-                    <xsl:when test="$sourceReference = 'article' or $sourceReference = 'determiner' or $sourceReference = 'DET'">Determiner</xsl:when>
-                    <xsl:when test="$sourceReference = 'interjection' or $sourceReference = 'INTJ'">Interjection</xsl:when>
-                    <xsl:when test="$sourceReference = 'nombre' or $sourceReference = 'number' or $sourceReference = 'NUM'">Number</xsl:when>
-                    <xsl:when test="$sourceReference = 'particule' or $sourceReference = 'particle' or $sourceReference = 'PART'">Particle</xsl:when>
-                    
+                    <xsl:when
+                        test="$sourceReference = 'pronom' or $sourceReference = 'pronoun' or $sourceReference = 'PRON'"
+                        >Pronoun</xsl:when>
+                    <xsl:when
+                        test="$sourceReference = 'article' or $sourceReference = 'determiner' or $sourceReference = 'DET'"
+                        >Determiner</xsl:when>
+                    <xsl:when test="$sourceReference = 'interjection' or $sourceReference = 'INTJ'"
+                        >Interjection</xsl:when>
+                    <xsl:when
+                        test="$sourceReference = 'nombre' or $sourceReference = 'number' or $sourceReference = 'NUM'"
+                        >Number</xsl:when>
+                    <xsl:when
+                        test="$sourceReference = 'particule' or $sourceReference = 'particle' or $sourceReference = 'PART'"
+                        >Particle</xsl:when>
+
                     <xsl:when test="$sourceReference = 'préfixe' or $sourceReference = 'prefix'">Prefix</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'conjonction de coordination' or $sourceReference = 'coordinating conjunction' or $sourceReference = 'CCONJ'"
@@ -168,13 +180,14 @@
                 <xsl:when test="$sourceReference = 'masculin' or $sourceReference = 'masculine'">masculine</xsl:when>
                 <xsl:when test="$sourceReference = 'féminin' or $sourceReference = 'feminine'">feminine</xsl:when>
                 <xsl:when test="$sourceReference = 'neutre' or $sourceReference = 'neuter'">neuter</xsl:when>
-                <xsl:otherwise>GenderValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
+                <xsl:otherwise>GenderValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"
+                    /></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
         <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoGender}"/>
     </xsl:template>
-    
-    
+
+
     <xsl:template match="tei:number | tei:gram[@type = 'num'] | tei:gram[@type = 'number']">
         <xsl:variable name="sourceReference">
             <xsl:choose>
@@ -194,12 +207,13 @@
                 <xsl:when test="$sourceReference = 'singulier' or $sourceReference = 'singular'">singular</xsl:when>
                 <xsl:when test="$sourceReference = 'pluriel' or $sourceReference = 'plural'">plural</xsl:when>
                 <xsl:when test="$sourceReference = 'dual'">dual</xsl:when>
-                <xsl:otherwise>GenderValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
+                <xsl:otherwise>GenderValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"
+                    /></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
         <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoNumber}"/>
     </xsl:template>
-    
+
     <xsl:template match="tei:tns | tei:gram[@type = 'tns'] | tei:gram[@type = 'tense']">
         <xsl:variable name="sourceReference">
             <xsl:choose>
@@ -220,7 +234,8 @@
                 <xsl:when test="$sourceReference = 'futur' or $sourceReference = 'future'">future</xsl:when>
                 <xsl:when test="$sourceReference = 'passé' or $sourceReference = 'past'">past</xsl:when>
                 <xsl:when test="$sourceReference = 'prétérite' or $sourceReference = 'preterite'">preterite</xsl:when>
-                <xsl:otherwise>TenseValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
+                <xsl:otherwise>TenseValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"
+                    /></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
         <lexinfo:tense rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoTense}"/>
@@ -244,12 +259,13 @@
             <xsl:choose>
                 <xsl:when test="$sourceReference = 'animé' or $sourceReference = 'animate'">animate</xsl:when>
                 <xsl:when test="$sourceReference = 'inanimé' or $sourceReference = 'inanimate'">inanimate</xsl:when>
-                <xsl:otherwise>AnimacyValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"/></xsl:otherwise>
+                <xsl:otherwise>AnimacyValueRemainsToBeDetermined for: <xsl:value-of select="$sourceReference"
+                    /></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
         <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoAnimacy}"/>
     </xsl:template>
-   
+
 
     <!-- Punctuations are not kept in Ontolex -->
 
@@ -264,36 +280,36 @@
             </rdf:Description>
         </ontolex:sense>
     </xsl:template>
-    
+
     <!-- Dealing with the general <usg> values and mapping them to possible lexinfo SenseContext information types -->
 
-    <xsl:template match="tei:usg[@type='frequency']">
+    <xsl:template match="tei:usg[@type = 'frequency']">
         <lexinfo:Frequency>
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:Frequency>
     </xsl:template>
-    
+
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is socioCultural (opening source values to deal with legacy data) -->
-    <xsl:template match="tei:usg[@type='register' or @type='reg' or @type='socioCultural']">
+    <xsl:template match="tei:usg[@type = 'register' or @type = 'reg' or @type = 'socioCultural']">
         <lexinfo:Register>
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:Register>
     </xsl:template>
-    
-    
+
+
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is temporal (opening source values to deal with legacy data) -->
-    <xsl:template match="tei:usg[@type='time' or @type='temporal']">
+    <xsl:template match="tei:usg[@type = 'time' or @type = 'temporal']">
         <lexinfo:temporalQualifier>
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:temporalQualifier>
     </xsl:template>
-    
+
     <xsl:template match="tei:usg/text()">
         <rdf:value>
             <xsl:value-of select="."/>
@@ -309,7 +325,9 @@
 
     <xsl:template match="tei:cit[@type = 'example' or @type = 'quote']">
         <lexicog:usageExample>
-            <xsl:apply-templates/>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
         </lexicog:usageExample>
     </xsl:template>
 
