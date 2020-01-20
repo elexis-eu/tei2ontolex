@@ -415,12 +415,32 @@
     <xsl:template match="tei:etym/text()[normalize-space() = '']">
         <xsl:text> </xsl:text>
     </xsl:template>
-
+    
+    <xsl:template match="tei:cit[@type = 'etymon']/lang">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref[@type = 'bibl']">
+        <xsl:text>[</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>]</xsl:text>
+    </xsl:template>
+    
     <xsl:template match="tei:bibl">
         <dct:source>
             <xsl:apply-templates/>
         </dct:source>
     </xsl:template>
+    
+    <xsl:template match="tei:bibl/*">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:bibl/text()[normalize-space() = '']">
+        <xsl:text> </xsl:text>
+    </xsl:template>
+    
+    
 
     <!-- cas de bibl dans etym -->
 
