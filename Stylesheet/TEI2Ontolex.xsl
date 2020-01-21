@@ -467,6 +467,28 @@
             <xsl:apply-templates/>
         </dc:publisher>
     </xsl:template>
+    
+    <!-- <xr> construct -->
+    
+    <xsl:template match="tei:xr[@type='related']">
+        <lexinfo:relatedTerm rdf:about="{tei:ref/@target}">
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:relatedTerm>
+    </xsl:template>
+    
+    <xsl:template match="tei:xr/tei:ref">
+        <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
+        <rdf:value xml:lang="{$workingLanguage}">
+            <xsl:value-of select="."/>
+        </rdf:value>
+    </xsl:template>
+    
+    <!-- And we drop <lbl> in <xr> -->
+    <xsl:template match="tei:xr/tei:lbl"/>
+        
+    
 
     <!-- Small annotation elements or intermediate text that disappear in Ontolex -->
 

@@ -390,13 +390,21 @@
             <ontolex:writtenRep xml:lang="de">Probe</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:etymology> aus 
+            <lexinfo:etymology>
+         <rdf:Description>
+            <rdf:value> aus 
                   slow.
-                </lexinfo:etymology>
-            <lexinfo:etymology> 
+                </rdf:value>
+         </rdf:Description>
+      </lexinfo:etymology>
+            <lexinfo:etymology>
+         <rdf:Description>
+            <rdf:value> 
                   mhd.
                   [Lexer Wb. III 324]
-                </lexinfo:etymology>
+                </rdf:value>
+         </rdf:Description>
+      </lexinfo:etymology>
          </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="borcht">
             <ontolex:canonicalForm>
@@ -404,26 +412,28 @@
             <ontolex:writtenRep xml:lang="nl">borcht</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <xr xmlns="http://www.tei-c.org/ns/1.0" type="related">
-               <lbl>Cf.</lbl>
-               <ref xml:lang="nl" target="#M012340">burcht</ref>
-            </xr>
+            <lexinfo:relatedTerm rdf:about="#M012340">
+         <rdf:Description>
+               
+               <rdf:value xml:lang="nl">burcht</rdf:value>
+            </rdf:Description>
+      </lexinfo:relatedTerm>
             <ontolex:sense>
          <rdf:Description>
                <xr xmlns="http://www.tei-c.org/ns/1.0" type="synonymy">
-                  <ref target="#syn"/>
+                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
                </xr>
                <xr xmlns="http://www.tei-c.org/ns/1.0" type="hyponymy">
-                  <ref target="#hypo"/>
+                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
                </xr>
                <xr xmlns="http://www.tei-c.org/ns/1.0" type="hypernymy">
-                  <ref target="#hyp"/>
+                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
                </xr>
                <xr xmlns="http://www.tei-c.org/ns/1.0" type="meronymy">
-                  <ref target="#mero"/>
+                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
                </xr>
                <xr xmlns="http://www.tei-c.org/ns/1.0" type="antonymy">
-                  <ref target="#anto"/>
+                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
                </xr>
             </rdf:Description>
       </ontolex:sense>
