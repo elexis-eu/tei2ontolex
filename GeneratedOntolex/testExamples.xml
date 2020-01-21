@@ -1,77 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-         xmlns:void="http://rdfs.org/ns/void#"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:ns="http://creativecommons.org/ns#"
-         xmlns:lime="http://www.w3.org/ns/lemon/lime"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
-         xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#"
-         xmlns:dct="http://purl.org/dc/terms/"
-         xmlns:bibo="http://purl.org/ontology/bibo/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:terms="http://purl.org/dc/terms/"
-         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
-         xmlns:vann="http://purl.org/vocab/vann/"
-         xmlns:dc="http://purl.org/dc/elements/1.1/"
-         xmlns:lime1="http://www.w3.org/ns/lemon/lime#"
-         xmlns:tei="http://www.tei-c.org/ns/1.0"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<rdf:RDF xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xmlns:void="http://rdfs.org/ns/void#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ns="http://creativecommons.org/ns#"
+   xmlns:lime="http://www.w3.org/ns/lemon/lime" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
+   xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#" xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:terms="http://purl.org/dc/terms/" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+   xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:lime1="http://www.w3.org/ns/lemon/lime#" xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#">
    <ontolex:LexicalEntry rdf:ID="go">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">go</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <ontolex:otherForm>
+      <ontolex:otherForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">went</ontolex:writtenRep>
-                  <lexinfo:tense rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#past"/>
-               </rdf:Description>
+            <lexinfo:tense rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#past"/>
+         </rdf:Description>
       </ontolex:otherForm>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="entry1-1">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">disproof</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <ontolex:sense>
+      <ontolex:sense>
          <rdf:Description>
-               <skos:definition xml:lang="en">facts that disprove something.</skos:definition>
-            </rdf:Description>
+            <skos:definition xml:lang="en">facts that disprove something.</skos:definition>
+         </rdf:Description>
       </ontolex:sense>
-            <ontolex:sense>
+      <ontolex:sense>
          <rdf:Description>
-               <skos:definition xml:lang="en">the act of disproving.</skos:definition>
-            </rdf:Description>
+            <skos:definition xml:lang="en">the act of disproving.</skos:definition>
+         </rdf:Description>
       </ontolex:sense>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="entry1-2">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">disproof</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <ontolex:sense>
+      <ontolex:sense>
          <rdf:Description>
-               <skos:definition xml:lang="en">facts that disprove something.</skos:definition>
-            </rdf:Description>
+            <skos:definition xml:lang="en">facts that disprove something.</skos:definition>
+         </rdf:Description>
       </ontolex:sense>
-            <ontolex:sense>
+      <ontolex:sense>
          <rdf:Description>
-               <skos:definition xml:lang="en">the act of disproving.</skos:definition>
-               <lexicog:usageExample>
+            <skos:definition xml:lang="en">the act of disproving.</skos:definition>
+            <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">boire à une source</rdf:value>
                </rdf:Description>
             </lexicog:usageExample>
-            </rdf:Description>
+         </rdf:Description>
       </ontolex:sense>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="Flussschifffahrt">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="de">Flussschifffahrt</ontolex:writtenRep>
             <ontolex:writtenRep xml:lang="de">Fluss-Schifffahrt</ontolex:writtenRep>
@@ -83,369 +74,347 @@
             </lexinfo:temporalQualifier>
          </rdf:Description>
       </ontolex:canonicalForm>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="osama_bin_laden">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:phoneticRep xml:lang="en-fonipa">ow."sa.mabɪnˈlaːdn̹</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="yellow">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">yellow</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="for">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">for</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Preposition"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Preposition"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="today">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">today</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adverb"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adverb"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="can">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">can</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Auxiliary"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Auxiliary"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="and">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">and</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#CoordinatingConjunction"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#CoordinatingConjunction"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="the">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">the</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Determiner"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Determiner"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="yes">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">yes</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Interjection"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Interjection"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="cat">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">cat</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="one">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">1</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Number"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Number"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="to">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">to</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Particle"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Particle"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="you">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">you</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Pronoun"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Pronoun"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="John">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">John</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="comma">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">,</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="which">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">which</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="hash">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">#</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="fly">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">fly</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="typo">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">sdfioa</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="Mann">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="de">Mann</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="Frau">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="de">Frau</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="Kind">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="de">Kind</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#neuter"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#neuter"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="vyras">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="lt">vyras</ontolex:writtenRep>
             <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#singular"/>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <ontolex:otherForm>
+      <ontolex:otherForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="lt">vyru</ontolex:writtenRep>
             <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#dual"/>
          </rdf:Description>
       </ontolex:otherForm>
-            <ontolex:otherForm>
+      <ontolex:otherForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="lt">vyrai</ontolex:writtenRep>
             <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#plural"/>
          </rdf:Description>
       </ontolex:otherForm>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="mus">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="ru">муж</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#animate"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#animate"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="stol">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="ru">стол</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#inanimate"/>
-         </ontolex:LexicalEntry>
+      <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#inanimate"/>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="Mary">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">Mary</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <gram xmlns="http://www.tei-c.org/ns/1.0" type="proper" norm="PROPN">proper</gram>
-         </ontolex:LexicalEntry>
+      <gram xmlns="http://www.tei-c.org/ns/1.0" type="proper" norm="PROPN">proper</gram>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="fish">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">fish</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <gram xmlns="http://www.tei-c.org/ns/1.0" type="proper" norm="NOUN">common</gram>
-         </ontolex:LexicalEntry>
+      <gram xmlns="http://www.tei-c.org/ns/1.0" type="proper" norm="NOUN">common</gram>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="horrifier">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="fr">horrifier</ontolex:writtenRep>
          </rdf:Description>
-      </ontolex:canonicalForm>
-            
-               <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-            
-            <ontolex:sense>
+      </ontolex:canonicalForm> <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/> <ontolex:sense>
          <rdf:Description>
-               <cit xmlns="http://www.tei-c.org/ns/1.0"
-                 type="translationEquivalent"
-                 xml:lang="en">
-                  <quote>horrify</quote>
-               </cit>
-            </rdf:Description>
+            <cit xmlns="http://www.tei-c.org/ns/1.0" type="translationEquivalent" xml:lang="en">
+               <quote>horrify</quote>
+            </cit>
+         </rdf:Description>
       </ontolex:sense>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="test">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="en">test</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <ontolex:sense>
+      <ontolex:sense>
          <rdf:Description>
-               <skos:definition xml:lang="en">This is a test entry</skos:definition>
-               <lexinfo:temporalQualifier>
+            <skos:definition xml:lang="en">This is a test entry</skos:definition>
+            <lexinfo:temporalQualifier>
                <rdf:Description>
                   <rdf:value>time information</rdf:value>
                </rdf:Description>
             </lexinfo:temporalQualifier>
-               <lexinfo:geographic>
+            <lexinfo:geographic>
                <rdf:Description>
                   <rdf:value>geographic information</rdf:value>
                </rdf:Description>
             </lexinfo:geographic>
-               <lexinfo:socioCultural>
+            <lexinfo:socioCultural>
                <rdf:Description>
                   <rdf:value>socioCultural information</rdf:value>
                </rdf:Description>
             </lexinfo:socioCultural>
-               <lexinfo:domain>
+            <lexinfo:domain>
                <rdf:Description>
                   <rdf:value>domain information</rdf:value>
                </rdf:Description>
             </lexinfo:domain>
-               <lexinfo:frequency>
+            <lexinfo:frequency>
                <rdf:Description>
                   <rdf:value>frequency information</rdf:value>
                </rdf:Description>
             </lexinfo:frequency>
-               <lexinfo:attitude>
+            <lexinfo:attitude>
                <rdf:Description>
                   <rdf:value>attitude information</rdf:value>
                </rdf:Description>
             </lexinfo:attitude>
-               <lexinfo:normativity>
+            <lexinfo:normativity>
                <rdf:Description>
                   <rdf:value>normativity information</rdf:value>
                </rdf:Description>
             </lexinfo:normativity>
-               <lexinfo:meaningType>
+            <lexinfo:meaningType>
                <rdf:Description>
                   <rdf:value>meaningType information</rdf:value>
                </rdf:Description>
             </lexinfo:meaningType>
-               <lexinfo:textType>
+            <lexinfo:textType>
                <rdf:Description>
                   <rdf:value>textType information</rdf:value>
                </rdf:Description>
             </lexinfo:textType>
-               <lexinfo:hint>
+            <lexinfo:hint>
                <rdf:Description>
                   <rdf:value>hint information</rdf:value>
                </rdf:Description>
             </lexinfo:hint>
-            </rdf:Description>
+         </rdf:Description>
       </ontolex:sense>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="Probe">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="de">Probe</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:etymology>
+      <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value> aus 
-                  slow.
-                </rdf:value>
+            <rdf:value> aus slow. </rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
-            <lexinfo:etymology>
+      <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value> 
-                  mhd.
-                  [Lexer Wb. III 324]
-                </rdf:value>
+            <rdf:value> mhd. [Lexer Wb. III 324] </rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="borcht">
-            <ontolex:canonicalForm>
+      <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="nl">borcht</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:relatedTerm>
+      <lexinfo:relatedTerm>
          <rdf:Description rdf:about="#M012340">
-               
-               <rdf:value xml:lang="nl">burcht</rdf:value>
-            </rdf:Description>
+            <rdf:value xml:lang="nl">burcht</rdf:value>
+         </rdf:Description>
       </lexinfo:relatedTerm>
-            <ontolex:sense>
+      <ontolex:sense>
          <rdf:Description>
-               <lexinfo:synonym>
-               <rdf:Description rdf:about="#syn">
-                  <rdf:value xml:lang="nl"/>
-               </rdf:Description>
+            <lexinfo:synonym>
+               <rdf:Description rdf:about="#syn"/>
             </lexinfo:synonym>
-               <lexinfo:hyponym>
-               <rdf:Description rdf:about="#hypo">
-                  <rdf:value xml:lang="nl"/>
-               </rdf:Description>
+            <lexinfo:hyponym>
+               <rdf:Description rdf:about="#hypo"/>
             </lexinfo:hyponym>
-               <lexinfo:hypernym>
-               <rdf:Description rdf:about="#hyp">
-                  <rdf:value xml:lang="nl"/>
-               </rdf:Description>
+            <lexinfo:hypernym>
+               <rdf:Description rdf:about="#hyp"/>
             </lexinfo:hypernym>
-               <lexinfo:meronymTerm>
-               <rdf:Description rdf:about="#mero">
-                  <rdf:value xml:lang="nl"/>
-               </rdf:Description>
+            <lexinfo:meronymTerm>
+               <rdf:Description rdf:about="#mero"/>
             </lexinfo:meronymTerm>
-               <lexinfo:antonym>
-               <rdf:Description rdf:about="#anto">
-                  <rdf:value xml:lang="nl"/>
-               </rdf:Description>
+            <lexinfo:antonym>
+               <rdf:Description rdf:about="#anto"/>
             </lexinfo:antonym>
-            </rdf:Description>
+         </rdf:Description>
       </ontolex:sense>
-         </ontolex:LexicalEntry>
+   </ontolex:LexicalEntry>
 </rdf:RDF>
