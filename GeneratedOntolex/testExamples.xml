@@ -420,21 +420,31 @@
       </lexinfo:relatedTerm>
             <ontolex:sense>
          <rdf:Description>
-               <xr xmlns="http://www.tei-c.org/ns/1.0" type="synonymy">
-                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
-               </xr>
-               <xr xmlns="http://www.tei-c.org/ns/1.0" type="hyponymy">
-                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
-               </xr>
-               <xr xmlns="http://www.tei-c.org/ns/1.0" type="hypernymy">
-                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
-               </xr>
-               <xr xmlns="http://www.tei-c.org/ns/1.0" type="meronymy">
-                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
-               </xr>
-               <xr xmlns="http://www.tei-c.org/ns/1.0" type="antonymy">
-                  <rdf:value xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="nl"/>
-               </xr>
+               <lexinfo:synonym rdf:about="#syn">
+               <rdf:Description>
+                  <rdf:value xml:lang="nl"/>
+               </rdf:Description>
+            </lexinfo:synonym>
+               <lexinfo:hyponym rdf:about="#hypo">
+               <rdf:Description>
+                  <rdf:value xml:lang="nl"/>
+               </rdf:Description>
+            </lexinfo:hyponym>
+               <lexinfo:hypernym rdf:about="#hyp">
+               <rdf:Description>
+                  <rdf:value xml:lang="nl"/>
+               </rdf:Description>
+            </lexinfo:hypernym>
+               <lexinfo:meronymTerm rdf:about="#mero">
+               <rdf:Description>
+                  <rdf:value xml:lang="nl"/>
+               </rdf:Description>
+            </lexinfo:meronymTerm>
+               <lexinfo:antonym rdf:about="#anto">
+               <rdf:Description>
+                  <rdf:value xml:lang="nl"/>
+               </rdf:Description>
+            </lexinfo:antonym>
             </rdf:Description>
       </ontolex:sense>
          </ontolex:LexicalEntry>
