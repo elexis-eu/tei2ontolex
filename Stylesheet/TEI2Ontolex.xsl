@@ -470,48 +470,48 @@
     <!-- <xr> construct -->
     
     <xsl:template match="tei:xr[@type='related']">
-        <lexinfo:relatedTerm rdf:about="{tei:ref/@target}">
-            <rdf:Description>
+        <lexinfo:relatedTerm>
+            <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:relatedTerm>
     </xsl:template>
     
     <xsl:template match="tei:xr[@type='synonymy']">
-        <lexinfo:synonym rdf:about="{tei:ref/@target}">
-            <rdf:Description>
+        <lexinfo:synonym>
+            <rdf:Description  rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:synonym>
     </xsl:template>
     
     <xsl:template match="tei:xr[@type='hyponymy']">
-        <lexinfo:hyponym rdf:about="{tei:ref/@target}">
-            <rdf:Description>
+        <lexinfo:hyponym>
+            <rdf:Description  rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:hyponym>
     </xsl:template>
     
     <xsl:template match="tei:xr[@type='hypernymy']">
-        <lexinfo:hypernym rdf:about="{tei:ref/@target}">
-            <rdf:Description>
+        <lexinfo:hypernym>
+            <rdf:Description  rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:hypernym>
     </xsl:template>
     
     <xsl:template match="tei:xr[@type='meronymy']">
-        <lexinfo:meronymTerm rdf:about="{tei:ref/@target}">
-            <rdf:Description>
+        <lexinfo:meronymTerm>
+            <rdf:Description  rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:meronymTerm>
     </xsl:template>
     
     <xsl:template match="tei:xr[@type='antonymy']">
-        <lexinfo:antonym rdf:about="{tei:ref/@target}">
-            <rdf:Description>
+        <lexinfo:antonym>
+            <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:antonym>

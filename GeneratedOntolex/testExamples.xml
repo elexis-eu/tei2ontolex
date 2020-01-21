@@ -341,11 +341,11 @@
                   <rdf:value>geographic information</rdf:value>
                </rdf:Description>
             </lexinfo:geographic>
-               <lexinfo:register>
+               <lexinfo:socioCultural>
                <rdf:Description>
                   <rdf:value>socioCultural information</rdf:value>
                </rdf:Description>
-            </lexinfo:register>
+            </lexinfo:socioCultural>
                <lexinfo:domain>
                <rdf:Description>
                   <rdf:value>domain information</rdf:value>
@@ -412,36 +412,36 @@
             <ontolex:writtenRep xml:lang="nl">borcht</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:relatedTerm rdf:about="#M012340">
-         <rdf:Description>
+            <lexinfo:relatedTerm>
+         <rdf:Description rdf:about="#M012340">
                
                <rdf:value xml:lang="nl">burcht</rdf:value>
             </rdf:Description>
       </lexinfo:relatedTerm>
             <ontolex:sense>
          <rdf:Description>
-               <lexinfo:synonym rdf:about="#syn">
-               <rdf:Description>
+               <lexinfo:synonym>
+               <rdf:Description rdf:about="#syn">
                   <rdf:value xml:lang="nl"/>
                </rdf:Description>
             </lexinfo:synonym>
-               <lexinfo:hyponym rdf:about="#hypo">
-               <rdf:Description>
+               <lexinfo:hyponym>
+               <rdf:Description rdf:about="#hypo">
                   <rdf:value xml:lang="nl"/>
                </rdf:Description>
             </lexinfo:hyponym>
-               <lexinfo:hypernym rdf:about="#hyp">
-               <rdf:Description>
+               <lexinfo:hypernym>
+               <rdf:Description rdf:about="#hyp">
                   <rdf:value xml:lang="nl"/>
                </rdf:Description>
             </lexinfo:hypernym>
-               <lexinfo:meronymTerm rdf:about="#mero">
-               <rdf:Description>
+               <lexinfo:meronymTerm>
+               <rdf:Description rdf:about="#mero">
                   <rdf:value xml:lang="nl"/>
                </rdf:Description>
             </lexinfo:meronymTerm>
-               <lexinfo:antonym rdf:about="#anto">
-               <rdf:Description>
+               <lexinfo:antonym>
+               <rdf:Description rdf:about="#anto">
                   <rdf:value xml:lang="nl"/>
                </rdf:Description>
             </lexinfo:antonym>
