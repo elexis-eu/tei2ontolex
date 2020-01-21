@@ -391,10 +391,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
             <lexinfo:etymology> aus 
-                  <lang xmlns="http://www.tei-c.org/ns/1.0">slow.</lang>
+                  slow.
                 </lexinfo:etymology>
             <lexinfo:etymology> 
-                  <lang xmlns="http://www.tei-c.org/ns/1.0">mhd.</lang>
+                  mhd.
                   [Lexer Wb. III 324]
                 </lexinfo:etymology>
          </ontolex:LexicalEntry>

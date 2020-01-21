@@ -310,7 +310,7 @@
             </rdf:Description>
         </lexinfo:temporalQualifier>
     </xsl:template>
-    
+
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is geographic (opening source values to deal with legacy data) -->
     <xsl:template match="tei:usg[@type = 'geo' or @type = 'geographic']">
         <lexinfo:geographic>
@@ -319,7 +319,7 @@
             </rdf:Description>
         </lexinfo:geographic>
     </xsl:template>
-   
+
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is domain (opening source values to deal with legacy data) -->
     <xsl:template match="tei:usg[@type = 'dom' or @type = 'domain']">
         <lexinfo:domain>
@@ -328,7 +328,7 @@
             </rdf:Description>
         </lexinfo:domain>
     </xsl:template>
-    
+
     <xsl:template match="tei:usg[@type = 'attitude']">
         <lexinfo:attitude>
             <rdf:Description>
@@ -336,7 +336,7 @@
             </rdf:Description>
         </lexinfo:attitude>
     </xsl:template>
-    
+
     <xsl:template match="tei:usg[@type = 'normativity']">
         <lexinfo:normativity>
             <rdf:Description>
@@ -344,7 +344,7 @@
             </rdf:Description>
         </lexinfo:normativity>
     </xsl:template>
-    
+
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is meaningType (opening source values to deal with legacy data) -->
     <xsl:template match="tei:usg[@type = 'style' or @type = 'meaningType']">
         <lexinfo:meaningType>
@@ -353,7 +353,7 @@
             </rdf:Description>
         </lexinfo:meaningType>
     </xsl:template>
-    
+
     <xsl:template match="tei:usg[@type = 'hint']">
         <lexinfo:hint>
             <rdf:Description>
@@ -361,7 +361,7 @@
             </rdf:Description>
         </lexinfo:hint>
     </xsl:template>
-    
+
     <xsl:template match="tei:usg[@type = 'textType']">
         <lexinfo:textType>
             <rdf:Description>
@@ -369,7 +369,7 @@
             </rdf:Description>
         </lexinfo:textType>
     </xsl:template>
-    
+
     <xsl:template match="tei:usg/text()">
         <rdf:value>
             <xsl:value-of select="."/>
@@ -404,7 +404,11 @@
 
     <xsl:template match="tei:etym">
         <lexinfo:etymology>
-            <xsl:apply-templates/>
+            <rdf:Description>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
+            </rdf:Description>
         </lexinfo:etymology>
     </xsl:template>
 
@@ -415,41 +419,36 @@
     <xsl:template match="tei:etym/text()[normalize-space() = '']">
         <xsl:text> </xsl:text>
     </xsl:template>
-    
-    <xsl:template match="tei:cit[@type = 'etymon']/lang">
+
+    <xsl:template match="tei:cit[@type = 'etymon']/tei:lang">
         <xsl:apply-templates/>
     </xsl:template>
-    
+
     <xsl:template match="tei:ref[@type = 'bibl']">
         <xsl:text>[</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>]</xsl:text>
     </xsl:template>
-    
+
     <xsl:template match="tei:bibl">
         <dct:source>
             <xsl:apply-templates/>
         </dct:source>
     </xsl:template>
-    
+
     <xsl:template match="tei:bibl/*">
         <xsl:apply-templates/>
     </xsl:template>
-    
+
     <xsl:template match="tei:bibl/text()[normalize-space() = '']">
         <xsl:text> </xsl:text>
     </xsl:template>
-    
-    
-
-    <!-- cas de bibl dans etym -->
 
     <xsl:template match="tei:author">
         <dc:creator>
             <xsl:apply-templates/>
         </dc:creator>
     </xsl:template>
-
 
     <xsl:template match="tei:title">
         <dc:title>
