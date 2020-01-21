@@ -294,12 +294,11 @@
 
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is socioCultural (opening source values to deal with legacy data) -->
     <xsl:template match="tei:usg[@type = 'register' or @type = 'reg' or @type = 'socioCultural']">
-        <!-- socioCultural?!?! -->
-        <lexinfo:register>
+        <lexinfo:socioCultural>
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
-        </lexinfo:register>
+        </lexinfo:socioCultural>
     </xsl:template>
 
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is temporal (opening source values to deal with legacy data) -->
