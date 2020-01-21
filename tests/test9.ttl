@@ -1,13 +1,16 @@
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <#borcht> a ontolex:LexicalEntry ;
   ontolex:canonicalForm [ ontolex:writtenRep "borcht"@nl ] ;
-  lexinfo:related <#M012340> ;
+  lexinfo:relatedTerm <#M012340> ;
   ontolex:sense [
     lexinfo:synonym <#syn> ;
     lexinfo:hyponym <#hypo> ;
-    lexinfo:hypernym <#hyper> ;
+    lexinfo:hypernym <#hyp> ;
     lexinfo:antonym <#anto> ;
     lexinfo:meronymTerm <#mero> ] .
+
+<#M012340> rdf:value "burcht"@nl .
