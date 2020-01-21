@@ -466,68 +466,73 @@
             <xsl:apply-templates/>
         </dc:publisher>
     </xsl:template>
-    
+
     <!-- <xr> construct -->
-    
-    <xsl:template match="tei:xr[@type='related']">
+
+    <xsl:template match="tei:xr[@type = 'related']">
         <lexinfo:relatedTerm>
             <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:relatedTerm>
     </xsl:template>
-    
-    <xsl:template match="tei:xr[@type='synonymy']">
+
+    <xsl:template match="tei:xr[@type = 'synonymy']">
         <lexinfo:synonym>
-            <rdf:Description  rdf:about="{tei:ref/@target}">
+            <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:synonym>
     </xsl:template>
-    
-    <xsl:template match="tei:xr[@type='hyponymy']">
+
+    <xsl:template match="tei:xr[@type = 'hyponymy']">
         <lexinfo:hyponym>
-            <rdf:Description  rdf:about="{tei:ref/@target}">
+            <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:hyponym>
     </xsl:template>
-    
-    <xsl:template match="tei:xr[@type='hypernymy']">
+
+    <xsl:template match="tei:xr[@type = 'hypernymy']">
         <lexinfo:hypernym>
-            <rdf:Description  rdf:about="{tei:ref/@target}">
+            <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:hypernym>
     </xsl:template>
-    
-    <xsl:template match="tei:xr[@type='meronymy']">
+
+    <xsl:template match="tei:xr[@type = 'meronymy']">
         <lexinfo:meronymTerm>
-            <rdf:Description  rdf:about="{tei:ref/@target}">
+            <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:meronymTerm>
     </xsl:template>
-    
-    <xsl:template match="tei:xr[@type='antonymy']">
+
+    <xsl:template match="tei:xr[@type = 'antonymy']">
         <lexinfo:antonym>
             <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
             </rdf:Description>
         </lexinfo:antonym>
     </xsl:template>
-    
+
     <xsl:template match="tei:xr/tei:ref">
-        <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
-        <rdf:value xml:lang="{$workingLanguage}">
-            <xsl:value-of select="."/>
-        </rdf:value>
+        <xsl:if test="normalize-space()">
+            <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
+            <rdf:value xml:lang="{$workingLanguage}">
+                <xsl:value-of select="."/>
+            </rdf:value>
+        </xsl:if>
     </xsl:template>
     
+    <xsl:template match="tei:xr/text()"/>
+    
+
     <!-- And we drop <lbl> in <xr> -->
     <xsl:template match="tei:xr/tei:lbl"/>
-        
-    
+
+
 
     <!-- Small annotation elements or intermediate text that disappear in Ontolex -->
 
