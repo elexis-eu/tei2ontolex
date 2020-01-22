@@ -46,7 +46,7 @@
         </ontolex:canonicalForm>
     </xsl:template>
 
-    <xsl:template match="tei:entry/tei:form[@type = 'inflected']">
+    <xsl:template match="tei:entry/tei:form[@type = 'inflected'] | tei:form/tei:form[@type = 'inflected']">
         <ontolex:otherForm>
             <rdf:Description>
                 <xsl:apply-templates/>
@@ -397,7 +397,7 @@
         </rdf:value>
     </xsl:template>
 
-    <xsl:template match="tei:quote/tei:mentioned | tei:def/tei:mentioned">
+    <xsl:template match="tei:quote/tei:mentioned | tei:def/tei:mentioned | tei:note/tei:mentioned">
         <xsl:apply-templates/>
     </xsl:template>
 
@@ -411,10 +411,12 @@
         </lexinfo:etymology>
     </xsl:template>
 
-    <xsl:template match="tei:etym/*">
+    <!-- Highest priority here to make sure that <etym> is always flattened, cf. e.g. overriding the precise transformation of <usg> -->
+    <xsl:template match="tei:etym/*" priority="5">
         <xsl:apply-templates/>
     </xsl:template>
 
+    <!-- The following template ensures that while flattening, the various strings remains white-space separated. -->
     <xsl:template match="tei:etym/text()[normalize-space() = '']">
         <xsl:text> </xsl:text>
     </xsl:template>
@@ -469,7 +471,7 @@
 
     <!-- <xr> construct -->
 
-    <xsl:template match="tei:xr[@type = 'related']">
+    <xsl:template match="tei:xr[@type = 'related' or @type = 'renvoi']">
         <lexinfo:relatedTerm>
             <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
@@ -477,7 +479,7 @@
         </lexinfo:relatedTerm>
     </xsl:template>
 
-    <xsl:template match="tei:xr[@type = 'synonymy']">
+    <xsl:template match="tei:xr[@type = 'synonymy' or @type='synonym']">
         <lexinfo:synonym>
             <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
@@ -509,7 +511,7 @@
         </lexinfo:meronymTerm>
     </xsl:template>
 
-    <xsl:template match="tei:xr[@type = 'antonymy']">
+    <xsl:template match="tei:xr[@type = 'antonymy' or @type = 'antonym']">
         <lexinfo:antonym>
             <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
@@ -525,18 +527,19 @@
             </rdf:value>
         </xsl:if>
     </xsl:template>
-    
+
     <xsl:template match="tei:xr/text()"/>
-    
+
 
     <!-- And we drop <lbl> in <xr> -->
     <xsl:template match="tei:xr/tei:lbl"/>
 
-
+    <!-- Dropping related entries <re> altogether until we have a better view for this. -->
+    <xsl:template match="tei:re"/>
 
     <!-- Small annotation elements or intermediate text that disappear in Ontolex -->
 
-    <xsl:template match="tei:emph">
+    <xsl:template match="tei:emph | tei:hi">
         <xsl:apply-templates/>
     </xsl:template>
 
