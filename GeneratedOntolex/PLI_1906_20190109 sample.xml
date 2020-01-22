@@ -25,17 +25,15 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="ar">La première lettre de l'alphabet, et la première des voyelles</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="ar">un A majuscule</rdf:value>
                </rdf:Description>
             </lexicog:usageExample>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="ar">des a minuscules</rdf:value>
@@ -52,11 +50,10 @@
             <ontolex:writtenRep xml:lang="fr">A</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <note xmlns="http://www.tei-c.org/ns/1.0" type="orth">(sans accent)</note>
+        <rdfs:comment>(sans accent)</rdfs:comment>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">3e pers. du sing. de l'ind. prés. du verbe avoir</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'alphabet français a vingt-cinq lettres</rdf:value>
@@ -75,29 +72,26 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Prend l'accent grave et exprime un rapport de tendance</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">aller à Paris</rdf:value>
                </rdf:Description>
             </lexicog:usageExample>
-          </rdf:Description>
+         </rdf:Description>
       </ontolex:sense>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">de situation</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">être à la campagne</rdf:value>
                </rdf:Description>
             </lexicog:usageExample>
-          </rdf:Description>
+         </rdf:Description>
       </ontolex:sense>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">de provenance</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">boire à une source</rdf:value>
@@ -120,7 +114,6 @@
             <skos:definition xml:lang="fr">qui signifie de
             par pour indiquer un rapport d'éloignement, d'extraction, de séparation, de
             privation, et qui entre comme préfixe dans la composition de certains mots français</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">atone, abjuration, abstention</rdf:value>
@@ -136,7 +129,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Espèce de bananier qui fournit une matière textile appelée chanvre de
@@ -170,7 +163,6 @@
                </rdf:Description>
             </lexinfo:meaningType>
             <skos:definition xml:lang="fr">Humiliant, dégradant</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">acte abaissant</rdf:value>
@@ -187,7 +179,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Pâte amincie par le rouleau</skos:definition>
@@ -202,8 +194,8 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Instrument qu'on emploie en médecine pour abaisser la langue et apercevoir l'intérieur de la
@@ -219,11 +211,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action de diminuer quelque chose en hauteur</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'abaissement d'un mur</rdf:value>
@@ -234,7 +225,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'un corps qui, en baissant, s'éloigne d'un point plus élevé</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">le froid produit l'abaissement du mercure dans le thermomètre</rdf:value>
@@ -250,7 +240,6 @@
                </rdf:Description>
             </lexinfo:meaningType>
             <skos:definition xml:lang="fr">Humiliation</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Louis XI travailla à l'abaissement des grands vassaux</rdf:value>
@@ -261,7 +250,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Amoindrissement</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'abaissement des salaires</rdf:value>
@@ -272,7 +260,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Etat de décadence</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'abaissement de la littérature</rdf:value>
@@ -289,7 +276,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(rad. bas).</rdf:value>
@@ -298,7 +284,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Mettre plus bas pour couvrir</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abaisser les paupières</rdf:value>
@@ -309,7 +294,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Diminuer la hauteur</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abaisser un mur</rdf:value>
@@ -320,7 +304,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Faire descendre</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abaisser un store</rdf:value>
@@ -331,7 +314,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Réduire</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abaisser une taxe</rdf:value>
@@ -348,7 +330,6 @@
                </rdf:Description>
             </lexinfo:meaningType>
             <skos:definition xml:lang="fr">Humilier</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Richelieu abaissa les grands</rdf:value>
@@ -373,17 +354,13 @@
             <ontolex:phoneticRep xml:lang="fr">bè-seur</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        
-          <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
-          
-          <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-        
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché</skos:definition>
-          
-        </rdf:Description>
+         </rdf:Description>
       </ontolex:sense>
       </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="abajoue">
@@ -394,7 +371,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Poche que certains animaux (singes, chéiroptères, etc.) ont à l'intérieur de chacune des joues et où
@@ -420,7 +397,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <lexinfo:domain>
@@ -429,7 +406,6 @@
                </rdf:Description>
             </lexinfo:domain>
             <skos:definition xml:lang="fr">Cession, aliénation</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abaliénation de terres, de troupeaux</rdf:value>
@@ -446,7 +422,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Faire une abaliénation</skos:definition>
@@ -460,11 +435,9 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Rendre lourd, stupide</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">les mauvais traitements abalourdissent un enfant</rdf:value>
@@ -481,7 +454,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abalourdir</skos:definition>
@@ -500,11 +473,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Etat d'une personne ou d'une chose délaissée</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Christophe Colomb mourut dans l'abandon</rdf:value>
@@ -520,7 +492,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Oubli</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abandon de soi-même</rdf:value>
@@ -531,7 +502,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renonciation, désistement</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abandon d'un droit</rdf:value>
@@ -552,7 +522,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui peut, qui doit être abandonné</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">projet abandonnable</rdf:value>
@@ -620,7 +589,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Personne qui est dans l'abandon</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">soulageons les abandonnés</rdf:value>
@@ -637,7 +605,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Délaissement entier</skos:definition>
@@ -646,7 +614,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Acte de cession</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abandonnement de biens</rdf:value>
@@ -663,11 +630,9 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Quitter, délaisser entièrement</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abandonner sa maison</rdf:value>
@@ -678,7 +643,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncer à</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abandonner ses prétentions</rdf:value>
@@ -689,7 +653,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Négliger</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abandonner ses devoirs</rdf:value>
@@ -700,7 +663,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Confier</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Anne d'Autriche abandonna le pouvoir à Mazarin</rdf:value>
@@ -711,7 +673,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Livrer</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abandonner une ville au pillage</rdf:value>
@@ -739,7 +700,8 @@
             <ontolex:phoneticRep xml:lang="fr">(do-neur, eu-ze)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/> et <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se dit d'une personne qui abandonne</skos:definition>
@@ -753,7 +715,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <lexinfo:domain>
@@ -804,7 +766,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(rad. sourd).</rdf:value>
@@ -813,7 +774,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Assourdir, étourdir par un grand bruit</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">coup de tonnerre qui abasourdit</rdf:value>
@@ -848,7 +808,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui est propre à abasourdir, à étourdir</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">bruit abasourdissant</rdf:value>
@@ -870,7 +829,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Assourdissement</skos:definition>
@@ -896,11 +855,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Averse soudaine</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">un grand abat d'eau</rdf:value>
@@ -917,11 +875,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abattre, de tuer</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'abat des animaux</rdf:value>
@@ -951,7 +908,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abattre les arbres, de tuer les animaux</skos:definition>
@@ -963,7 +920,8 @@
                <rdf:Description>
                   <rdf:value>Fig.</rdf:value>
                </rdf:Description>
-            </lexinfo:meaningType> et <lexinfo:socioCultural>
+            </lexinfo:meaningType>
+            <lexinfo:socioCultural>
                <rdf:Description>
                   <rdf:value>fam.</rdf:value>
                </rdf:Description>
@@ -979,7 +937,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(de bâtard).</rdf:value>
@@ -997,7 +954,6 @@
                   <rdf:value>Fig.</rdf:value>
                </rdf:Description>
             </lexinfo:meaningType>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">une longue servitude abâtardit le courage</rdf:value>
@@ -1015,7 +971,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(de abâtardir).</rdf:value>
@@ -1034,7 +990,6 @@
                   <rdf:value>au prop. et au fig.</rdf:value>
                </rdf:Description>
             </lexinfo:meaningType>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'abâtardissement d'une race, de l'esprit</rdf:value>
@@ -1051,7 +1006,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Mouvement d'un navire qui fait que la proue s'écarte de la ligne du vent</skos:definition>
@@ -1066,8 +1021,8 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Pièce de résistance qu'on sert d'abord pour apaiser, abattre la faim des
@@ -1083,8 +1038,8 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Ouverture dans le plancher d'un grenier, au-dessus d'une écurie, d'une étable, et par laquelle on
@@ -1100,11 +1055,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Quantité de choses abattues, telles que bois, arbres, maisons</skos:definition>
-          
             <skos:definition xml:lang="fr">ou tuées, telles que bêtes fauves, gibier</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -1121,7 +1075,6 @@
                </rdf:Description>
             </lexinfo:socioCultural>
             <skos:definition xml:lang="fr">Bras, jambes</skos:definition>
-          
             <skos:definition xml:lang="fr">mains, pieds</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -1134,8 +1087,8 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Réflecteur qui rabat la lumière des lampes</skos:definition>
@@ -1167,7 +1120,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Série de lames que l'on pose de biais dans les baies des clochers pour renvoyer le son ou les sons
@@ -1198,11 +1151,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Pièce de menuiserie, qui s'élève ou s'abaisse à volonté</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">secrétaire à abattant</rdf:value>
@@ -1219,7 +1171,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(de abattre).</rdf:value>
@@ -1245,11 +1197,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Celui qui abat</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abatteur d'arbres</rdf:value>
@@ -1267,7 +1218,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Etablissement dans lequel les bouchers sont tenus d'abattre et de préparer les animaux destinés à la
@@ -1283,17 +1234,15 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(rad. bas.</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
-        <note xmlns="http://www.tei-c.org/ns/1.0" type="conjug">— Se conj. comme battre.)</note>
+        <rdfs:comment>— Se conj. comme battre.)</rdfs:comment>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Mettre à bas, renverser, détruire, démolir</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abattre un arbre, un mur</rdf:value>
@@ -1304,7 +1253,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Tuer</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abattre du gibier</rdf:value>
@@ -1325,7 +1273,6 @@
                </rdf:Description>
             </lexinfo:meaningType>
             <skos:definition xml:lang="fr">Affaiblir</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">la fièvre abat</rdf:value>
@@ -1336,7 +1283,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Décourager</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">quelle peur vous abat ?</rdf:value>
@@ -1347,7 +1293,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Abaisser</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abattre l'orgueil</rdf:value>
@@ -1358,7 +1303,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Faire cesser</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">la réflexion abattit sa colère</rdf:value>
@@ -1369,7 +1313,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Accomplir avec rapidité</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">besogne abattue</rdf:value>
@@ -1394,7 +1337,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abattre les glands</skos:definition>
@@ -1410,8 +1353,8 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Petit auvent qui garantit de la pluie et du vent</skos:definition>
@@ -1432,8 +1375,8 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Couronnement d'une chaire à prêcher</skos:definition>
@@ -1461,7 +1404,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui se rapporte à l'abbé, à l'abbesse, à l'abbaye</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">palais abbatial</rdf:value>
@@ -1472,7 +1414,6 @@
                   <rdf:value xml:lang="fr">église abbatiale</rdf:value>
                </rdf:Description>
             </lexicog:usageExample>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">droits abbatiaux</rdf:value>
@@ -1489,7 +1430,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Monastère gouverné par un abbé ou une abbesse</skos:definition>
@@ -1515,7 +1456,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(lat. abbas, père).</rdf:value>
@@ -1540,7 +1481,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Supérieure d'un monastère de religieuses ayant titre d'abbaye</skos:definition>
@@ -1554,7 +1495,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Petit livre contenant l'alphabet</skos:definition>
@@ -1568,7 +1509,6 @@
                </rdf:Description>
             </lexinfo:meaningType>
             <skos:definition xml:lang="fr">Premiers éléments d'un art, d'une science</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'arithmétique est l'a b c des mathématiques</rdf:value>
@@ -1585,12 +1525,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
-        <note xmlns="http://www.tei-c.org/ns/1.0" type="conjug">(Se conj. comme accélérer.)</note>
+        <rdfs:comment>(Se conj. comme accélérer.)</rdfs:comment>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se tourner en abcès</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">tumeur qui abcède</rdf:value>
@@ -1607,7 +1545,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Amas de pus dans une cavité accidentelle ou naturelle du corps</skos:definition>
@@ -1621,12 +1559,11 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Mot arabe qui signifie serviteur et entre dans la composition de nombreux
             noms propres</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Abd-el-Kader</rdf:value>
@@ -1636,7 +1573,8 @@
                <rdf:Description>
                   <rdf:value xml:lang="fr">Abd-el-Mélik</rdf:value>
                </rdf:Description>
-            </lexicog:usageExample> etc.</rdf:Description>
+            </lexicog:usageExample>
+         </rdf:Description>
       </ontolex:sense>
       </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="abdicable">
@@ -1649,7 +1587,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui peut, qui doit être abdiqué</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">fonctions abdicables</rdf:value>
@@ -1665,7 +1602,8 @@
             <ontolex:phoneticRep xml:lang="fr">(tè-re)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/> et <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se dit d'une personne qui a abdiqué</skos:definition>
@@ -1680,7 +1618,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abdiquer</skos:definition>
@@ -1700,12 +1638,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncer volontairement ou de force à de hautes fonctions, et particulièrement à l'autorité
             souveraine</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Dioclétien abdiqua l'empire</rdf:value>
@@ -1716,7 +1652,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncer à une chose que l'on possédait</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abdiquer toute dignité, ses devoirs, ses biens</rdf:value>
@@ -1733,7 +1668,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Partie du corps entre le thorax et le bassin et qui renferme les intestins</skos:definition>
@@ -1760,7 +1695,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui appartient, qui se rapporte à l'abdomen</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">la cavité abdominale est tapissée par le péritoine</rdf:value>
@@ -1776,18 +1710,17 @@
             <ontolex:phoneticRep xml:lang="fr">(duk)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/> et <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se dit de tout muscle qui produit le mouvement d'abduction</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">muscle abducteur</rdf:value>
                </rdf:Description>
             </lexicog:usageExample>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'abducteur de l'œil</rdf:value>
@@ -1804,7 +1737,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Mouvement qui écarte un membre du plan médian que l'on suppose diviser le corps en deux moitiés
@@ -1823,7 +1756,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui concerne l'alphabet</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">ordre abécédaire</rdf:value>
@@ -1841,11 +1773,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abecquer</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'abecquement d'un oiseau</rdf:value>
@@ -1867,7 +1798,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(rad. bec).</rdf:value>
@@ -1876,7 +1806,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Donner la becquée</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abecquer un oiseau</rdf:value>
@@ -1893,10 +1822,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(du vx fr. bée, <rdf:value>auj.</rdf:value> baie, ouverture).</rdf:value>
+            <rdf:value>(du vx fr. bée, auj. baie, ouverture).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -1913,7 +1842,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <lexinfo:domain>
@@ -1933,7 +1862,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(lat. apis).</rdf:value>
@@ -1942,7 +1871,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Insecte hyménoptère porte-aiguillon, produisant le miel et la cire</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'abeille est l'emblème de l'activité et du travail</rdf:value>
@@ -1955,12 +1883,12 @@
             </lexicog:usageExample>
          </rdf:Description>
       </ontolex:sense>
-        <note xmlns="http://www.tei-c.org/ns/1.0" type="encycl"> Les abeilles ont un corps velu, d'un brun fauve, six pattes et quatre ailes, un
+        <rdfs:comment> Les abeilles ont un corps velu, d'un brun fauve, six pattes et quatre ailes, un
           aiguillon très acéré à l'extrémité de l'abdomen ; leur bouche est munie d'une trompe qui leur sert à puiser le
             suc des fleurs avec lequel elles fabriquent la cire dont elles
           font leurs cellules ou alvéoles disposées en
             rayons et le miel qu'elles y déposent. Chaque groupe
-          ou essaim vit en société dans une ruche, sous l'autorité d'une reine.</note>
+          ou essaim vit en société dans une ruche, sous l'autorité d'une reine.</rdfs:comment>
       </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="abeiller">
         <ontolex:canonicalForm>
@@ -1978,7 +1906,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Relatif aux abeilles</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">industrie abeillère</rdf:value>
@@ -2015,7 +1942,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(lat. aberratio).</rdf:value>
@@ -2034,7 +1961,6 @@
                </rdf:Description>
             </lexinfo:domain>
             <skos:definition xml:lang="fr">Dispersion des rayons lumineux</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">aberration de la lumière</rdf:value>
@@ -2050,13 +1976,11 @@
                </rdf:Description>
             </lexinfo:meaningType>
             <skos:definition xml:lang="fr">Trouble, égarement, erreur de jugement</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">aberration du goût</rdf:value>
                </rdf:Description>
             </lexicog:usageExample>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">aberration des idées</rdf:value>
@@ -2073,7 +1997,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se tromper</skos:definition>
@@ -2087,11 +2010,9 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Rendre stupide</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">la paresse d'esprit abêtit l'homme</rdf:value>
@@ -2109,7 +2030,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abêtir</skos:definition>
@@ -2143,7 +2064,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Avoir en horreur, détester, exécrer</skos:definition>
@@ -2165,7 +2085,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(lat. abies).</rdf:value>
@@ -2174,7 +2094,7 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Nom scientifique du sapin</skos:definition>
-            <note xmlns="http://www.tei-c.org/ns/1.0" type="precision">(qui a donné son nom aux abiétinées)</note>
+            <rdfs:comment>(qui a donné son nom aux abiétinées)</rdfs:comment>
          </rdf:Description>
       </ontolex:sense>
       </ontolex:LexicalEntry>
@@ -2186,8 +2106,8 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
-          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#plural"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#plural"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Tribu de conifères, comprenant des arbres résineux comme le pin le
@@ -2203,7 +2123,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(du gr. a priv., et bussos, fond).</rdf:value>
@@ -2222,7 +2142,6 @@
                </rdf:Description>
             </lexinfo:meaningType>
             <skos:definition xml:lang="fr">Tout ce qui est extrême</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">un abîme de misère</rdf:value>
@@ -2233,7 +2152,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Impénétrable</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">le cœur de l'homme est un abîme</rdf:value>
@@ -2251,11 +2169,9 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renverser, culbuter</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Condé abîma l'infanterie espagnole à Rocroi</rdf:value>
@@ -2266,7 +2182,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Gâter, endommager</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">la pluie abîme les chemins</rdf:value>
@@ -2285,7 +2200,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <lexinfo:relatedTerm>
@@ -2312,7 +2226,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui est propre à diminuer l'irritation</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">remède abirritant</rdf:value>
@@ -2329,7 +2242,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">En médecine, le contraire de l'irritation</skos:definition>
@@ -2344,7 +2257,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Diminuer la sensibilité, l'irritation dans une partie du corps</skos:definition>
@@ -2372,7 +2284,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Méprisable, bas, vil</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">homme, sentiments abjects</rdf:value>
@@ -2395,11 +2306,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Abaissement, avilissement, bassesse, en parlant du caractère, des sentiments</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">vivre dans l'abjection n'est pas vivre</rdf:value>
@@ -2429,7 +2339,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(lat. abjuratio, reniement).</rdf:value>
@@ -2438,7 +2348,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renonciation solennelle à une religion</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'abjuration de Henri IV mit fin à la Ligue</rdf:value>
@@ -2462,7 +2371,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui concerne l'abjuration</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">acte, formule abjuratoire</rdf:value>
@@ -2479,11 +2387,9 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncer publiquement à une religion</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Turenne abjura le calvinisme</rdf:value>
@@ -2499,12 +2405,12 @@
                </rdf:Description>
             </lexinfo:meaningType>
             <skos:definition xml:lang="fr">Renoncer à une opinion, à une doctrine, etc.</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abjurer Aristote, Descartes</rdf:value>
                </rdf:Description>
-            </lexicog:usageExample> etc.</rdf:Description>
+            </lexicog:usageExample>
+         </rdf:Description>
       </ontolex:sense>
       </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="ablatif">
@@ -2522,7 +2428,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui a le caractère, la valeur de l'ablatif</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">proposition ablative</rdf:value>
@@ -2540,7 +2445,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <lexinfo:domain>
@@ -2549,7 +2454,6 @@
                </rdf:Description>
             </lexinfo:domain>
             <skos:definition xml:lang="fr">Action de retrancher</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'ablation d'un membre, d'une tumeur</rdf:value>
@@ -2567,7 +2471,7 @@
             <ontolex:writtenRep xml:lang="fr">ABLETTE</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">(blè-te)</ontolex:phoneticRep>
             <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-              <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+            <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
          </rdf:Description>
       </ontolex:canonicalForm>
         <ontolex:sense>
@@ -2575,10 +2479,10 @@
             <skos:definition xml:lang="fr">Petit poisson d'eau douce à écailles argentées</skos:definition>
          </rdf:Description>
       </ontolex:sense>
-        <note xmlns="http://www.tei-c.org/ns/1.0" type="encycl"> Les ables sont appelés poissons blancs ; les espèces les
+        <rdfs:comment> Les ables sont appelés poissons blancs ; les espèces les
           plus communes sont : le meunier le gardon le
             rotengle la vandoise le
-            chevaine.</note>
+            chevaine.</rdfs:comment>
       </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="ablégat">
         <ontolex:canonicalForm>
@@ -2588,13 +2492,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(
-            <abbr xmlns="http://www.tei-c.org/ns/1.0">préf.</abbr>
-               <expan xmlns="http://www.tei-c.org/ns/1.0">préfixe</expan>
-           ab, et lat. legatus, envoyé).</rdf:value>
+            <rdf:value>(préf. ab, et lat. legatus, envoyé).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -2617,7 +2518,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Dignité, fonction d'ablégat</skos:definition>
@@ -2632,7 +2533,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Filet carré, dit aussi carrelet</skos:definition>
@@ -2673,7 +2574,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Laver du parchemin ou du papier avec une préparation pour enlever des taches ou raviver
@@ -2689,12 +2589,11 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Chez les Orientaux, purification religieuse qui consiste à se laver le corps ou une partie du
             corps</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">l'ablution est en usage dans tous les cultes de l'Orient</rdf:value>
@@ -2726,7 +2625,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(lat. abnegatio, action de nier).</rdf:value>
@@ -2735,7 +2634,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncement, sacrifice</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">faire abnégation de soi</rdf:value>
@@ -2751,7 +2649,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(de aboyer).</rdf:value>
@@ -2773,7 +2671,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Cri du chien</skos:definition>
@@ -2797,7 +2695,6 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(lat. abolere).</rdf:value>
@@ -2806,7 +2703,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Supprimer, annuler, anéantir</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">abolir une loi</rdf:value>
@@ -2837,7 +2733,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui doit ou peut être aboli</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">coutume abolissable</rdf:value>
@@ -2854,11 +2749,10 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Action d'abolir</skos:definition>
-          
             <skos:definition xml:lang="fr">suppression, anéantissement</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -2878,7 +2772,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui abolit</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">loi abolitive</rdf:value>
@@ -2895,7 +2788,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Annulation (en parlant des lois)</skos:definition>
@@ -2904,7 +2797,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Suppression</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Louis XVI ordonna l'abolition de la torture</rdf:value>
@@ -2932,7 +2824,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Doctrine des partisans de l'abolition de l'esclavage</skos:definition>
@@ -2950,7 +2842,6 @@
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Qui se rapporte à l'abolitionnisme</skos:definition>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">système abolitionniste</rdf:value>
@@ -2968,7 +2859,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
-          <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
+      <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Répétition, volontaire ou involontaire, des mêmes lettres, des mêmes syllabes</skos:definition>
@@ -2977,7 +2868,6 @@
                   <rdf:value>Ex.</rdf:value>
                </rdf:Description>
             </lexinfo:hint>
-          
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">Non, il n'est rien que Nanine n'honore</rdf:value>

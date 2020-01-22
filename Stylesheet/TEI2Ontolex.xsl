@@ -99,7 +99,7 @@
     </xsl:template>
 
     <!-- e.g. "et" in French in PLI ("adj. et n.")-->
-    <xsl:template match="tei:gramGrp/tei:lbl"/>
+    <xsl:template match="tei:gramGrp/tei:lbl | tei:gramGrp/text()"/>
 
     <xsl:template match="tei:pos | tei:gram[@type = 'pos']">
         <xsl:if test="not(@expan = 'locution')">
@@ -286,13 +286,17 @@
         </ontolex:sense>
     </xsl:template>
 
+    <xsl:template match="tei:sense/text()"/>
+
     <!-- Dealing with the general <usg> values and mapping them to possible lexinfo SenseContext information types -->
 
     <!-- Note (LR): the  official value for this category in TEI Lex 0 is frequency (opening source values to deal with legacy data) -->
     <xsl:template match="tei:usg[@type = 'plev' or @type = 'frequency']">
         <lexinfo:frequency>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:frequency>
     </xsl:template>
@@ -301,7 +305,9 @@
     <xsl:template match="tei:usg[@type = 'register' or @type = 'reg' or @type = 'socioCultural']">
         <lexinfo:socioCultural>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:socioCultural>
     </xsl:template>
@@ -310,7 +316,9 @@
     <xsl:template match="tei:usg[@type = 'time' or @type = 'temporal']">
         <lexinfo:temporalQualifier>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:temporalQualifier>
     </xsl:template>
@@ -319,7 +327,9 @@
     <xsl:template match="tei:usg[@type = 'geo' or @type = 'geographic']">
         <lexinfo:geographic>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:geographic>
     </xsl:template>
@@ -328,7 +338,9 @@
     <xsl:template match="tei:usg[@type = 'dom' or @type = 'domain']">
         <lexinfo:domain>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:domain>
     </xsl:template>
@@ -336,7 +348,9 @@
     <xsl:template match="tei:usg[@type = 'attitude']">
         <lexinfo:attitude>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:attitude>
     </xsl:template>
@@ -344,7 +358,9 @@
     <xsl:template match="tei:usg[@type = 'normativity']">
         <lexinfo:normativity>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:normativity>
     </xsl:template>
@@ -353,7 +369,9 @@
     <xsl:template match="tei:usg[@type = 'style' or @type = 'meaningType']">
         <lexinfo:meaningType>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:meaningType>
     </xsl:template>
@@ -361,7 +379,9 @@
     <xsl:template match="tei:usg[@type = 'hint']">
         <lexinfo:hint>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:hint>
     </xsl:template>
@@ -369,15 +389,11 @@
     <xsl:template match="tei:usg[@type = 'textType']">
         <lexinfo:textType>
             <rdf:Description>
-                <xsl:apply-templates/>
+                <rdf:value>
+                    <xsl:apply-templates/>
+                </rdf:value>
             </rdf:Description>
         </lexinfo:textType>
-    </xsl:template>
-
-    <xsl:template match="tei:usg/text()">
-        <rdf:value>
-            <xsl:value-of select="."/>
-        </rdf:value>
     </xsl:template>
 
     <xsl:template match="tei:def">
@@ -535,6 +551,12 @@
 
     <xsl:template match="tei:xr/text()"/>
 
+    <xsl:template match="tei:note">
+        <rdfs:comment>
+            <xsl:apply-templates/>
+        </rdfs:comment>
+    </xsl:template>
+
 
     <!-- And we drop <lbl> in <xr> -->
     <xsl:template match="tei:xr/tei:lbl"/>
@@ -549,6 +571,20 @@
     </xsl:template>
 
     <xsl:template match="tei:pb"/>
+    
+    <!-- We flatten all <choice> constructs to reflect the original source -->
+    <xsl:template match="tei:choice[tei:abbr]" priority="6">
+        <xsl:value-of select="tei:abbr"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:choice[tei:sic]" priority="6">
+        <xsl:value-of select="tei:sic"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:choice[tei:orig]" priority="6">
+        <xsl:value-of select="tei:orig"/>
+    </xsl:template>
+    
 
     <!-- Copy all template to account for possible missed elements -->
     <xsl:template match="@* | node()">
