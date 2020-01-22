@@ -289,7 +289,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(rad. bas).</rdf:value>
@@ -375,7 +375,7 @@
       </ontolex:canonicalForm>
         
           <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Adjective"/>
-          <lbl xmlns="http://www.tei-c.org/ns/1.0">et</lbl>
+          
           <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
           <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         
@@ -446,7 +446,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Faire une abaliénation</skos:definition>
@@ -460,7 +460,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Rendre lourd, stupide</skos:definition>
@@ -663,7 +663,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Quitter, délaisser entièrement</skos:definition>
@@ -781,7 +781,7 @@
       </ontolex:sense>
         <ontolex:sense>
          <rdf:Description>
-            <skos:definition xml:lang="fr">Système de lignes tracées sur un plan et correspon<pb xmlns="http://www.tei-c.org/ns/1.0" n="2"/>dant à une équation donnée qu'elles
+            <skos:definition xml:lang="fr">Système de lignes tracées sur un plan et correspondant à une équation donnée qu'elles
             permettent d'étudier</skos:definition>
          </rdf:Description>
       </ontolex:sense>
@@ -804,7 +804,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(rad. sourd).</rdf:value>
@@ -979,7 +979,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(de bâtard).</rdf:value>
@@ -1283,7 +1283,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(rad. bas.</rdf:value>
@@ -1585,7 +1585,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="neutre">n.</subc>
+          
         <note xmlns="http://www.tei-c.org/ns/1.0" type="conjug">(Se conj. comme accélérer.)</note>
         <ontolex:sense>
          <rdf:Description>
@@ -1700,7 +1700,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncer volontairement ou de force à de hautes fonctions, et particulièrement à l'autorité
@@ -1867,7 +1867,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(rad. bec).</rdf:value>
@@ -1948,7 +1948,6 @@
                   <rdf:value xml:lang="fr">l'abeille est l'emblème de l'activité et du travail</rdf:value>
                </rdf:Description>
             </lexicog:usageExample>
-            <pb xmlns="http://www.tei-c.org/ns/1.0" n="3"/>
             <lexicog:usageExample>
                <rdf:Description>
                   <rdf:value xml:lang="fr">L'apiculture est l'art d'élever les abeilles</rdf:value>
@@ -2074,7 +2073,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="neutre">n.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se tromper</skos:definition>
@@ -2088,7 +2087,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Rendre stupide</skos:definition>
@@ -2144,7 +2143,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Avoir en horreur, détester, exécrer</skos:definition>
@@ -2252,7 +2251,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renverser, culbuter</skos:definition>
@@ -2286,7 +2285,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="prépositive">prép.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <lexinfo:relatedTerm>
@@ -2345,7 +2344,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Diminuer la sensibilité, l'irritation dans une partie du corps</skos:definition>
@@ -2480,7 +2479,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Renoncer publiquement à une religion</skos:definition>
@@ -2674,7 +2673,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Laver du parchemin ou du papier avec une préparation pour enlever des taches ou raviver
@@ -2798,7 +2797,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Verb"/>
-          <subc xmlns="http://www.tei-c.org/ns/1.0" expand="actif">a.</subc>
+          
         <lexinfo:etymology>
          <rdf:Description>
             <rdf:value>(lat. abolere).</rdf:value>

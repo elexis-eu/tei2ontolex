@@ -98,6 +98,9 @@
         <xsl:apply-templates/>
     </xsl:template>
 
+    <!-- e.g. "et" in French in PLI ("adj. et n.")-->
+    <xsl:template match="tei:gramGrp/tei:lbl"/>
+
     <xsl:template match="tei:pos | tei:gram[@type = 'pos']">
         <xsl:if test="not(@expan = 'locution')">
             <xsl:variable name="sourceReference">
@@ -265,6 +268,8 @@
         </xsl:variable>
         <lexinfo:animacy rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoAnimacy}"/>
     </xsl:template>
+
+    <xsl:template match="tei:subc"/>
 
 
     <!-- Punctuations are not kept in Ontolex -->
@@ -479,7 +484,7 @@
         </lexinfo:relatedTerm>
     </xsl:template>
 
-    <xsl:template match="tei:xr[@type = 'synonymy' or @type='synonym']">
+    <xsl:template match="tei:xr[@type = 'synonymy' or @type = 'synonym']">
         <lexinfo:synonym>
             <rdf:Description rdf:about="{tei:ref/@target}">
                 <xsl:apply-templates/>
@@ -543,6 +548,7 @@
         <xsl:apply-templates/>
     </xsl:template>
 
+    <xsl:template match="tei:pb"/>
 
     <!-- Copy all template to account for possible missed elements -->
     <xsl:template match="@* | node()">
