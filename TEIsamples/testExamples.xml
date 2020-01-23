@@ -193,7 +193,7 @@
          <!-- proper category -->
          <entry xml:id="Mary" xml:lang="en">
             <form type="lemma"><orth>Mary</orth></form>
-            <gramGrp><gram type="proper" norm="PROPN">proper</gram></gramGrp>
+            <gramGrp><gram type="pos" norm="PROPN">proper</gram></gramGrp>
          </entry>
          <entry xml:id="fish" xml:lang="en">
             <form type="lemma"><orth>fish</orth></form>
