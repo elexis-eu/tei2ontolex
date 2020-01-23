@@ -1,0 +1,34 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Test 10 - Notes</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <entry xml:id="a-2" n="1906-001_unknown">
+                <form type="lemma"><orth>A</orth></form>
+                <note type="orth">(sans accent)</note>
+                <sense><def>3<hi rend="sup">e</hi> pers. du sing. de l'ind. prés. du verbe <mentioned>avoir</mentioned></def>
+                    <pc>:</pc>
+                    <cit type="example">
+                        <quote>l'alphabet français a vingt-cinq lettres</quote>
+                </cit><pc>.</pc></sense>
+            </entry>
+            <entry xml:id="abcéder" n="1906-001_unknown">
+                <form type="lemma"><orth>ABCÉDER</orth>
+                    <pron><pc>(</pc><emph rend="italic">dé</emph><pc>)</pc></pron></form>
+                <gramGrp><pos expand="verbe">v.</pos>
+                    <subc expand="neutre">n.</subc></gramGrp>
+                <note type="conjug">(Se conj. comme <mentioned>accélérer</mentioned>.)</note>
+                <sense><def>Se tourner en abcès</def>
+                    <pc>:</pc>
+                    <cit type="example">
+                        <quote>tumeur qui abcède</quote>
+                </cit><pc>.</pc></sense>
+            </entry>
+        </body>
+    </text>
+</TEI>
