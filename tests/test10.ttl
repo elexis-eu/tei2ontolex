@@ -1,0 +1,35 @@
+@prefix lexicog: <http://www.w3.org/ns/lemon/lexicog#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<#a-2>
+    a ontolex:LexicalEntry ;
+    rdfs:comment "(sans accent)" ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "A"
+    ] ;
+    ontolex:sense [
+        skos:definition "3e pers. du sing. de l'ind. prés. du verbe avoir" ;
+        lexicog:usageExample [
+            rdf:value "l'alphabet français a vingt-cinq lettres"
+        ]
+    ] .
+
+<#abcéder>
+    lexinfo:partOfSpeech lexinfo:verb ;
+    a ontolex:LexicalEntry ;
+    rdfs:comment "(Se conj. comme accélérer.)" ;
+    ontolex:canonicalForm [
+        ontolex:phoneticRep "(dé)" ;
+        ontolex:writtenRep "ABCÉDER"
+    ] ;
+    ontolex:sense [
+        skos:definition "Se tourner en abcès" ;
+        lexicog:usageExample [
+            rdf:value "tumeur qui abcède"
+        ]
+    ] .
+
