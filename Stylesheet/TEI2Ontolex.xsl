@@ -101,8 +101,7 @@
     <!-- e.g. "et" in French in PLI ("adj. et n.")-->
     <xsl:template match="tei:gramGrp/tei:lbl | tei:gramGrp/text()"/>
 
-    <!-- The third component of the test (tei:gram[@type = 'proper']) is a hack because of a mistake in one example: should disappear anytime -->
-    <xsl:template match="tei:pos | tei:gram[@type = 'pos'] | tei:gram[@type = 'proper']">
+    <xsl:template match="tei:pos | tei:gram[@type = 'pos']">
         <xsl:if test="not(@expan = 'locution')">
             <xsl:variable name="sourceReference">
                 <xsl:choose>
@@ -144,6 +143,7 @@
                     <xsl:when
                         test="$sourceReference = 'particule' or $sourceReference = 'particle' or $sourceReference = 'PART'"
                         >Particle</xsl:when>
+
                     <xsl:when test="$sourceReference = 'préfixe' or $sourceReference = 'prefix'">Prefix</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'conjonction de coordination' or $sourceReference = 'coordinating conjunction' or $sourceReference = 'CCONJ'"
@@ -154,7 +154,6 @@
                     <xsl:when
                         test="$sourceReference = 'préposition' or $sourceReference = 'preposition' or $sourceReference = 'ADP'"
                         >Preposition</xsl:when>
-                    <xsl:when test="$sourceReference = 'PROPN'">ProperNoun</xsl:when>
                     <xsl:otherwise>
                         <xsl:message>CategoryRemainsToBeDetermined: <xsl:value-of select="$sourceReference"
                             /></xsl:message>
@@ -572,20 +571,20 @@
     </xsl:template>
 
     <xsl:template match="tei:pb"/>
-
+    
     <!-- We flatten all <choice> constructs to reflect the original source -->
     <xsl:template match="tei:choice[tei:abbr]" priority="6">
         <xsl:value-of select="tei:abbr"/>
     </xsl:template>
-
+    
     <xsl:template match="tei:choice[tei:sic]" priority="6">
         <xsl:value-of select="tei:sic"/>
     </xsl:template>
-
+    
     <xsl:template match="tei:choice[tei:orig]" priority="6">
         <xsl:value-of select="tei:orig"/>
     </xsl:template>
-
+    
 
     <!-- Copy all template to account for possible missed elements -->
     <xsl:template match="@* | node()">
