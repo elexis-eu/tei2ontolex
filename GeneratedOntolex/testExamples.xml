@@ -185,7 +185,7 @@
             <ontolex:writtenRep xml:lang="en">John</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#ProperNoun"/>
          </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="comma">
             <ontolex:canonicalForm>
@@ -293,7 +293,7 @@
             <ontolex:writtenRep xml:lang="en">Mary</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <gram xmlns="http://www.tei-c.org/ns/1.0" type="proper" norm="PROPN">proper</gram>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#ProperNoun"/>
          </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="fish">
             <ontolex:canonicalForm>
@@ -301,7 +301,7 @@
             <ontolex:writtenRep xml:lang="en">fish</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-            <gram xmlns="http://www.tei-c.org/ns/1.0" type="proper" norm="NOUN">common</gram>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#Noun"/>
          </ontolex:LexicalEntry>
    <ontolex:LexicalEntry rdf:ID="horrifier">
             <ontolex:canonicalForm>
