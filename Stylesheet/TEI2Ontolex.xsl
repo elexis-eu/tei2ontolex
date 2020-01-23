@@ -119,41 +119,41 @@
             <xsl:variable name="lexinfoCategory">
                 <xsl:choose>
                     <xsl:when test="$sourceReference = 'nom' or $sourceReference = 'noun' or $sourceReference = 'NOUN'"
-                        >Noun</xsl:when>
+                        >noun</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'adjectif' or $sourceReference = 'adjective' or $sourceReference = 'ADJ'"
-                        >Adjective</xsl:when>
+                        >adjective</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'verbe' or $sourceReference = 'verb' or $sourceReference = 'VERB'"
-                        >Verb</xsl:when>
+                        >verb</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'adverbe' or $sourceReference = 'adverb' or $sourceReference = 'ADV'"
-                        >Adverb</xsl:when>
+                        >adverb</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'pronom' or $sourceReference = 'pronoun' or $sourceReference = 'PRON'"
-                        >Pronoun</xsl:when>
+                        >pronoun</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'article' or $sourceReference = 'determiner' or $sourceReference = 'DET'"
-                        >Determiner</xsl:when>
+                        >determiner</xsl:when>
                     <xsl:when test="$sourceReference = 'interjection' or $sourceReference = 'INTJ'"
-                        >Interjection</xsl:when>
+                        >interjection</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'nombre' or $sourceReference = 'number' or $sourceReference = 'NUM'"
-                        >Number</xsl:when>
+                        >number</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'particule' or $sourceReference = 'particle' or $sourceReference = 'PART'"
-                        >Particle</xsl:when>
+                        >particle</xsl:when>
 
-                    <xsl:when test="$sourceReference = 'préfixe' or $sourceReference = 'prefix'">Prefix</xsl:when>
+                    <xsl:when test="$sourceReference = 'préfixe' or $sourceReference = 'prefix'">prefix</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'conjonction de coordination' or $sourceReference = 'coordinating conjunction' or $sourceReference = 'CCONJ'"
-                        >CoordinatingConjunction</xsl:when>
+                        >coordinatingConjunction</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'auxiliaire' or $sourceReference = 'auxiliary' or $sourceReference = 'AUX'"
-                        >Auxiliary</xsl:when>
+                        >auxiliary</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'préposition' or $sourceReference = 'preposition' or $sourceReference = 'ADP'"
-                        >Preposition</xsl:when>
+                        >preposition</xsl:when>
                     <xsl:otherwise>
                         <xsl:message>CategoryRemainsToBeDetermined: <xsl:value-of select="$sourceReference"
                             /></xsl:message>
