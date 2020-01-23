@@ -154,6 +154,7 @@
                     <xsl:when
                         test="$sourceReference = 'préposition' or $sourceReference = 'preposition' or $sourceReference = 'ADP'"
                         >preposition</xsl:when>
+                    <xsl:when test="$sourceReference = 'PROPN'">ProperNoun</xsl:when>
                     <xsl:otherwise>
                         <xsl:message>CategoryRemainsToBeDetermined: <xsl:value-of select="$sourceReference"
                             /></xsl:message>
