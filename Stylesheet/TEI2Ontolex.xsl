@@ -24,6 +24,17 @@
 
     <xsl:template match="tei:entry">
         <xsl:choose>
+            <xsl:when test="tei:entry | tei:re">
+                <xsl:message>xxxxxxxxxx We have one: <xsl:value-of select="tei:form"/></xsl:message>
+                <lexicog:Entry>
+                    <lexicog:describes>
+                        <ontolex:LexicalEntry rdf:ID="{@xml:id}">
+                            <xsl:apply-templates select="*[not(self::tei:entry or self::tei:re)]"/>
+                        </ontolex:LexicalEntry>
+                    </lexicog:describes>
+                    <xsl:apply-templates select="tei:entry | tei:re"/>
+                </lexicog:Entry>
+            </xsl:when>
             <xsl:when test="tei:gramGrp/tei:pos/@expand = 'locution'">
                 <owl:NamedIndividual rdf:about="{$LexiconURI}#{@xml:id}">
                     <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#MultiwordExpression"/>
@@ -38,7 +49,7 @@
         </xsl:choose>
     </xsl:template>
 
-    <xsl:template match="tei:entry/tei:form[@type = 'lemma'] | tei:entry/tei:form[not(@type)]">
+    <xsl:template match="tei:entry/tei:form[@type = 'lemma'] | tei:entry/tei:form[not(@type)] | tei:entry/tei:re/tei:form | tei:entry/tei:entry/tei:form">
         <ontolex:canonicalForm>
             <rdf:Description>
                 <xsl:apply-templates/>
@@ -562,8 +573,17 @@
     <!-- And we drop <lbl> in <xr> -->
     <xsl:template match="tei:xr/tei:lbl"/>
 
-    <!-- Dropping related entries <re> altogether until we have a better view for this. -->
-    <xsl:template match="tei:re"/>
+    <xsl:template match="tei:entry/tei:re | tei:entry/tei:entry">
+        <lexicog:subComponent>
+            <lexicog:Entry>
+                <lexicog:describes>
+                    <ontolex:LexicalEntry>
+                        <xsl:apply-templates/> 
+                    </ontolex:LexicalEntry>
+                </lexicog:describes>
+            </lexicog:Entry>
+        </lexicog:subComponent>
+    </xsl:template>
 
     <!-- Small annotation elements or intermediate text that disappear in Ontolex -->
 
