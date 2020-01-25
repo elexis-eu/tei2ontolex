@@ -49,7 +49,8 @@
         </xsl:choose>
     </xsl:template>
 
-    <xsl:template match="tei:entry/tei:form[@type = 'lemma'] | tei:entry/tei:form[not(@type)] | tei:entry/tei:re/tei:form | tei:entry/tei:entry/tei:form">
+    <xsl:template
+        match="tei:entry/tei:form[@type = 'lemma'] | tei:entry/tei:form[not(@type)] | tei:entry/tei:re/tei:form | tei:entry/tei:entry/tei:form">
         <ontolex:canonicalForm>
             <rdf:Description>
                 <xsl:apply-templates/>
@@ -112,7 +113,8 @@
     <!-- e.g. "et" in French in PLI ("adj. et n.")-->
     <xsl:template match="tei:gramGrp/tei:lbl | tei:gramGrp/text()"/>
 
-    <xsl:template match="tei:pos | tei:gram[@type = 'pos']">
+    <!-- Note the hack concerning 'proper' due to a bad example that remains to be corrected -->
+    <xsl:template match="tei:pos | tei:gram[@type = 'pos'] | tei:gram[@type = 'proper']">
         <xsl:if test="not(@expan = 'locution')">
             <xsl:variable name="sourceReference">
                 <xsl:choose>
@@ -166,6 +168,10 @@
                         test="$sourceReference = 'préposition' or $sourceReference = 'preposition' or $sourceReference = 'ADP'"
                         >preposition</xsl:when>
                     <xsl:when test="$sourceReference = 'PROPN'">ProperNoun</xsl:when>
+                    <xsl:when test="$sourceReference = 'PUNCT'">Punctuation</xsl:when>
+                    <xsl:when test="$sourceReference = 'SCONJ'">subordinatingConjunction</xsl:when>
+                    <xsl:when test="$sourceReference = 'SYM'">Symbol</xsl:when>
+                    <xsl:when test="$sourceReference = 'X'">Unknown</xsl:when>
                     <xsl:otherwise>
                         <xsl:message>CategoryRemainsToBeDetermined: <xsl:value-of select="$sourceReference"
                             /></xsl:message>
@@ -430,6 +436,21 @@
         </rdf:value>
     </xsl:template>
 
+    <xsl:template match="tei:cit[@type = 'trans' or @type = 'translationEquivalent']">
+        <lexinfo:translation>
+            <rdf:Description>
+                <xsl:apply-templates/>
+            </rdf:Description>
+        </lexinfo:translation>
+    </xsl:template>
+
+    <xsl:template match="tei:cit[@type = 'trans' or @type = 'translationEquivalent']/tei:quote">
+        <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
+        <rdf:value xml:lang="{$workingLanguage}">
+            <xsl:apply-templates/>
+        </rdf:value>
+    </xsl:template>
+
     <xsl:template match="tei:quote/tei:mentioned | tei:def/tei:mentioned | tei:note/tei:mentioned">
         <xsl:apply-templates/>
     </xsl:template>
@@ -578,7 +599,7 @@
             <lexicog:Entry>
                 <lexicog:describes>
                     <ontolex:LexicalEntry>
-                        <xsl:apply-templates/> 
+                        <xsl:apply-templates/>
                     </ontolex:LexicalEntry>
                 </lexicog:describes>
             </lexicog:Entry>
@@ -592,20 +613,20 @@
     </xsl:template>
 
     <xsl:template match="tei:pb"/>
-    
+
     <!-- We flatten all <choice> constructs to reflect the original source -->
     <xsl:template match="tei:choice[tei:abbr]" priority="6">
         <xsl:value-of select="tei:abbr"/>
     </xsl:template>
-    
+
     <xsl:template match="tei:choice[tei:sic]" priority="6">
         <xsl:value-of select="tei:sic"/>
     </xsl:template>
-    
+
     <xsl:template match="tei:choice[tei:orig]" priority="6">
         <xsl:value-of select="tei:orig"/>
     </xsl:template>
-    
+
 
     <!-- Copy all template to account for possible missed elements -->
     <xsl:template match="@* | node()">
