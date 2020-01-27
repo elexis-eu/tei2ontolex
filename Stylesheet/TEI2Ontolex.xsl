@@ -439,19 +439,16 @@
         </rdf:value>
     </xsl:template>
 
+    <!-- Very basic flattening of translations et large -->
     <xsl:template match="tei:cit[@type = 'trans' or @type = 'translationEquivalent']">
-        <lexinfo:translation>
-            <rdf:Description>
-                <xsl:apply-templates/>
-            </rdf:Description>
-        </lexinfo:translation>
+        <xsl:apply-templates select="tei:quote"/>
     </xsl:template>
 
     <xsl:template match="tei:cit[@type = 'trans' or @type = 'translationEquivalent']/tei:quote">
         <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
-        <rdf:value xml:lang="{$workingLanguage}">
+        <lexinfo:senseTranslation xml:lang="{$workingLanguage}">
             <xsl:apply-templates/>
-        </rdf:value>
+        </lexinfo:senseTranslation>
     </xsl:template>
 
     <xsl:template match="tei:quote/tei:mentioned | tei:def/tei:mentioned | tei:note/tei:mentioned">
