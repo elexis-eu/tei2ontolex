@@ -175,10 +175,13 @@
                     <xsl:otherwise>
                         <xsl:message>CategoryRemainsToBeDetermined: <xsl:value-of select="$sourceReference"
                             /></xsl:message>
+                        <xsl:text>unknown</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoCategory}"/>
+            <xsl:if test="not($sourceReference = 'unknown')">
+                <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoCategory}"/>
+            </xsl:if>
         </xsl:if>
     </xsl:template>
 
