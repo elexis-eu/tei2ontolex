@@ -132,7 +132,7 @@
             <xsl:variable name="lexinfoCategory">
                 <xsl:choose>
                     <xsl:when test="$sourceReference = 'nom' or $sourceReference = 'noun' or $sourceReference = 'NOUN'"
-                        >noun</xsl:when>
+                        >commonNoun</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'adjectif' or $sourceReference = 'adjective' or $sourceReference = 'ADJ'"
                         >adjective</xsl:when>
@@ -152,7 +152,7 @@
                         >interjection</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'nombre' or $sourceReference = 'number' or $sourceReference = 'NUM'"
-                        >number</xsl:when>
+                        >numeral</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'particule' or $sourceReference = 'particle' or $sourceReference = 'PART'"
                         >particle</xsl:when>
@@ -166,12 +166,12 @@
                         >auxiliary</xsl:when>
                     <xsl:when
                         test="$sourceReference = 'préposition' or $sourceReference = 'preposition' or $sourceReference = 'ADP'"
-                        >preposition</xsl:when>
-                    <xsl:when test="$sourceReference = 'PROPN'">ProperNoun</xsl:when>
-                    <xsl:when test="$sourceReference = 'PUNCT'">Punctuation</xsl:when>
+                        >adposition</xsl:when>
+                    <xsl:when test="$sourceReference = 'PROPN'">properNoun</xsl:when>
+                    <xsl:when test="$sourceReference = 'PUNCT'">punctuation</xsl:when>
                     <xsl:when test="$sourceReference = 'SCONJ'">subordinatingConjunction</xsl:when>
-                    <xsl:when test="$sourceReference = 'SYM'">Symbol</xsl:when>
-                    <xsl:when test="$sourceReference = 'X'">Unknown</xsl:when>
+                    <xsl:when test="$sourceReference = 'SYM'">symbol</xsl:when>
+                    <xsl:when test="$sourceReference = 'X'">unknown</xsl:when>
                     <xsl:otherwise>
                         <xsl:message>CategoryRemainsToBeDetermined: <xsl:value-of select="$sourceReference"
                             /></xsl:message>

@@ -117,3 +117,15 @@
 <#fish> a ontolex:LexicalEntry ;
   ontolex:canonicalForm [ ontolex:writtenRep "fish"@en ] ;
   lexinfo:partOfSpeech lexinfo:commonNoun .
+
+<#Mann> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "Mann"@de ] ;
+  lexinfo:gender lexinfo:masculine .
+
+<#Frau> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "Frau"@de ] ;
+  lexinfo:gender lexinfo:feminine .
+
+<#Kind> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "Kind"@de ] ;
+  lexinfo:gender lexinfo:neuter .
