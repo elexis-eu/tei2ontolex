@@ -179,7 +179,7 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            <xsl:if test="not($sourceReference = 'unknown')">
+            <xsl:if test="not($lexinfoCategory = 'unknown')">
                 <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#{$lexinfoCategory}"/>
             </xsl:if>
         </xsl:if>
