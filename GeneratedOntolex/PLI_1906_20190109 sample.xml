@@ -26,7 +26,7 @@
                   <ontolex:writtenRep xml:lang="fr">A</ontolex:writtenRep>
                </rdf:Description>
             </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
             <ontolex:sense>
                <rdf:Description>
@@ -102,7 +102,7 @@
             <ontolex:writtenRep xml:lang="fr">À</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#preposition"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adposition"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Prend l'accent grave et exprime un rapport de tendance</skos:definition>
@@ -142,7 +142,7 @@
             <ontolex:writtenRep xml:lang="fr">ABS</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#preposition"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adposition"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">qui signifie de
@@ -162,7 +162,7 @@
             <ontolex:writtenRep xml:lang="fr">ABACA</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -212,7 +212,7 @@
             <ontolex:phoneticRep xml:lang="fr">(bè-se)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -227,7 +227,7 @@
             <ontolex:phoneticRep xml:lang="fr">(lan-ghe)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
       <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
@@ -244,7 +244,7 @@
             <ontolex:phoneticRep xml:lang="fr">(bè-se-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -441,7 +441,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
-      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -456,7 +456,7 @@
             <ontolex:phoneticRep xml:lang="fr">(joû)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -482,7 +482,7 @@
             <ontolex:phoneticRep xml:lang="fr">(si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -539,7 +539,7 @@
             <ontolex:phoneticRep xml:lang="fr">(di-se-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -560,7 +560,7 @@
                   <ontolex:writtenRep xml:lang="fr">ABANDON</ontolex:writtenRep>
                </rdf:Description>
             </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
             <ontolex:sense>
                <rdf:Description>
@@ -608,7 +608,7 @@
                         <ontolex:writtenRep xml:lang="fr">À l'abandon</ontolex:writtenRep>
                      </rdf:Description>
                   </ontolex:canonicalForm>
-                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
+          
                   <ontolex:sense>
                      <rdf:Description>
                         <skos:definition xml:lang="fr">Sans soin, en désordre</skos:definition>
@@ -650,7 +650,7 @@
             <ontolex:phoneticRep xml:lang="fr">(do-na-tè-re)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
         <ontolex:sense>
          <rdf:Description>
             <lexinfo:domain>
@@ -674,7 +674,7 @@
             <ontolex:phoneticRep xml:lang="fr">(do-na)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
         <ontolex:sense>
          <rdf:Description>
             <lexinfo:domain>
@@ -698,7 +698,7 @@
             </ontolex:otherForm>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Personne qui est dans l'abandon</skos:definition>
@@ -717,7 +717,7 @@
             <ontolex:phoneticRep xml:lang="fr">(do-ne-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -851,7 +851,7 @@
          </rdf:Description>
       </ontolex:canonicalForm>
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
-      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+      <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
         <ontolex:sense>
          <rdf:Description>
             <skos:definition xml:lang="fr">Se dit d'une personne qui abandonne</skos:definition>
@@ -864,7 +864,7 @@
             <ontolex:writtenRep xml:lang="fr">ABAQUE</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -978,7 +978,7 @@
             <ontolex:phoneticRep xml:lang="fr">(zour-di-se-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1004,7 +1004,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1024,7 +1024,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1057,7 +1057,7 @@
             <ontolex:writtenRep xml:lang="fr">ABATAGE</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1142,7 +1142,7 @@
             <ontolex:phoneticRep xml:lang="fr">(di-se-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -1177,7 +1177,7 @@
             <ontolex:phoneticRep xml:lang="fr">(té)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1192,7 +1192,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba-fin)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
       <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
@@ -1209,7 +1209,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
       <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
@@ -1226,7 +1226,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ti)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1258,7 +1258,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
       <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
@@ -1293,7 +1293,7 @@
                   <ontolex:phoneticRep xml:lang="fr">(ba)</ontolex:phoneticRep>
                </rdf:Description>
             </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
             <ontolex:sense>
                <rdf:Description>
@@ -1338,7 +1338,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba-tan)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1358,7 +1358,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba-te-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -1386,7 +1386,7 @@
                   <ontolex:phoneticRep xml:lang="fr">(ba-teur)</ontolex:phoneticRep>
                </rdf:Description>
             </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
             <ontolex:sense>
                <rdf:Description>
@@ -1424,7 +1424,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba-toir)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1627,7 +1627,7 @@
                   <ontolex:phoneticRep xml:lang="fr">(ba-tu-re)</ontolex:phoneticRep>
                </rdf:Description>
             </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
             <ontolex:sense>
                <rdf:Description>
@@ -1640,7 +1640,7 @@
          <lexicog:Entry>
             <lexicog:describes>
                <ontolex:LexicalEntry>
-                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
                   <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
                   <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#plural"/>
                   <ontolex:sense>
@@ -1665,7 +1665,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba-van)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
       <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
@@ -1687,7 +1687,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ba-voi)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
       <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#GenderValueRemainsToBeDetermined for: invariable"/>
         <ontolex:sense>
@@ -1744,7 +1744,7 @@
                   <ontolex:phoneticRep xml:lang="fr">(a-bè-i)</ontolex:phoneticRep>
                </rdf:Description>
             </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
             <ontolex:sense>
                <rdf:Description>
@@ -1792,7 +1792,7 @@
             <ontolex:phoneticRep xml:lang="fr">(a-bé)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -1817,7 +1817,7 @@
             <ontolex:phoneticRep xml:lang="fr">(a-bè-se)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1831,7 +1831,7 @@
             <ontolex:writtenRep xml:lang="fr">A B C</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1881,7 +1881,7 @@
             <ontolex:phoneticRep xml:lang="fr">(sè)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1895,7 +1895,7 @@
             <ontolex:writtenRep xml:lang="fr">ABD</ontolex:writtenRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1939,7 +1939,7 @@
             <ontolex:phoneticRep xml:lang="fr">(tè-re)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
         <ontolex:sense>
          <rdf:Description>
@@ -1954,7 +1954,7 @@
             <ontolex:phoneticRep xml:lang="fr">(si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -2004,7 +2004,7 @@
             <ontolex:phoneticRep xml:lang="fr">(mèn')</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -2047,7 +2047,7 @@
             <ontolex:phoneticRep xml:lang="fr">(duk)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
@@ -2073,7 +2073,7 @@
             <ontolex:phoneticRep xml:lang="fr">(duk-si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -2108,7 +2108,7 @@
          <lexicog:Entry>
             <lexicog:describes>
                <ontolex:LexicalEntry>
-                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
                   <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
                   <ontolex:sense>
                      <rdf:Description>
@@ -2127,7 +2127,7 @@
             <ontolex:phoneticRep xml:lang="fr">(bè-ke-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -2176,7 +2176,7 @@
             <ontolex:phoneticRep xml:lang="fr">(bé)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -2196,7 +2196,7 @@
             <ontolex:phoneticRep xml:lang="fr">(bè, ll mll.)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -2216,7 +2216,7 @@
             <ontolex:phoneticRep xml:lang="fr">(bè, ll mll.)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -2276,7 +2276,7 @@
          <lexicog:Entry>
             <lexicog:describes>
                <ontolex:LexicalEntry>
-                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
                   <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
                   <ontolex:sense>
                      <rdf:Description>
@@ -2314,7 +2314,7 @@
             <ontolex:phoneticRep xml:lang="fr">(bèr-ra-si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -2430,7 +2430,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ti-se-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -2485,7 +2485,7 @@
             <ontolex:phoneticRep xml:lang="fr">(bi-èss)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -2508,7 +2508,7 @@
                   <ontolex:phoneticRep xml:lang="fr">(né)</ontolex:phoneticRep>
                </rdf:Description>
             </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
             <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#plural"/>
             <ontolex:sense>
@@ -2539,7 +2539,7 @@
                   <ontolex:writtenRep xml:lang="fr">ABÎME</ontolex:writtenRep>
                </rdf:Description>
             </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
             <lexinfo:etymology>
                <rdf:Description>
@@ -2675,7 +2675,7 @@
             <ontolex:phoneticRep xml:lang="fr">(tès-ta)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#"/>
+        
         <ontolex:sense>
          <rdf:Description>
             <lexinfo:relatedTerm>
@@ -2717,7 +2717,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ab-ir-ri-ta-si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -2781,7 +2781,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ab-jèk-si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -2814,7 +2814,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ra-si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -2919,7 +2919,7 @@
          <lexicog:Entry>
             <lexicog:describes>
                <ontolex:LexicalEntry>
-                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
                   <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
                   <ontolex:sense>
                      <rdf:Description>
@@ -2939,7 +2939,7 @@
             <ontolex:phoneticRep xml:lang="fr">(si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -2961,11 +2961,11 @@
         <ontolex:canonicalForm>
          <rdf:Description>
             <ontolex:writtenRep xml:lang="fr">ABLE</ontolex:writtenRep>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
             <ontolex:writtenRep xml:lang="fr">ABLETTE</ontolex:writtenRep>
             <ontolex:phoneticRep xml:lang="fr">(blè-te)</ontolex:phoneticRep>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
          </rdf:Description>
       </ontolex:canonicalForm>
@@ -2986,7 +2986,7 @@
             <ontolex:phoneticRep xml:lang="fr">(ga)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -3012,7 +3012,7 @@
             <ontolex:phoneticRep xml:lang="fr">(si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -3027,7 +3027,7 @@
             <ontolex:phoneticRep xml:lang="fr">(rè)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -3067,7 +3067,7 @@
          <lexicog:Entry>
             <lexicog:describes>
                <ontolex:LexicalEntry>
-                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
                   <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
            un <ontolex:canonicalForm>
                      <rdf:Description/>
@@ -3099,7 +3099,7 @@
             <ontolex:phoneticRep xml:lang="fr">(si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -3135,7 +3135,7 @@
             <ontolex:phoneticRep xml:lang="fr">(si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
@@ -3161,7 +3161,7 @@
                   <ontolex:writtenRep xml:lang="fr">ABOI</ontolex:writtenRep>
                </rdf:Description>
             </ontolex:canonicalForm>
-            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
             <lexinfo:etymology>
                <rdf:Description>
@@ -3179,7 +3179,7 @@
          <lexicog:Entry>
             <lexicog:describes>
                <ontolex:LexicalEntry>
-                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
                   <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
                   <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#plural"/>
                   <ontolex:sense>
@@ -3215,7 +3215,7 @@
             <ontolex:phoneticRep xml:lang="fr">(boi-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -3293,7 +3293,7 @@
             <ontolex:phoneticRep xml:lang="fr">(li-se-man)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -3332,7 +3332,7 @@
             <ontolex:phoneticRep xml:lang="fr">(si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -3368,7 +3368,7 @@
             <ontolex:phoneticRep xml:lang="fr">(si-o-nis-me)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <ontolex:sense>
          <rdf:Description>
@@ -3402,7 +3402,7 @@
          <lexicog:Entry>
             <lexicog:describes>
                <ontolex:LexicalEntry>
-                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
                   <ontolex:sense>
                      <rdf:Description>
                         <skos:definition xml:lang="fr">Partisan de ce système</skos:definition>
@@ -3420,7 +3420,7 @@
             <ontolex:phoneticRep xml:lang="fr">(al-li, si-on)</ontolex:phoneticRep>
          </rdf:Description>
       </ontolex:canonicalForm>
-        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#noun"/>
+        <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <ontolex:sense>
          <rdf:Description>

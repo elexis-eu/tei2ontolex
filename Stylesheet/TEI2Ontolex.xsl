@@ -25,7 +25,6 @@
     <xsl:template match="tei:entry">
         <xsl:choose>
             <xsl:when test="tei:entry | tei:re">
-                <xsl:message>xxxxxxxxxx We have one: <xsl:value-of select="tei:form"/></xsl:message>
                 <lexicog:Entry>
                     <lexicog:describes>
                         <ontolex:LexicalEntry rdf:ID="{@xml:id}">
@@ -478,6 +477,11 @@
     <xsl:template match="tei:cit[@type = 'etymon']/tei:lang">
         <xsl:apply-templates/>
     </xsl:template>
+
+    <xsl:template match="tei:cit[@type = 'etymon']/text()[normalize-space() = '']">
+        <xsl:text> </xsl:text>
+    </xsl:template>
+
 
     <xsl:template match="tei:ref[@type = 'bibl']">
         <xsl:text>[</xsl:text>
