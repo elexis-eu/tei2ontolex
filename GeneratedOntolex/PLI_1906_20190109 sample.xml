@@ -59,6 +59,7 @@
                   </ontolex:sense>
                </ontolex:LexicalEntry>
             </lexicog:describes>
+            <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#phraseologicalUnit"/>
          </lexicog:Entry>
       </lexicog:subComponent>
       <lexicog:subComponent>
@@ -75,6 +76,7 @@
                   </ontolex:sense>
                </ontolex:LexicalEntry>
             </lexicog:describes>
+            <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#phraseologicalUnit"/>
          </lexicog:Entry>
       </lexicog:subComponent>
    </lexicog:Entry>
@@ -314,7 +316,7 @@
             <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/>
             <lexinfo:etymology>
                <rdf:Description>
-                  <rdf:value>(rad. bas).</rdf:value>
+                  <rdf:value xml:lang="fr">(rad. bas).</rdf:value>
                </rdf:Description>
             </lexinfo:etymology>
             <ontolex:sense>
@@ -396,6 +398,7 @@
                   </ontolex:sense>
                </ontolex:LexicalEntry>
             </lexicog:describes>
+            <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#phraseologicalUnit"/>
          </lexicog:Entry>
       </lexicog:subComponent>
       <lexicog:subComponent>
@@ -621,6 +624,7 @@
                   </ontolex:sense>
                </ontolex:LexicalEntry>
             </lexicog:describes>
+            <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#setPhrase"/>
          </lexicog:Entry>
       </lexicog:subComponent>
    </lexicog:Entry>
@@ -918,7 +922,7 @@
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(rad. sourd).</rdf:value>
+            <rdf:value xml:lang="fr">(rad. sourd).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -1091,7 +1095,7 @@
             <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/>
             <lexinfo:etymology>
                <rdf:Description>
-                  <rdf:value>(de bâtard).</rdf:value>
+                  <rdf:value xml:lang="fr">(de bâtard).</rdf:value>
                </rdf:Description>
             </lexinfo:etymology>
             <ontolex:sense>
@@ -1146,7 +1150,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(de abâtardir).</rdf:value>
+            <rdf:value xml:lang="fr">(de abâtardir).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -1362,7 +1366,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(de abattre).</rdf:value>
+            <rdf:value xml:lang="fr">(de abattre).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -1414,6 +1418,7 @@
                   </ontolex:sense>
                </ontolex:LexicalEntry>
             </lexicog:describes>
+            <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#phraseologicalUnit"/>
          </lexicog:Entry>
       </lexicog:subComponent>
    </lexicog:Entry>
@@ -1445,7 +1450,7 @@
             <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/>
             <lexinfo:etymology>
                <rdf:Description>
-                  <rdf:value>(rad. bas.</rdf:value>
+                  <rdf:value xml:lang="fr">(rad. bas.</rdf:value>
                </rdf:Description>
             </lexinfo:etymology>
             <rdfs:comment>— Se conj. comme battre.)</rdfs:comment>
@@ -1587,32 +1592,39 @@
                <ontolex:LexicalEntry>
                   <lbl xmlns="http://www.tei-c.org/ns/1.0" expand="proverbe" rend="sc">Prov.</lbl>
           
-                  <re xmlns="http://www.tei-c.org/ns/1.0" type="prov">
-                     <form type="phrase">
-                        <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">Petite pluie abat grand vent</ontolex:writtenRep>
-                     </form>
-                     <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
-                        <rdf:Description>
-                           <lexinfo:meaningType>
-                              <rdf:Description>
-                                 <rdf:value>au pr.</rdf:value>
-                              </rdf:Description>
-                           </lexinfo:meaningType>
-                           <skos:definition xml:lang="fr">quand il vient à pleuvoir, le vent s'apaise</skos:definition>
-                        </rdf:Description>
-                     </ontolex:sense>
+                  <lexicog:subComponent>
+                     <lexicog:Entry>
+                        <lexicog:describes>
+                           <ontolex:LexicalEntry>
+                              <form xmlns="http://www.tei-c.org/ns/1.0" type="phrase">
+                                 <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">Petite pluie abat grand vent</ontolex:writtenRep>
+                              </form>
+                              <ontolex:sense>
+                                 <rdf:Description>
+                                    <lexinfo:meaningType>
+                                       <rdf:Description>
+                                          <rdf:value>au pr.</rdf:value>
+                                       </rdf:Description>
+                                    </lexinfo:meaningType>
+                                    <skos:definition xml:lang="fr">quand il vient à pleuvoir, le vent s'apaise</skos:definition>
+                                 </rdf:Description>
+                              </ontolex:sense>
             
-                     <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
-                        <rdf:Description>
-                           <lexinfo:meaningType>
-                              <rdf:Description>
-                                 <rdf:value>au fig.</rdf:value>
-                              </rdf:Description>
-                           </lexinfo:meaningType>
-                           <skos:definition xml:lang="fr">souvent peu de chose suffit pour calmer une grande colère</skos:definition>
-                        </rdf:Description>
-                     </ontolex:sense>
-                  </re>
+                              <ontolex:sense>
+                                 <rdf:Description>
+                                    <lexinfo:meaningType>
+                                       <rdf:Description>
+                                          <rdf:value>au fig.</rdf:value>
+                                       </rdf:Description>
+                                    </lexinfo:meaningType>
+                                    <skos:definition xml:lang="fr">souvent peu de chose suffit pour calmer une grande colère</skos:definition>
+                                 </rdf:Description>
+                              </ontolex:sense>
+                           </ontolex:LexicalEntry>
+                        </lexicog:describes>
+                        <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#proverb"/>
+                     </lexicog:Entry>
+                  </lexicog:subComponent>
                </ontolex:LexicalEntry>
             </lexicog:describes>
          </lexicog:Entry>
@@ -1769,17 +1781,24 @@
                <ontolex:LexicalEntry>
                   <lbl xmlns="http://www.tei-c.org/ns/1.0" expand="proverbe" rend="sc">Prov.</lbl>
           
-                  <re xmlns="http://www.tei-c.org/ns/1.0" type="prov">
-                     <form type="phrase">
-                        <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">Pour un moine l'abbaye ne se perd pas</ontolex:writtenRep>
-                     </form>
-                     <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
-                        <rdf:Description>
-                           <skos:definition xml:lang="fr">l'absence d'une personne ne doit pas faire abandonner une entreprise, un
+                  <lexicog:subComponent>
+                     <lexicog:Entry>
+                        <lexicog:describes>
+                           <ontolex:LexicalEntry>
+                              <form xmlns="http://www.tei-c.org/ns/1.0" type="phrase">
+                                 <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">Pour un moine l'abbaye ne se perd pas</ontolex:writtenRep>
+                              </form>
+                              <ontolex:sense>
+                                 <rdf:Description>
+                                    <skos:definition xml:lang="fr">l'absence d'une personne ne doit pas faire abandonner une entreprise, un
               projet</skos:definition>
-                        </rdf:Description>
-                     </ontolex:sense>
-                  </re>
+                                 </rdf:Description>
+                              </ontolex:sense>
+                           </ontolex:LexicalEntry>
+                        </lexicog:describes>
+                        <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#proverb"/>
+                     </lexicog:Entry>
+                  </lexicog:subComponent>
                </ontolex:LexicalEntry>
             </lexicog:describes>
          </lexicog:Entry>
@@ -1796,7 +1815,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(lat. abbas, père).</rdf:value>
+            <rdf:value xml:lang="fr">(lat. abbas, père).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -2155,7 +2174,7 @@
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(rad. bec).</rdf:value>
+            <rdf:value xml:lang="fr">(rad. bec).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -2180,7 +2199,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(du vx fr. bée, auj. baie, ouverture).</rdf:value>
+            <rdf:value xml:lang="fr">(du vx fr. bée, auj. baie, ouverture).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -2220,7 +2239,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(lat. apis).</rdf:value>
+            <rdf:value xml:lang="fr">(lat. apis).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -2318,7 +2337,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(lat. aberratio).</rdf:value>
+            <rdf:value xml:lang="fr">(lat. aberratio).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -2401,23 +2420,28 @@
          <lexicog:Entry>
             <lexicog:describes>
                <ontolex:LexicalEntry>
-                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/> et <re xmlns="http://www.tei-c.org/ns/1.0" type="gram">
-                     <form type="derivative">
-                        <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">S'abêtir</ontolex:writtenRep>
-                     </form>
-                     <lexinfo:partOfSpeech xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-                                           rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/>
-                     <ontolex:sense xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#">
-                        <rdf:Description>
-                           <skos:definition xml:lang="fr">Devenir stupide</skos:definition>
-                           <lexicog:usageExample>
-                              <rdf:Description>
-                                 <rdf:value xml:lang="fr">cet enfant abêtit, s'abêtit de jour en jour</rdf:value>
-                              </rdf:Description>
-                           </lexicog:usageExample>
-                        </rdf:Description>
-                     </ontolex:sense>
-                  </re>
+                  <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/> et <lexicog:subComponent>
+                     <lexicog:Entry>
+                        <lexicog:describes>
+                           <ontolex:LexicalEntry>
+                              <form xmlns="http://www.tei-c.org/ns/1.0" type="derivative">
+                                 <ontolex:writtenRep xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#" xml:lang="fr">S'abêtir</ontolex:writtenRep>
+                              </form>
+                              <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/>
+                              <ontolex:sense>
+                                 <rdf:Description>
+                                    <skos:definition xml:lang="fr">Devenir stupide</skos:definition>
+                                    <lexicog:usageExample>
+                                       <rdf:Description>
+                                          <rdf:value xml:lang="fr">cet enfant abêtit, s'abêtit de jour en jour</rdf:value>
+                                       </rdf:Description>
+                                    </lexicog:usageExample>
+                                 </rdf:Description>
+                              </ontolex:sense>
+                           </ontolex:LexicalEntry>
+                        </lexicog:describes>
+                     </lexicog:Entry>
+                  </lexicog:subComponent>
                </ontolex:LexicalEntry>
             </lexicog:describes>
          </lexicog:Entry>
@@ -2489,7 +2513,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(lat. abies).</rdf:value>
+            <rdf:value xml:lang="fr">(lat. abies).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -2543,7 +2567,7 @@
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
             <lexinfo:etymology>
                <rdf:Description>
-                  <rdf:value>(du gr. a priv., et bussos, fond).</rdf:value>
+                  <rdf:value xml:lang="fr">(du gr. a priv., et bussos, fond).</rdf:value>
                </rdf:Description>
             </lexinfo:etymology>
             <ontolex:sense>
@@ -2592,6 +2616,7 @@
                   </ontolex:sense>
                </ontolex:LexicalEntry>
             </lexicog:describes>
+            <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#phraseologicalUnit"/>
          </lexicog:Entry>
       </lexicog:subComponent>
    </lexicog:Entry>
@@ -2754,7 +2779,7 @@
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(lat. abjectus, jeté hors).</rdf:value>
+            <rdf:value xml:lang="fr">(lat. abjectus, jeté hors).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -2818,7 +2843,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(lat. abjuratio, reniement).</rdf:value>
+            <rdf:value xml:lang="fr">(lat. abjuratio, reniement).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -2990,7 +3015,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(préf. ab, et lat. legatus, envoyé).</rdf:value>
+            <rdf:value xml:lang="fr">(préf. ab, et lat. legatus, envoyé).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -3139,7 +3164,7 @@
       <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#feminine"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(lat. abnegatio, action de nier).</rdf:value>
+            <rdf:value xml:lang="fr">(lat. abnegatio, action de nier).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
@@ -3165,7 +3190,7 @@
             <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
             <lexinfo:etymology>
                <rdf:Description>
-                  <rdf:value>(de aboyer).</rdf:value>
+                  <rdf:value xml:lang="fr">(de aboyer).</rdf:value>
                </rdf:Description>
             </lexinfo:etymology>
             <ontolex:sense>
@@ -3242,7 +3267,7 @@
         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#verb"/>
         <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>(lat. abolere).</rdf:value>
+            <rdf:value xml:lang="fr">(lat. abolere).</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
         <ontolex:sense>
