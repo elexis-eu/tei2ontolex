@@ -604,7 +604,7 @@
     <!-- And we drop <lbl> in <xr> -->
     <xsl:template match="tei:xr/tei:lbl"/>
 
-    <xsl:template match="tei:entry/tei:re | tei:entry/tei:entry">
+    <xsl:template match="tei:entry/tei:re | tei:entry/tei:entry | tei:re/tei:re">
         <lexicog:subComponent>
             <lexicog:Entry>
                 <lexicog:describes>
@@ -612,6 +612,15 @@
                         <xsl:apply-templates/>
                     </ontolex:LexicalEntry>
                 </lexicog:describes>
+                <xsl:if test="@type = 'prov' or @type='proverb'">
+                    <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#proverb"/>
+                </xsl:if>
+                <xsl:if test="@type = 'expr' or @type='expression'">
+                    <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#phraseologicalUnit"/>
+                </xsl:if>
+                <xsl:if test="@type = 'loc' or @type='locution'">
+                    <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#setPhrase"/>
+                </xsl:if>
             </lexicog:Entry>
         </lexicog:subComponent>
     </xsl:template>
