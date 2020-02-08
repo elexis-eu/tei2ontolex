@@ -386,12 +386,12 @@
       </ontolex:canonicalForm>
             <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value> aus  slow.  </rdf:value>
+            <rdf:value xml:lang="de">aus slow.</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
             <lexinfo:etymology>
          <rdf:Description>
-            <rdf:value>  mhd. [Lexer Wb. III 324]  </rdf:value>
+            <rdf:value xml:lang="de">mhd. [Lexer Wb. III 324]</rdf:value>
          </rdf:Description>
       </lexinfo:etymology>
          </ontolex:LexicalEntry>

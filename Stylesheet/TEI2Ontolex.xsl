@@ -455,13 +455,19 @@
     </xsl:template>
 
     <xsl:template match="tei:etym">
-        <lexinfo:etymology>
-            <rdf:Description>
-                <rdf:value>
-                    <xsl:apply-templates/>
-                </rdf:value>
-            </rdf:Description>
-        </lexinfo:etymology>
+        <xsl:variable name="flattenEtym">
+            <xsl:apply-templates/>
+        </xsl:variable>
+        <xsl:variable name="workingLanguage" select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
+        <xsl:if test="normalize-space($flattenEtym)">
+            <lexinfo:etymology>
+                <rdf:Description>
+                    <rdf:value xml:lang="{$workingLanguage}">
+                        <xsl:value-of select="normalize-space($flattenEtym)"/>
+                    </rdf:value>
+                </rdf:Description>
+            </lexinfo:etymology>
+        </xsl:if>
     </xsl:template>
 
     <!-- Highest priority here to make sure that <etym> is always flattened, cf. e.g. overriding the precise transformation of <usg> -->
