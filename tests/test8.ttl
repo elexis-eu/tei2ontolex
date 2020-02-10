@@ -5,4 +5,4 @@
 
 <#Probe> a ontolex:LexicalEntry ;
   ontolex:canonicalForm [ ontolex:writtenRep "Probe"@de ] ;
-  lexinfo:etymology [ rdf:value "aus slow."@de , "mhd. Lexer Wv. III 323"@de ] .
+  lexinfo:etymology [ rdf:value "aus slow."@de , "mhd. [Lexer Wb. III 324]"@de ] .
