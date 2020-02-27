@@ -16,7 +16,7 @@
 @prefix tei: <http://www.tei-c.org/ns/1.0> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<#abaisseru> a lexicog:Entry ;
+<#abaisseur> a lexicog:Entry ;
   lexicog:describes <#abaisseur-1>, <#abaisseur-2> .
 
 <#abaisseur-1>
