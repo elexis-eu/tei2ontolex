@@ -7,10 +7,10 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
     xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#" xmlns:dct="http://purl.org/dc/terms/"
     xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:terms="http://purl.org/dc/terms/" xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#" xmlns:vann="http://purl.org/vocab/vann/"
-    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lime1="http://www.w3.org/ns/lemon/lime#"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    xmlns:terms="http://purl.org/dc/terms/" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+    xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:lime1="http://www.w3.org/ns/lemon/lime#" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 
     <xsl:variable name="LexiconURI" select="'http://www.mylexica.perso/PLI1906'"/>
 
@@ -28,13 +28,15 @@
             <!-- Case when there are two parts of speech: we split the entry in two -->
             <xsl:when test="count(tei:gramGrp/tei:pos) > 1">
                 <xsl:message>Splitting an entry: <xsl:value-of select="@xml:id"/></xsl:message>
-                <lexicog:Entry>
+                <lexicog:Entry rdf:ID="{$theEntry/@xml:id}">
                     <xsl:for-each select="tei:gramGrp/tei:pos">
-                        <ontolex:LexicalEntry rdf:ID="{$theEntry/@xml:id}-{position()}">
-                            <xsl:apply-templates select="$theEntry/*">
-                                <xsl:with-param name="posPosition" select="position()"/>
-                            </xsl:apply-templates>
-                        </ontolex:LexicalEntry>
+                        <lexicog:describes>
+                            <ontolex:LexicalEntry rdf:ID="{$theEntry/@xml:id}-{position()}">
+                                <xsl:apply-templates select="$theEntry/*">
+                                    <xsl:with-param name="posPosition" select="position()"/>
+                                </xsl:apply-templates>
+                            </ontolex:LexicalEntry>
+                        </lexicog:describes>
                     </xsl:for-each>
                 </lexicog:Entry>
             </xsl:when>
@@ -61,7 +63,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
+
 
     <xsl:template
         match="tei:entry/tei:form[@type = 'lemma'] | tei:entry/tei:form[not(@type)] | tei:entry/tei:re/tei:form | tei:entry/tei:entry/tei:form">
@@ -133,7 +135,8 @@
     <!-- Note the hack concerning 'proper' due to a bad example that remains to be corrected -->
     <xsl:template match="tei:pos | tei:gram[@type = 'pos'] | tei:gram[@type = 'proper']">
         <xsl:param name="posPosition"/>
-        <xsl:variable name="prédécesseurs" select="count(preceding-sibling::tei:pos | tei:gram[@type = 'pos'] | preceding-sibling::tei:gram[@type = 'proper'])"/>
+        <xsl:variable name="prédécesseurs"
+            select="count(preceding-sibling::tei:pos | tei:gram[@type = 'pos'] | preceding-sibling::tei:gram[@type = 'proper'])"/>
         <xsl:if test="not(@expan = 'locution') and (not($posPosition > 0) or (($posPosition - 1) = $prédécesseurs))">
             <xsl:variable name="sourceReference">
                 <xsl:choose>
@@ -632,13 +635,13 @@
                         <xsl:apply-templates/>
                     </ontolex:LexicalEntry>
                 </lexicog:describes>
-                <xsl:if test="@type = 'prov' or @type='proverb'">
+                <xsl:if test="@type = 'prov' or @type = 'proverb'">
                     <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#proverb"/>
                 </xsl:if>
-                <xsl:if test="@type = 'expr' or @type='expression'">
+                <xsl:if test="@type = 'expr' or @type = 'expression'">
                     <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#phraseologicalUnit"/>
                 </xsl:if>
-                <xsl:if test="@type = 'loc' or @type='locution'">
+                <xsl:if test="@type = 'loc' or @type = 'locution'">
                     <lexinfo:termType rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#setPhrase"/>
                 </xsl:if>
             </lexicog:Entry>

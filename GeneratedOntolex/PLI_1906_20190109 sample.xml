@@ -436,37 +436,41 @@
          </lexicog:Entry>
       </lexicog:subComponent>
    </lexicog:Entry>
-   <lexicog:Entry>
-      <ontolex:LexicalEntry rdf:ID="abaisseur-1">
-         <ontolex:canonicalForm>
-            <rdf:Description>
-               <ontolex:writtenRep xml:lang="fr">ABAISSEUR</ontolex:writtenRep>
-               <ontolex:phoneticRep xml:lang="fr">bè-seur</ontolex:phoneticRep>
-            </rdf:Description>
-         </ontolex:canonicalForm>
-         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
-         <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-         <ontolex:sense>
-            <rdf:Description>
-               <skos:definition xml:lang="fr">Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché</skos:definition>
-            </rdf:Description>
-         </ontolex:sense>
-      </ontolex:LexicalEntry>
-      <ontolex:LexicalEntry rdf:ID="abaisseur-2">
-         <ontolex:canonicalForm>
-            <rdf:Description>
-               <ontolex:writtenRep xml:lang="fr">ABAISSEUR</ontolex:writtenRep>
-               <ontolex:phoneticRep xml:lang="fr">bè-seur</ontolex:phoneticRep>
-            </rdf:Description>
-         </ontolex:canonicalForm>
-         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
-         <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-         <ontolex:sense>
-            <rdf:Description>
-               <skos:definition xml:lang="fr">Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché</skos:definition>
-            </rdf:Description>
-         </ontolex:sense>
-      </ontolex:LexicalEntry>
+   <lexicog:Entry rdf:ID="abaisseur">
+      <lexicog:describes>
+         <ontolex:LexicalEntry rdf:ID="abaisseur-1">
+            <ontolex:canonicalForm>
+               <rdf:Description>
+                  <ontolex:writtenRep xml:lang="fr">ABAISSEUR</ontolex:writtenRep>
+                  <ontolex:phoneticRep xml:lang="fr">bè-seur</ontolex:phoneticRep>
+               </rdf:Description>
+            </ontolex:canonicalForm>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
+            <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+            <ontolex:sense>
+               <rdf:Description>
+                  <skos:definition xml:lang="fr">Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché</skos:definition>
+               </rdf:Description>
+            </ontolex:sense>
+         </ontolex:LexicalEntry>
+      </lexicog:describes>
+      <lexicog:describes>
+         <ontolex:LexicalEntry rdf:ID="abaisseur-2">
+            <ontolex:canonicalForm>
+               <rdf:Description>
+                  <ontolex:writtenRep xml:lang="fr">ABAISSEUR</ontolex:writtenRep>
+                  <ontolex:phoneticRep xml:lang="fr">bè-seur</ontolex:phoneticRep>
+               </rdf:Description>
+            </ontolex:canonicalForm>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
+            <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+            <ontolex:sense>
+               <rdf:Description>
+                  <skos:definition xml:lang="fr">Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché</skos:definition>
+               </rdf:Description>
+            </ontolex:sense>
+         </ontolex:LexicalEntry>
+      </lexicog:describes>
    </lexicog:Entry>
    <ontolex:LexicalEntry rdf:ID="abajoue">
       <ontolex:canonicalForm>
@@ -857,45 +861,49 @@
          </lexicog:Entry>
       </lexicog:subComponent>
    </lexicog:Entry>
-   <lexicog:Entry>
-      <ontolex:LexicalEntry rdf:ID="abandonneur-1">
-         <ontolex:canonicalForm>
-            <rdf:Description>
-               <ontolex:writtenRep xml:lang="fr">ABANDONNEUR</ontolex:writtenRep>
-               <ontolex:otherForm>
-                  <rdf:Description>
-                     <ontolex:writtenRep xml:lang="fr">EUSE</ontolex:writtenRep>
-                  </rdf:Description>
-               </ontolex:otherForm>
-               <ontolex:phoneticRep xml:lang="fr">(do-neur, eu-ze)</ontolex:phoneticRep>
-            </rdf:Description>
-         </ontolex:canonicalForm>
-         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
-         <ontolex:sense>
-            <rdf:Description>
-               <skos:definition xml:lang="fr">Se dit d'une personne qui abandonne</skos:definition>
-            </rdf:Description>
-         </ontolex:sense>
-      </ontolex:LexicalEntry>
-      <ontolex:LexicalEntry rdf:ID="abandonneur-2">
-         <ontolex:canonicalForm>
-            <rdf:Description>
-               <ontolex:writtenRep xml:lang="fr">ABANDONNEUR</ontolex:writtenRep>
-               <ontolex:otherForm>
-                  <rdf:Description>
-                     <ontolex:writtenRep xml:lang="fr">EUSE</ontolex:writtenRep>
-                  </rdf:Description>
-               </ontolex:otherForm>
-               <ontolex:phoneticRep xml:lang="fr">(do-neur, eu-ze)</ontolex:phoneticRep>
-            </rdf:Description>
-         </ontolex:canonicalForm>
-         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
-         <ontolex:sense>
-            <rdf:Description>
-               <skos:definition xml:lang="fr">Se dit d'une personne qui abandonne</skos:definition>
-            </rdf:Description>
-         </ontolex:sense>
-      </ontolex:LexicalEntry>
+   <lexicog:Entry rdf:ID="abandonneur">
+      <lexicog:describes>
+         <ontolex:LexicalEntry rdf:ID="abandonneur-1">
+            <ontolex:canonicalForm>
+               <rdf:Description>
+                  <ontolex:writtenRep xml:lang="fr">ABANDONNEUR</ontolex:writtenRep>
+                  <ontolex:otherForm>
+                     <rdf:Description>
+                        <ontolex:writtenRep xml:lang="fr">EUSE</ontolex:writtenRep>
+                     </rdf:Description>
+                  </ontolex:otherForm>
+                  <ontolex:phoneticRep xml:lang="fr">(do-neur, eu-ze)</ontolex:phoneticRep>
+               </rdf:Description>
+            </ontolex:canonicalForm>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
+            <ontolex:sense>
+               <rdf:Description>
+                  <skos:definition xml:lang="fr">Se dit d'une personne qui abandonne</skos:definition>
+               </rdf:Description>
+            </ontolex:sense>
+         </ontolex:LexicalEntry>
+      </lexicog:describes>
+      <lexicog:describes>
+         <ontolex:LexicalEntry rdf:ID="abandonneur-2">
+            <ontolex:canonicalForm>
+               <rdf:Description>
+                  <ontolex:writtenRep xml:lang="fr">ABANDONNEUR</ontolex:writtenRep>
+                  <ontolex:otherForm>
+                     <rdf:Description>
+                        <ontolex:writtenRep xml:lang="fr">EUSE</ontolex:writtenRep>
+                     </rdf:Description>
+                  </ontolex:otherForm>
+                  <ontolex:phoneticRep xml:lang="fr">(do-neur, eu-ze)</ontolex:phoneticRep>
+               </rdf:Description>
+            </ontolex:canonicalForm>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
+            <ontolex:sense>
+               <rdf:Description>
+                  <skos:definition xml:lang="fr">Se dit d'une personne qui abandonne</skos:definition>
+               </rdf:Description>
+            </ontolex:sense>
+         </ontolex:LexicalEntry>
+      </lexicog:describes>
    </lexicog:Entry>
    <ontolex:LexicalEntry rdf:ID="abaque">
       <ontolex:canonicalForm>
@@ -1983,35 +1991,39 @@
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
-   <lexicog:Entry>
-      <ontolex:LexicalEntry rdf:ID="abdicataire-1">
-         <ontolex:canonicalForm>
-            <rdf:Description>
-               <ontolex:writtenRep xml:lang="fr">ABDICATAIRE</ontolex:writtenRep>
-               <ontolex:phoneticRep xml:lang="fr">(tè-re)</ontolex:phoneticRep>
-            </rdf:Description>
-         </ontolex:canonicalForm>
-         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
-         <ontolex:sense>
-            <rdf:Description>
-               <skos:definition xml:lang="fr">Se dit d'une personne qui a abdiqué</skos:definition>
-            </rdf:Description>
-         </ontolex:sense>
-      </ontolex:LexicalEntry>
-      <ontolex:LexicalEntry rdf:ID="abdicataire-2">
-         <ontolex:canonicalForm>
-            <rdf:Description>
-               <ontolex:writtenRep xml:lang="fr">ABDICATAIRE</ontolex:writtenRep>
-               <ontolex:phoneticRep xml:lang="fr">(tè-re)</ontolex:phoneticRep>
-            </rdf:Description>
-         </ontolex:canonicalForm>
-         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
-         <ontolex:sense>
-            <rdf:Description>
-               <skos:definition xml:lang="fr">Se dit d'une personne qui a abdiqué</skos:definition>
-            </rdf:Description>
-         </ontolex:sense>
-      </ontolex:LexicalEntry>
+   <lexicog:Entry rdf:ID="abdicataire">
+      <lexicog:describes>
+         <ontolex:LexicalEntry rdf:ID="abdicataire-1">
+            <ontolex:canonicalForm>
+               <rdf:Description>
+                  <ontolex:writtenRep xml:lang="fr">ABDICATAIRE</ontolex:writtenRep>
+                  <ontolex:phoneticRep xml:lang="fr">(tè-re)</ontolex:phoneticRep>
+               </rdf:Description>
+            </ontolex:canonicalForm>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
+            <ontolex:sense>
+               <rdf:Description>
+                  <skos:definition xml:lang="fr">Se dit d'une personne qui a abdiqué</skos:definition>
+               </rdf:Description>
+            </ontolex:sense>
+         </ontolex:LexicalEntry>
+      </lexicog:describes>
+      <lexicog:describes>
+         <ontolex:LexicalEntry rdf:ID="abdicataire-2">
+            <ontolex:canonicalForm>
+               <rdf:Description>
+                  <ontolex:writtenRep xml:lang="fr">ABDICATAIRE</ontolex:writtenRep>
+                  <ontolex:phoneticRep xml:lang="fr">(tè-re)</ontolex:phoneticRep>
+               </rdf:Description>
+            </ontolex:canonicalForm>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
+            <ontolex:sense>
+               <rdf:Description>
+                  <skos:definition xml:lang="fr">Se dit d'une personne qui a abdiqué</skos:definition>
+               </rdf:Description>
+            </ontolex:sense>
+         </ontolex:LexicalEntry>
+      </lexicog:describes>
    </lexicog:Entry>
    <ontolex:LexicalEntry rdf:ID="abdication">
       <ontolex:canonicalForm>
@@ -2106,57 +2118,61 @@
          </rdf:Description>
       </ontolex:sense>
    </ontolex:LexicalEntry>
-   <lexicog:Entry>
-      <ontolex:LexicalEntry rdf:ID="abducteur-1">
-         <ontolex:canonicalForm>
-            <rdf:Description>
-               <ontolex:writtenRep xml:lang="fr">ABDUCTEUR</ontolex:writtenRep>
-               <ontolex:phoneticRep xml:lang="fr">(duk)</ontolex:phoneticRep>
-            </rdf:Description>
-         </ontolex:canonicalForm>
-         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
-         <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-         <ontolex:sense>
-            <rdf:Description>
-               <skos:definition xml:lang="fr">Se dit de tout muscle qui produit le mouvement d'abduction</skos:definition>
-               <lexicog:usageExample>
-                  <rdf:Description>
-                     <rdf:value xml:lang="fr">muscle abducteur</rdf:value>
-                  </rdf:Description>
-               </lexicog:usageExample>
-               <lexicog:usageExample>
-                  <rdf:Description>
-                     <rdf:value xml:lang="fr">l'abducteur de l'œil</rdf:value>
-                  </rdf:Description>
-               </lexicog:usageExample>
-            </rdf:Description>
-         </ontolex:sense>
-      </ontolex:LexicalEntry>
-      <ontolex:LexicalEntry rdf:ID="abducteur-2">
-         <ontolex:canonicalForm>
-            <rdf:Description>
-               <ontolex:writtenRep xml:lang="fr">ABDUCTEUR</ontolex:writtenRep>
-               <ontolex:phoneticRep xml:lang="fr">(duk)</ontolex:phoneticRep>
-            </rdf:Description>
-         </ontolex:canonicalForm>
-         <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
-         <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
-         <ontolex:sense>
-            <rdf:Description>
-               <skos:definition xml:lang="fr">Se dit de tout muscle qui produit le mouvement d'abduction</skos:definition>
-               <lexicog:usageExample>
-                  <rdf:Description>
-                     <rdf:value xml:lang="fr">muscle abducteur</rdf:value>
-                  </rdf:Description>
-               </lexicog:usageExample>
-               <lexicog:usageExample>
-                  <rdf:Description>
-                     <rdf:value xml:lang="fr">l'abducteur de l'œil</rdf:value>
-                  </rdf:Description>
-               </lexicog:usageExample>
-            </rdf:Description>
-         </ontolex:sense>
-      </ontolex:LexicalEntry>
+   <lexicog:Entry rdf:ID="abducteur">
+      <lexicog:describes>
+         <ontolex:LexicalEntry rdf:ID="abducteur-1">
+            <ontolex:canonicalForm>
+               <rdf:Description>
+                  <ontolex:writtenRep xml:lang="fr">ABDUCTEUR</ontolex:writtenRep>
+                  <ontolex:phoneticRep xml:lang="fr">(duk)</ontolex:phoneticRep>
+               </rdf:Description>
+            </ontolex:canonicalForm>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#commonNoun"/>
+            <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+            <ontolex:sense>
+               <rdf:Description>
+                  <skos:definition xml:lang="fr">Se dit de tout muscle qui produit le mouvement d'abduction</skos:definition>
+                  <lexicog:usageExample>
+                     <rdf:Description>
+                        <rdf:value xml:lang="fr">muscle abducteur</rdf:value>
+                     </rdf:Description>
+                  </lexicog:usageExample>
+                  <lexicog:usageExample>
+                     <rdf:Description>
+                        <rdf:value xml:lang="fr">l'abducteur de l'œil</rdf:value>
+                     </rdf:Description>
+                  </lexicog:usageExample>
+               </rdf:Description>
+            </ontolex:sense>
+         </ontolex:LexicalEntry>
+      </lexicog:describes>
+      <lexicog:describes>
+         <ontolex:LexicalEntry rdf:ID="abducteur-2">
+            <ontolex:canonicalForm>
+               <rdf:Description>
+                  <ontolex:writtenRep xml:lang="fr">ABDUCTEUR</ontolex:writtenRep>
+                  <ontolex:phoneticRep xml:lang="fr">(duk)</ontolex:phoneticRep>
+               </rdf:Description>
+            </ontolex:canonicalForm>
+            <lexinfo:partOfSpeech rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#adjective"/>
+            <lexinfo:gender rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#masculine"/>
+            <ontolex:sense>
+               <rdf:Description>
+                  <skos:definition xml:lang="fr">Se dit de tout muscle qui produit le mouvement d'abduction</skos:definition>
+                  <lexicog:usageExample>
+                     <rdf:Description>
+                        <rdf:value xml:lang="fr">muscle abducteur</rdf:value>
+                     </rdf:Description>
+                  </lexicog:usageExample>
+                  <lexicog:usageExample>
+                     <rdf:Description>
+                        <rdf:value xml:lang="fr">l'abducteur de l'œil</rdf:value>
+                     </rdf:Description>
+                  </lexicog:usageExample>
+               </rdf:Description>
+            </ontolex:sense>
+         </ontolex:LexicalEntry>
+      </lexicog:describes>
    </lexicog:Entry>
    <ontolex:LexicalEntry rdf:ID="abduction">
       <ontolex:canonicalForm>
