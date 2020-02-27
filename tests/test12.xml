@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Stylesheet/TEI2Ontolex.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PLI-test" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Nénufar</title>
+                <title type="sub">Editions numériques du Petit Larousse illustré (1905-1947)</title>
+                <editor role="scientifique">Hervé Bohbot</editor>
+                <editor role="scientifique">Francesca Frontini</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Première publication <date>janvier 2019</date></edition>
+                <respStmt>
+                    <resp>Numérisation, encodage</resp>
+                    <name>Hervé Bohbot</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Praxiling UMR 5267</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Bâtiment Marc Bloch (BRED)</addrLine>
+                        <addrLine>Université Paul-Valéry</addrLine>
+                        <addrLine>Route de Mende</addrLine>
+                        <addrLine>34199 Montpellier cedex 5</addrLine>
+                    </address>
+                </pubPlace>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by/4.0/deed.fr">Extraits : Attribution — Vous devez
+                        créditer l’œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées. Vous
+                        devez indiquer ces informations par tous les moyens possibles mais vous ne pouvez pas suggérer que les
+                        éditeurs vous soutiennent ou soutiennent la façon dont vous avez utilisé leur œuvre. Les éditeurs demandent
+                        que toute publication dérivée de ses ressources électroniques comporte : 1. leur nom, ainsi que les noms des
+                        personnes auteurs de l’édition ; 2. l’URI permettant d’accéder à la page concernée du présent site web, ou à
+                        défaut à la page d’accueil de ce site ; 3. la date et la version du fichier source utilisé (le cas échéant).
+                        Pas de restrictions additionnelles — Vous n’êtes pas autorisé à appliquer des conditions légales ou des
+                        mesures techniques qui empêcheraient autrui d’utiliser l’œuvre dans les conditions décrites par la
+                        licence.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> Petit Larousse 1906 - 1e édition</bibl>
+            </sourceDesc>
+
+        </fileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <entry xml:id="abaisseur" n="1906-001_1925-015">
+                <form type="lemma"><orth>ABAISSEUR</orth>
+                    <pc>(</pc><pron rend="italic" extent="part">bè-seur</pron><pc>)</pc>
+                </form>
+                <gramGrp>
+                    <pos expand="adjectif">adj.</pos>
+                    <lbl>et</lbl>
+                    <pos expand="nom">n.</pos>
+                    <gen expand="masculin">m.</gen>
+                </gramGrp>
+                <sense><def>Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché</def>
+                    <pc>.</pc>
+                </sense>
+            </entry>
+        </body>
+    </text>
+</TEI>

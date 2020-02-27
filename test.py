@@ -135,6 +135,13 @@ class TestTEI2OntoLex(unittest.TestCase):
         actual = convert_tei_to_ontolex("tests/test10.xml")
         compare_rdf_graphs(expected, actual, self)
 
+    def test12(self):
+        expected = Graph()
+        with open("tests/test12.ttl") as ttl:
+            expected.parse(ttl, format="turtle")
+        actual = convert_tei_to_ontolex("tests/test12.xml")
+        compare_rdf_graphs(expected, actual, self)
+
 
 if __name__ == "__main__":
     unittest.main()
