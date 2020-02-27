@@ -23,7 +23,21 @@
     </xsl:template>
 
     <xsl:template match="tei:entry">
+        <xsl:variable name="theEntry" select="."/>
         <xsl:choose>
+            <!-- Case when there are two parts of speech: we split the entry in two -->
+            <xsl:when test="count(tei:gramGrp/tei:pos) > 1">
+                <xsl:message>Splitting an entry: <xsl:value-of select="@xml:id"/></xsl:message>
+                <lexicog:Entry>
+                    <xsl:for-each select="tei:gramGrp/tei:pos">
+                        <ontolex:LexicalEntry rdf:ID="{$theEntry/@xml:id}-{position()}">
+                            <xsl:apply-templates select="$theEntry/*">
+                                <xsl:with-param name="posPosition" select="position()"/>
+                            </xsl:apply-templates>
+                        </ontolex:LexicalEntry>
+                    </xsl:for-each>
+                </lexicog:Entry>
+            </xsl:when>
             <xsl:when test="tei:entry | tei:re">
                 <lexicog:Entry>
                     <lexicog:describes>
@@ -47,6 +61,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
 
     <xsl:template
         match="tei:entry/tei:form[@type = 'lemma'] | tei:entry/tei:form[not(@type)] | tei:entry/tei:re/tei:form | tei:entry/tei:entry/tei:form">
@@ -106,7 +121,10 @@
     </xsl:template>
 
     <xsl:template match="tei:gramGrp">
-        <xsl:apply-templates/>
+        <xsl:param name="posPosition"/>
+        <xsl:apply-templates>
+            <xsl:with-param name="posPosition" select="$posPosition"/>
+        </xsl:apply-templates>
     </xsl:template>
 
     <!-- e.g. "et" in French in PLI ("adj. et n.")-->
@@ -114,7 +132,9 @@
 
     <!-- Note the hack concerning 'proper' due to a bad example that remains to be corrected -->
     <xsl:template match="tei:pos | tei:gram[@type = 'pos'] | tei:gram[@type = 'proper']">
-        <xsl:if test="not(@expan = 'locution')">
+        <xsl:param name="posPosition"/>
+        <xsl:variable name="prédécesseurs" select="count(preceding-sibling::tei:pos | tei:gram[@type = 'pos'] | preceding-sibling::tei:gram[@type = 'proper'])"/>
+        <xsl:if test="not(@expan = 'locution') and (not($posPosition > 0) or (($posPosition - 1) = $prédécesseurs))">
             <xsl:variable name="sourceReference">
                 <xsl:choose>
                     <xsl:when test="@norm">
