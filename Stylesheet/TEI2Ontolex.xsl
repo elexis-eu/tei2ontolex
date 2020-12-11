@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs" version="1.0" xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-    xml:base="http://lari-datasets.ilc.cnr.it/nenu_sample" xmlns:void="http://rdfs.org/ns/void#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ns="http://creativecommons.org/ns#"
-    xmlns:lime="http://www.w3.org/ns/lemon/lime" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
-    xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#" xmlns:dct="http://purl.org/dc/terms/"
-    xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:terms="http://purl.org/dc/terms/" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
-    xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:lime1="http://www.w3.org/ns/lemon/lime#" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<xsl:stylesheet
+        exclude-result-prefixes="xs" version="1.0"
+        xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xml:base="http://lari-datasets.ilc.cnr.it/nenu_sample"
+        xmlns:void="http://rdfs.org/ns/void#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:ns="http://creativecommons.org/ns#"
+        xmlns:lime="http://www.w3.org/ns/lemon/lime"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
+        xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#"
+        xmlns:dct="http://purl.org/dc/terms/"
+        xmlns:bibo="http://purl.org/ontology/bibo/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:terms="http://purl.org/dc/terms/"
+        xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+        xmlns:vann="http://purl.org/vocab/vann/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:lime1="http://www.w3.org/ns/lemon/lime#"
+        xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 
     <xsl:variable name="LexiconURI" select="'http://www.mylexica.perso/PLI1906'"/>
 
