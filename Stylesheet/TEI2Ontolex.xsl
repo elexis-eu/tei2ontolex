@@ -28,12 +28,24 @@
 
     <xsl:template match="/">
         <rdf:RDF>
-            <xsl:apply-templates select="descendant::tei:entry"/>
+            <lime:Lexicon>
+                <xsl:apply-templates select="descendant::tei:teiHeader"/>
+                <xsl:apply-templates select="descendant::tei:entry"/>
+            </lime:Lexicon>
         </rdf:RDF>
+    </xsl:template>
+
+    <xsl:template match="tei:teiHeader">
+        <xsl:apply-templates select="descendant::tei:title[text()]"/>
+        <xsl:apply-templates select="descendant::tei:author[text()]"/>
+        <xsl:apply-templates select="descendant::tei:date[text() | @when]"/>
+        <xsl:apply-templates select="descendant::tei:publisher[text()]"/>
+        <xsl:apply-templates select="descendant::tei:licence[text()]"/>
     </xsl:template>
 
     <xsl:template match="tei:entry">
         <xsl:variable name="theEntry" select="."/>
+        <lime:entry>
         <xsl:choose>
             <!-- Case when there are two parts of speech: we split the entry in two -->
             <xsl:when test="count(tei:gramGrp/tei:pos) > 1">
@@ -72,6 +84,7 @@
                 </ontolex:LexicalEntry>
             </xsl:otherwise>
         </xsl:choose>
+        </lime:entry>
     </xsl:template>
 
 
@@ -556,7 +569,7 @@
 
     <xsl:template match="tei:date">
         <dc:date>
-            <xsl:apply-templates/>
+            <xsl:value-of select="text() | @when"/>
         </dc:date>
     </xsl:template>
 
@@ -564,6 +577,12 @@
         <dc:publisher>
             <xsl:apply-templates/>
         </dc:publisher>
+    </xsl:template>
+
+    <xsl:template match="tei:licence">
+        <dct:licence>
+            <xsl:apply-templates/>
+        </dct:licence>
     </xsl:template>
 
     <!-- <xr> construct -->
