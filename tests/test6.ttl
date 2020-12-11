@@ -1,10 +1,14 @@
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 
 <#horrifier> a ontolex:LexicalEntry ;
-  ontolex:canonicalForm [ ontolex:writtenRep "horrifier"@fr ] ;
-  lexinfo:partOfSpeech lexinfo:verb ;
-  ontolex:sense [
-    lexinfo:senseTranslation "horrify"@en 
-  ] .
+    lexinfo:partOfSpeech lexinfo:verb ;
+    ontolex:canonicalForm [ ontolex:writtenRep "horrifier"@fr ] ;
+    ontolex:sense [ lexinfo:senseTranslation "horrify"@en ] .
+
+[] a lime:Lexicon ;
+    dc:title "Test 6 - Translations" ;
+    lime:entry <#horrifier> .
+

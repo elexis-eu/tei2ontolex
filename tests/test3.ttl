@@ -1,17 +1,20 @@
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <#Flussschifffahrt> a ontolex:LexicalEntry ;
-  ontolex:canonicalForm [ 
-    ontolex:writtenRep "Flussschifffahrt"@de , 
-    "Fluss-Schifffahrt"@de, "Flußschifffahrt"@de 
-  ] .
+    ontolex:canonicalForm [ lexinfo:temporalQualifier [ rdf:value "Vor 1996 Rechtschreibung Reform" ] ;
+            ontolex:writtenRep "Fluss-Schifffahrt"@de,
+                "Flussschifffahrt"@de,
+                "Flußschifffahrt"@de ] .
 
 <#osama_bin_laden> a ontolex:LexicalEntry ;
-  ontolex:canonicalForm [
-    ontolex:phoneticRep "ow.\"sa.mabɪnˈlaːdn̹"@en-fonipa ;
-    lexinfo:temporalQualifier [ rdf:value "Vor 1996 Rechtschreibung Reform" ]
-  ] .
+    ontolex:canonicalForm [ ontolex:phoneticRep "ow.\"sa.mabɪnˈlaːdn̹"@en-fonipa ] .
+
+[] a lime:Lexicon ;
+    dc:title "Test 3 - variant forms" ;
+    lime:entry <#Flussschifffahrt>,
+        <#osama_bin_laden> .
 

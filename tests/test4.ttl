@@ -1,8 +1,14 @@
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 
 <#go> a ontolex:LexicalEntry ;
-  ontolex:canonicalForm [ ontolex:writtenRep "go"@en ] ;
-  ontolex:otherForm [ ontolex:writtenRep "went"@en ;
-    lexinfo:tense lexinfo:past ] .
+    ontolex:canonicalForm [ ontolex:writtenRep "go"@en ] ;
+    ontolex:otherForm [ lexinfo:tense lexinfo:past ;
+            ontolex:writtenRep "went"@en ] .
+
+[] a lime:Lexicon ;
+    dc:title "Test 3 - inflected forms" ;
+    lime:entry <#go> .
+

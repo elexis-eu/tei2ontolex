@@ -1,45 +1,43 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix void: <http://rdfs.org/ns/void#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix ns: <http://creativecommons.org/ns#> .
-@prefix lime: <http://www.w3.org/ns/lemon/lime> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
-@prefix lexicog: <http://www.w3.org/ns/lemon/lexicog#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix lime1: <http://www.w3.org/ns/lemon/lime#> .
-@prefix tei: <http://www.tei-c.org/ns/1.0> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lexicog: <http://www.w3.org/ns/lemon/lexicog#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <#abaisseur> a lexicog:Entry ;
-  lexicog:describes <#abaisseur-1>, <#abaisseur-2> .
+    lexicog:describes <#abaisseur-1>,
+        <#abaisseur-2> .
 
-<#abaisseur-1>
+<#abaisseur-1> a ontolex:LexicalEntry ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:adjective ;
-    a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [
-        ontolex:phoneticRep "bè-seur"@fr ;
-        ontolex:writtenRep "ABAISSEUR"@fr
-    ] ;
-    ontolex:sense [
-        skos:definition "Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché"@fr
-    ] .
+    ontolex:canonicalForm [ ontolex:phoneticRep "bè-seur"@fr ;
+            ontolex:writtenRep "ABAISSEUR"@fr ] ;
+    ontolex:sense [ skos:definition "Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché"@fr ] .
 
-<#abaisseur-2>
+<#abaisseur-2> a ontolex:LexicalEntry ;
     lexinfo:gender lexinfo:masculine ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
-    a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [
-        ontolex:phoneticRep "bè-seur"@fr ;
-        ontolex:writtenRep "ABAISSEUR"@fr
-    ] ;
-    ontolex:sense [
-        skos:definition "Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché"@fr
-    ] .
+    ontolex:canonicalForm [ ontolex:phoneticRep "bè-seur"@fr ;
+            ontolex:writtenRep "ABAISSEUR"@fr ] ;
+    ontolex:sense [ skos:definition "Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché"@fr ] .
+
+[] a lime:Lexicon ;
+    dc:date "janvier 2019" ;
+    dc:publisher "Praxiling UMR 5267" ;
+    dc:title "Editions numériques du Petit Larousse illustré (1905-1947)",
+        "Nénufar" ;
+    dct:licence """Extraits : Attribution — Vous devez
+                        créditer l’œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées. Vous
+                        devez indiquer ces informations par tous les moyens possibles mais vous ne pouvez pas suggérer que les
+                        éditeurs vous soutiennent ou soutiennent la façon dont vous avez utilisé leur œuvre. Les éditeurs demandent
+                        que toute publication dérivée de ses ressources électroniques comporte : 1. leur nom, ainsi que les noms des
+                        personnes auteurs de l’édition ; 2. l’URI permettant d’accéder à la page concernée du présent site web, ou à
+                        défaut à la page d’accueil de ce site ; 3. la date et la version du fichier source utilisé (le cas échéant).
+                        Pas de restrictions additionnelles — Vous n’êtes pas autorisé à appliquer des conditions légales ou des
+                        mesures techniques qui empêcheraient autrui d’utiliser l’œuvre dans les conditions décrites par la
+                        licence.""" ;
+    lime:entry <#abaisseur> .
 

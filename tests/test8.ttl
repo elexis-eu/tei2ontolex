@@ -1,8 +1,15 @@
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <#Probe> a ontolex:LexicalEntry ;
-  ontolex:canonicalForm [ ontolex:writtenRep "Probe"@de ] ;
-  lexinfo:etymology [ rdf:value "aus slow."@de , "mhd. [Lexer Wb. III 324]"@de ] .
+    lexinfo:etymology [ rdf:value "aus slow."@de ],
+        [ rdf:value "mhd. [Lexer Wb. III 324]"@de ] ;
+    ontolex:canonicalForm [ ontolex:writtenRep "Probe"@de ] .
+
+[] a lime:Lexicon ;
+    dc:title "Test 8 - Etymology" ;
+    lime:entry <#Probe> .
+
