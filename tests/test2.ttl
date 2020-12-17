@@ -1,4 +1,5 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix lexicog: <http://www.w3.org/ns/lemon/lexicog#> .
 @prefix lime: <http://www.w3.org/ns/lemon/lime#> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
@@ -7,11 +8,12 @@
 
 <#entry1> a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "disproof"@en ] ;
-    ontolex:sense [ skos:definition "facts that disprove something."@en ],
-        [ skos:definition "the act of disproving."@en ;
-            lexicog:usageExample [ rdf:value "boire à une source"@fr ] ] .
+    ontolex:sense [ skos:definition "the act of disproving."@en ;
+            lexicog:usageExample [ rdf:value "boire à une source"@fr ] ],
+        [ skos:definition "facts that disprove something."@en ] .
 
 [] a lime:Lexicon ;
     dc:title "The shortest TEI Document Imaginable" ;
+    dct:source "No source: this is an original work." ;
     lime:entry <#entry1> .
 

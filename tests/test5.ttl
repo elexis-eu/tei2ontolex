@@ -85,10 +85,10 @@
 <#vyras> a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ lexinfo:number lexinfo:singular ;
             ontolex:writtenRep "vyras"@lt ] ;
-    ontolex:otherForm [ lexinfo:number lexinfo:dual ;
-            ontolex:writtenRep "vyru"@lt ],
-        [ lexinfo:number lexinfo:plural ;
-            ontolex:writtenRep "vyrai"@lt ] .
+    ontolex:otherForm [ lexinfo:number lexinfo:plural ;
+            ontolex:writtenRep "vyrai"@lt ],
+        [ lexinfo:number lexinfo:dual ;
+            ontolex:writtenRep "vyru"@lt ] .
 
 <#which> a ontolex:LexicalEntry ;
     lexinfo:partOfSpeech lexinfo:subordinatingConjunction ;

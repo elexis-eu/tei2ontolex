@@ -25,19 +25,12 @@
     ontolex:sense [ skos:definition "Se dit d'un muscle qui sert à abaisser la partie du corps à laquelle il est attaché"@fr ] .
 
 [] a lime:Lexicon ;
-    dc:date "janvier 2019" ;
     dc:publisher "Praxiling UMR 5267" ;
     dc:title "Editions numériques du Petit Larousse illustré (1905-1947)",
         "Nénufar" ;
-    dct:licence """Extraits : Attribution — Vous devez
-                        créditer l’œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées. Vous
-                        devez indiquer ces informations par tous les moyens possibles mais vous ne pouvez pas suggérer que les
-                        éditeurs vous soutiennent ou soutiennent la façon dont vous avez utilisé leur œuvre. Les éditeurs demandent
-                        que toute publication dérivée de ses ressources électroniques comporte : 1. leur nom, ainsi que les noms des
-                        personnes auteurs de l’édition ; 2. l’URI permettant d’accéder à la page concernée du présent site web, ou à
-                        défaut à la page d’accueil de ce site ; 3. la date et la version du fichier source utilisé (le cas échéant).
-                        Pas de restrictions additionnelles — Vous n’êtes pas autorisé à appliquer des conditions légales ou des
-                        mesures techniques qui empêcheraient autrui d’utiliser l’œuvre dans les conditions décrites par la
-                        licence.""" ;
+    dct:contributor "Francesca Frontini",
+        "Hervé Bohbot" ;
+    dct:licence "Extraits : Attribution — Vous devez créditer l’œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées. Vous devez indiquer ces informations par tous les moyens possibles mais vous ne pouvez pas suggérer que les éditeurs vous soutiennent ou soutiennent la façon dont vous avez utilisé leur œuvre. Les éditeurs demandent que toute publication dérivée de ses ressources électroniques comporte : 1. leur nom, ainsi que les noms des personnes auteurs de l’édition ; 2. l’URI permettant d’accéder à la page concernée du présent site web, ou à défaut à la page d’accueil de ce site ; 3. la date et la version du fichier source utilisé (le cas échéant). Pas de restrictions additionnelles — Vous n’êtes pas autorisé à appliquer des conditions légales ou des mesures techniques qui empêcheraient autrui d’utiliser l’œuvre dans les conditions décrites par la licence." ;
+    dct:source "Petit Larousse 1906 - 1e édition" ;
     lime:entry <#abaisseur> .
 
