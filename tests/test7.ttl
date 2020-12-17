@@ -6,18 +6,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <#test> a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "test"@en ] ;
-    ontolex:sense [ lexinfo:attitude [ rdf:value "attitude information" ] ;
-            lexinfo:domain [ rdf:value "domain information" ] ;
-            lexinfo:frequency [ rdf:value "frequency information" ] ;
-            lexinfo:geographic [ rdf:value "geographic information" ] ;
-            lexinfo:hint [ rdf:value "hint information" ] ;
-            lexinfo:meaningType [ rdf:value "meaningType information" ] ;
-            lexinfo:normativity [ rdf:value "normativity information" ] ;
-            lexinfo:socioCultural [ rdf:value "socioCultural information" ] ;
-            lexinfo:temporalQualifier [ rdf:value "time information" ] ;
-            lexinfo:textType [ rdf:value "textType information" ] ;
-            skos:definition "This is a test entry"@en ] .
+  ontolex:canonicalForm [ ontolex:writtenRep "test"@en ] ;
+  ontolex:sense [
+    skos:definition "This is a test entry"@en ;
+    lexinfo:temporalQualifier [ rdf:value "time information" ] ;
+    lexinfo:geographic [ rdf:value "geographic information" ] ;
+    lexinfo:domain [ rdf:value "domain information" ] ;
+    lexinfo:frequency [ rdf:value "frequency information" ] ;
+    lexinfo:attitude [ rdf:value "attitude information" ] ;
+    lexinfo:normativity [ rdf:value "normativity information" ] ;
+    lexinfo:meaningType [ rdf:value "meaningType information" ] ;
+    lexinfo:textType [ rdf:value "textType information" ] ;
+    lexinfo:hint [ rdf:value "hint information" ] ;
+    lexinfo:socioCultural [ rdf:value "socioCultural information" ] 
+  ] .
 
 [] a lime:Lexicon ;
     dc:title "Test 7 - Usage" ;

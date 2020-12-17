@@ -4,16 +4,17 @@
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<#M012340> rdf:value "burcht"@nl .
-
 <#borcht> a ontolex:LexicalEntry ;
-    lexinfo:relatedTerm <#M012340> ;
-    ontolex:canonicalForm [ ontolex:writtenRep "borcht"@nl ] ;
-    ontolex:sense [ lexinfo:antonym <#anto> ;
-            lexinfo:hypernym <#hyp> ;
-            lexinfo:hyponym <#hypo> ;
-            lexinfo:meronymTerm <#mero> ;
-            lexinfo:synonym <#syn> ] .
+  ontolex:canonicalForm [ ontolex:writtenRep "borcht"@nl ] ;
+  lexinfo:relatedTerm <#M012340> ;
+  ontolex:sense [
+    lexinfo:synonym <#syn> ;
+    lexinfo:hyponym <#hypo> ;
+    lexinfo:hypernym <#hyp> ;
+    lexinfo:antonym <#anto> ;
+    lexinfo:meronymTerm <#mero> ] .
+
+<#M012340> rdf:value "burcht"@nl .
 
 [] a lime:Lexicon ;
     dc:title "Test 8 - Etymology" ;

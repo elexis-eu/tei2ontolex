@@ -4,9 +4,9 @@
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 
 <#go> a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "go"@en ] ;
-    ontolex:otherForm [ lexinfo:tense lexinfo:past ;
-            ontolex:writtenRep "went"@en ] .
+  ontolex:canonicalForm [ ontolex:writtenRep "go"@en ] ;
+  ontolex:otherForm [ ontolex:writtenRep "went"@en ;
+    lexinfo:tense lexinfo:past ] .
 
 [] a lime:Lexicon ;
     dc:title "Test 3 - inflected forms" ;

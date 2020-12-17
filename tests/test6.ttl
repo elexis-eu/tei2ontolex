@@ -4,9 +4,11 @@
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 
 <#horrifier> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:canonicalForm [ ontolex:writtenRep "horrifier"@fr ] ;
-    ontolex:sense [ lexinfo:senseTranslation "horrify"@en ] .
+  ontolex:canonicalForm [ ontolex:writtenRep "horrifier"@fr ] ;
+  lexinfo:partOfSpeech lexinfo:verb ;
+  ontolex:sense [
+    lexinfo:senseTranslation "horrify"@en 
+  ] .
 
 [] a lime:Lexicon ;
     dc:title "Test 6 - Translations" ;

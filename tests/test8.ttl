@@ -5,9 +5,8 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <#Probe> a ontolex:LexicalEntry ;
-    lexinfo:etymology [ rdf:value "aus slow."@de ],
-        [ rdf:value "mhd. [Lexer Wb. III 324]"@de ] ;
-    ontolex:canonicalForm [ ontolex:writtenRep "Probe"@de ] .
+  ontolex:canonicalForm [ ontolex:writtenRep "Probe"@de ] ;
+  lexinfo:etymology [ rdf:value "aus slow."@de , "mhd. [Lexer Wb. III 324]"@de ] .
 
 [] a lime:Lexicon ;
     dc:title "Test 8 - Etymology" ;

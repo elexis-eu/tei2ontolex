@@ -7,10 +7,17 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <#entry1> a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "disproof"@en ] ;
-    ontolex:sense [ skos:definition "the act of disproving."@en ;
-            lexicog:usageExample [ rdf:value "boire à une source"@fr ] ],
-        [ skos:definition "facts that disprove something."@en ] .
+  ontolex:canonicalForm [ 
+    ontolex:writtenRep "disproof"@en
+  ] ;
+  ontolex:sense [
+     skos:definition "facts that disprove something."@en
+  ] , [
+     skos:definition "the act of disproving."@en ;
+     lexicog:usageExample [
+        rdf:value "boire à une source"@fr
+     ] 
+  ].
 
 [] a lime:Lexicon ;
     dc:title "The shortest TEI Document Imaginable" ;

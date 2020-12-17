@@ -5,13 +5,16 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <#Flussschifffahrt> a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ lexinfo:temporalQualifier [ rdf:value "Vor 1996 Rechtschreibung Reform" ] ;
-            ontolex:writtenRep "Fluss-Schifffahrt"@de,
-                "Flussschifffahrt"@de,
-                "Flußschifffahrt"@de ] .
+  ontolex:canonicalForm [ 
+    ontolex:writtenRep "Flussschifffahrt"@de , 
+    "Fluss-Schifffahrt"@de, "Flußschifffahrt"@de 
+  ] .
 
 <#osama_bin_laden> a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:phoneticRep "ow.\"sa.mabɪnˈlaːdn̹"@en-fonipa ] .
+  ontolex:canonicalForm [
+    ontolex:phoneticRep "ow.\"sa.mabɪnˈlaːdn̹"@en-fonipa ;
+    lexinfo:temporalQualifier [ rdf:value "Vor 1996 Rechtschreibung Reform" ]
+  ] .
 
 [] a lime:Lexicon ;
     dc:title "Test 3 - variant forms" ;

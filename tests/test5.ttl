@@ -3,108 +3,133 @@
 @prefix lime: <http://www.w3.org/ns/lemon/lime#> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 
-<#Frau> a ontolex:LexicalEntry ;
-    lexinfo:gender lexinfo:feminine ;
-    ontolex:canonicalForm [ ontolex:writtenRep "Frau"@de ] .
+<#yellow> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "yellow"@en ] ;
+  lexinfo:partOfSpeech lexinfo:adjective .
 
-<#John> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:properNoun ;
-    ontolex:canonicalForm [ ontolex:writtenRep "John"@en ] .
-
-<#Kind> a ontolex:LexicalEntry ;
-    lexinfo:gender lexinfo:neuter ;
-    ontolex:canonicalForm [ ontolex:writtenRep "Kind"@de ] .
-
-<#Mann> a ontolex:LexicalEntry ;
-    lexinfo:gender lexinfo:masculine ;
-    ontolex:canonicalForm [ ontolex:writtenRep "Mann"@de ] .
-
-<#Mary> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:properNoun ;
-    ontolex:canonicalForm [ ontolex:writtenRep "Mary"@en ] .
-
-<#and> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:coordinatingConjunction ;
-    ontolex:canonicalForm [ ontolex:writtenRep "and"@en ] .
-
-<#can> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:auxiliary ;
-    ontolex:canonicalForm [ ontolex:writtenRep "can"@en ] .
-
-<#cat> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm [ ontolex:writtenRep "cat"@en ] .
-
-<#comma> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:punctuation ;
-    ontolex:canonicalForm [ ontolex:writtenRep ","@en ] .
-
-<#fish> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:canonicalForm [ ontolex:writtenRep "fish"@en ] .
-
-<#fly> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:canonicalForm [ ontolex:writtenRep "fly"@en ] .
 
 <#for> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:adposition ;
-    ontolex:canonicalForm [ ontolex:writtenRep "for"@en ] .
+  ontolex:canonicalForm [ ontolex:writtenRep "for"@en ] ;
+  lexinfo:partOfSpeech lexinfo:adposition .
 
-<#hash> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:symbol ;
-    ontolex:canonicalForm [ ontolex:writtenRep "#"@en ] .
-
-<#mus> a ontolex:LexicalEntry ;
-    lexinfo:animacy lexinfo:animate ;
-    ontolex:canonicalForm [ ontolex:writtenRep "муж"@ru ] .
-
-<#one> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:numeral ;
-    ontolex:canonicalForm [ ontolex:writtenRep "1"@en ] .
-
-<#stol> a ontolex:LexicalEntry ;
-    lexinfo:animacy lexinfo:inanimate ;
-    ontolex:canonicalForm [ ontolex:writtenRep "стол"@ru ] .
-
-<#the> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:determiner ;
-    ontolex:canonicalForm [ ontolex:writtenRep "the"@en ] .
-
-<#to> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:particle ;
-    ontolex:canonicalForm [ ontolex:writtenRep "to"@en ] .
 
 <#today> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:adverb ;
-    ontolex:canonicalForm [ ontolex:writtenRep "today"@en ] .
+  ontolex:canonicalForm [ ontolex:writtenRep "today"@en ] ;
+  lexinfo:partOfSpeech lexinfo:adverb .
 
-<#typo> a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "sdfioa"@en ] .
 
-<#vyras> a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ lexinfo:number lexinfo:singular ;
-            ontolex:writtenRep "vyras"@lt ] ;
-    ontolex:otherForm [ lexinfo:number lexinfo:plural ;
-            ontolex:writtenRep "vyrai"@lt ],
-        [ lexinfo:number lexinfo:dual ;
-            ontolex:writtenRep "vyru"@lt ] .
+<#can> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "can"@en ] ;
+  lexinfo:partOfSpeech lexinfo:auxiliary .
 
-<#which> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:subordinatingConjunction ;
-    ontolex:canonicalForm [ ontolex:writtenRep "which"@en ] .
 
-<#yellow> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:adjective ;
-    ontolex:canonicalForm [ ontolex:writtenRep "yellow"@en ] .
+<#and> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "and"@en ] ;
+  lexinfo:partOfSpeech lexinfo:coordinatingConjunction .
+
+
+<#the> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "the"@en ] ;
+  lexinfo:partOfSpeech lexinfo:determiner .
+
 
 <#yes> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:interjection ;
-    ontolex:canonicalForm [ ontolex:writtenRep "yes"@en ] .
+  ontolex:canonicalForm [ ontolex:writtenRep "yes"@en ] ;
+  lexinfo:partOfSpeech lexinfo:interjection .
+
+
+<#cat> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "cat"@en ] ;
+  lexinfo:partOfSpeech lexinfo:commonNoun .
+
+
+<#one> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "1"@en ] ;
+  lexinfo:partOfSpeech lexinfo:numeral .
+
+
+<#to> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "to"@en ] ;
+  lexinfo:partOfSpeech lexinfo:particle .
+
 
 <#you> a ontolex:LexicalEntry ;
-    lexinfo:partOfSpeech lexinfo:pronoun ;
-    ontolex:canonicalForm [ ontolex:writtenRep "you"@en ] .
+  ontolex:canonicalForm [ ontolex:writtenRep "you"@en ] ;
+  lexinfo:partOfSpeech lexinfo:pronoun .
+
+
+<#John> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "John"@en ] ;
+  lexinfo:partOfSpeech lexinfo:properNoun .
+
+
+<#comma> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep ","@en ] ;
+  lexinfo:partOfSpeech lexinfo:punctuation .
+
+
+<#which> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "which"@en ] ;
+  lexinfo:partOfSpeech lexinfo:subordinatingConjunction .
+
+
+<#hash> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "#"@en ] ;
+  lexinfo:partOfSpeech lexinfo:symbol .
+
+
+<#fly> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "fly"@en ] ;
+  lexinfo:partOfSpeech lexinfo:verb .
+
+
+<#typo> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "sdfioa"@en ] .
+
+
+<#vyras> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ 
+    ontolex:writtenRep "vyras"@lt ;
+    lexinfo:number lexinfo:singular
+  ] ;
+  ontolex:otherForm [
+    ontolex:writtenRep "vyru"@lt ;
+    lexinfo:number lexinfo:dual 
+  ] , [
+    ontolex:writtenRep "vyrai"@lt ;
+    lexinfo:number lexinfo:plural
+  ] .
+
+<#mus> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "муж"@ru ] ;
+  lexinfo:animacy lexinfo:animate .
+
+
+<#stol> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "стол"@ru ] ;
+  lexinfo:animacy lexinfo:inanimate .
+
+
+<#Mary> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "Mary"@en ] ;
+  lexinfo:partOfSpeech lexinfo:properNoun .
+
+
+<#fish> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "fish"@en ] ;
+  lexinfo:partOfSpeech lexinfo:commonNoun .
+
+<#Mann> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "Mann"@de ] ;
+  lexinfo:gender lexinfo:masculine .
+
+<#Frau> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "Frau"@de ] ;
+  lexinfo:gender lexinfo:feminine .
+
+<#Kind> a ontolex:LexicalEntry ;
+  ontolex:canonicalForm [ ontolex:writtenRep "Kind"@de ] ;
+  lexinfo:gender lexinfo:neuter .
 
 [] a lime:Lexicon ;
     dc:title "Test 5 - grammatical properties" ;
