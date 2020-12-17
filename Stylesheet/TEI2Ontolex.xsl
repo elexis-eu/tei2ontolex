@@ -29,18 +29,21 @@
     <xsl:template match="/">
         <rdf:RDF>
             <lime:Lexicon>
-                <xsl:apply-templates select="descendant::tei:teiHeader"/>
+                <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc"/>
                 <xsl:apply-templates select="descendant::tei:entry"/>
             </lime:Lexicon>
         </rdf:RDF>
     </xsl:template>
 
-    <xsl:template match="tei:teiHeader">
-        <xsl:apply-templates select="descendant::tei:title[text()]"/>
-        <xsl:apply-templates select="descendant::tei:author[text()]"/>
-        <xsl:apply-templates select="descendant::tei:date[text() | @when]"/>
-        <xsl:apply-templates select="descendant::tei:publisher[text()]"/>
-        <xsl:apply-templates select="descendant::tei:licence[text()]"/>
+    <xsl:template match="tei:teiHeader/tei:fileDesc">
+        <xsl:apply-templates select="tei:titleStmt/tei:title"/>
+        <xsl:apply-templates select="tei:titleStmt/tei:author"/>
+        <xsl:apply-templates select=".//tei:respStmt/tei:name | .//tei:respStmt/tei:orgName | .//tei:respStmt/tei:persName | .//tei:editor"/>
+        <xsl:apply-templates select="tei:publicationStmt/tei:publisher"/>
+        <xsl:apply-templates select="tei:publicationStmt/tei:date"/>
+        <xsl:apply-templates select="tei:publicationStmt/tei:availability/tei:licence"/>
+        <xsl:apply-templates select="tei:sourceDesc"/>
+        <xsl:apply-templates select="tei:extent"/>
     </xsl:template>
 
     <xsl:template match="tei:entry">
@@ -555,34 +558,54 @@
         <xsl:text> </xsl:text>
     </xsl:template>
 
+    <!-- Dublin Core terms and elements -->
+
     <xsl:template match="tei:author">
         <dc:creator>
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space(.)"/>
         </dc:creator>
     </xsl:template>
 
     <xsl:template match="tei:title">
         <dc:title>
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space(.)"/>
         </dc:title>
     </xsl:template>
 
     <xsl:template match="tei:date">
         <dc:date>
-            <xsl:value-of select="text() | @when"/>
+            <xsl:value-of select="normalize-space(@when | .)"/>
         </dc:date>
     </xsl:template>
 
     <xsl:template match="tei:publisher">
         <dc:publisher>
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space(.)"/>
         </dc:publisher>
     </xsl:template>
 
     <xsl:template match="tei:licence">
         <dct:licence>
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space(@target | .)"/>
         </dct:licence>
+    </xsl:template>
+
+    <xsl:template match="tei:sourceDesc">
+        <dct:source>
+            <xsl:value-of select="normalize-space(.)"/>
+        </dct:source>
+    </xsl:template>
+
+    <xsl:template match="tei:respStmt/tei:name | tei:respStmt/tei:orgName | tei:respStmt/tei:persName | tei:editor">
+        <dct:contributor>
+            <xsl:value-of select="normalize-space(.)"/>
+        </dct:contributor>
+    </xsl:template>
+
+    <xsl:template match="tei:extent">
+        <dct:extent>
+            <xsl:value-of select="normalize-space(.)"/>
+        </dct:extent>
     </xsl:template>
 
     <!-- <xr> construct -->
