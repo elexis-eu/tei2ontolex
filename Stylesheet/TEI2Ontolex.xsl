@@ -147,13 +147,13 @@
                     <xsl:when test="contains('|adjective|ADJ|adjectif|', $sourceReference)">adjective</xsl:when>
                     <xsl:when test="contains('|verb|VERB|verbe|', $sourceReference)">verb</xsl:when>
                     <xsl:when test="contains('|adverb|ADV|adverbe|', $sourceReference)">adverb</xsl:when>
-                    <xsl:when test="contains('|pronoun|PRON|pronom|', $sourceReference)">pronoun</xsl:when>
-                    <xsl:when test="contains('|determiner|DET|article|', $sourceReference)">determiner</xsl:when>
+                    <xsl:when test="contains('|pronoun|PRON|pronom|personalPronoun|', $sourceReference)">pronoun</xsl:when>
+                    <xsl:when test="contains('|determiner|DET|article|definiteArticle|', $sourceReference)">determiner</xsl:when>
                     <xsl:when test="contains('|interjection|INTJ|', $sourceReference)">interjection</xsl:when>
-                    <xsl:when test="contains('|number|NUM|nombre|', $sourceReference)">numeral</xsl:when>
+                    <xsl:when test="contains('|number|NUM|nombre|numeral|', $sourceReference)">numeral</xsl:when>
                     <xsl:when test="contains('|particle|PART|particule|', $sourceReference)">particle</xsl:when>
                     <xsl:when test="contains('|prefix|préfixe|', $sourceReference)">prefix</xsl:when>
-                    <xsl:when test="contains('|coordinating conjunction|CCONJ|coordinatingConjunction|conjonction de coordination|', $sourceReference)">coordinatingConjunction</xsl:when>
+                    <xsl:when test="contains('|coordinating conjunction|CCONJ|coordinatingConjunction|conjonction de coordination|conjunction|', $sourceReference)">coordinatingConjunction</xsl:when>
                     <xsl:when test="contains('|auxiliary|AUX|auxiliaire|', $sourceReference)">auxiliary</xsl:when>
                     <xsl:when test="contains('|preposition|ADP|adposition|préposition|', $sourceReference)">adposition</xsl:when>
                     <xsl:when test="contains('|proper noun|PROPN|properNoun|', $sourceReference)">properNoun</xsl:when>
