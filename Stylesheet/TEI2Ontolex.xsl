@@ -136,7 +136,9 @@
     <xsl:template match="tei:pos | tei:gram[@type = 'pos'] | tei:gram[@type = 'proper']">
         <xsl:param name="posPosition"/>
         <xsl:variable name="prédécesseurs"
-            select="count(preceding-sibling::tei:pos | tei:gram[@type = 'pos'] | preceding-sibling::tei:gram[@type = 'proper'])"/>
+            select="count(preceding-sibling::tei:pos |
+                          preceding-sibling::tei:gram[@type = 'pos'] |
+                          preceding-sibling::tei:gram[@type = 'proper'])"/>
         <xsl:if test="not(@expan = 'locution') and (not($posPosition > 0) or (($posPosition - 1) = $prédécesseurs))">
             <xsl:variable name="sourceReference">
                 <xsl:value-of select="concat('|', @norm | @expand | ., '|')"/>
