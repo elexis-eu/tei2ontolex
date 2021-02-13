@@ -348,7 +348,7 @@
     <!-- Sense related transformation in two ways: a) reference within an entry and b) creation of the actual LexicalSense node -->
 
     <xsl:template match="tei:sense">
-        <ontolex:sense>
+        <ontolex:sense rdf:ID="{@xml:id}">
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
