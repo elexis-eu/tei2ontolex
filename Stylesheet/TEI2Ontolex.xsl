@@ -136,64 +136,33 @@
     <xsl:template match="tei:pos | tei:gram[@type = 'pos'] | tei:gram[@type = 'proper']">
         <xsl:param name="posPosition"/>
         <xsl:variable name="prédécesseurs"
-            select="count(preceding-sibling::tei:pos | tei:gram[@type = 'pos'] | preceding-sibling::tei:gram[@type = 'proper'])"/>
-        <xsl:if test="not(@expan = 'locution') and (not($posPosition > 0) or (($posPosition - 1) = $prédécesseurs))">
+            select="count(preceding-sibling::tei:pos |
+                          preceding-sibling::tei:gram[@type = 'pos'] |
+                          preceding-sibling::tei:gram[@type = 'proper'])"/>
+        <xsl:if test="not(@expand = 'locution') and (not($posPosition > 0) or (($posPosition - 1) = $prédécesseurs))">
             <xsl:variable name="sourceReference">
-                <xsl:choose>
-                    <xsl:when test="@norm">
-                        <xsl:value-of select="@norm"/>
-                    </xsl:when>
-                    <xsl:when test="@expand">
-                        <xsl:value-of select="@expand"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="."/>
-                    </xsl:otherwise>
-                </xsl:choose>
+                <xsl:value-of select="concat('|', @norm | @expand | ., '|')"/>
             </xsl:variable>
             <xsl:variable name="lexinfoCategory">
                 <xsl:choose>
-                    <xsl:when test="$sourceReference = 'nom' or $sourceReference = 'noun' or $sourceReference = 'NOUN'"
-                        >commonNoun</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'adjectif' or $sourceReference = 'adjective' or $sourceReference = 'ADJ'"
-                        >adjective</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'verbe' or $sourceReference = 'verb' or $sourceReference = 'VERB'"
-                        >verb</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'adverbe' or $sourceReference = 'adverb' or $sourceReference = 'ADV'"
-                        >adverb</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'pronom' or $sourceReference = 'pronoun' or $sourceReference = 'PRON'"
-                        >pronoun</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'article' or $sourceReference = 'determiner' or $sourceReference = 'DET'"
-                        >determiner</xsl:when>
-                    <xsl:when test="$sourceReference = 'interjection' or $sourceReference = 'INTJ'"
-                        >interjection</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'nombre' or $sourceReference = 'number' or $sourceReference = 'NUM'"
-                        >numeral</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'particule' or $sourceReference = 'particle' or $sourceReference = 'PART'"
-                        >particle</xsl:when>
-
-                    <xsl:when test="$sourceReference = 'préfixe' or $sourceReference = 'prefix'">prefix</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'conjonction de coordination' or $sourceReference = 'coordinating conjunction' or $sourceReference = 'CCONJ'"
-                        >coordinatingConjunction</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'auxiliaire' or $sourceReference = 'auxiliary' or $sourceReference = 'AUX'"
-                        >auxiliary</xsl:when>
-                    <xsl:when
-                        test="$sourceReference = 'préposition' or $sourceReference = 'preposition' or $sourceReference = 'ADP'"
-                        >adposition</xsl:when>
-                    <xsl:when test="$sourceReference = 'PROPN'">properNoun</xsl:when>
-                    <xsl:when test="$sourceReference = 'PUNCT'">punctuation</xsl:when>
-                    <xsl:when test="$sourceReference = 'SCONJ'">subordinatingConjunction</xsl:when>
-                    <xsl:when test="$sourceReference = 'SYM'">symbol</xsl:when>
-                    <xsl:when test="$sourceReference = 'X'">unknown</xsl:when>
+                    <xsl:when test="contains('|noun|NOUN|commonNoun|nom|', $sourceReference)">commonNoun</xsl:when>
+                    <xsl:when test="contains('|adjective|ADJ|adj|adjectif|', $sourceReference)">adjective</xsl:when>
+                    <xsl:when test="contains('|verb|VERB|verbe|', $sourceReference)">verb</xsl:when>
+                    <xsl:when test="contains('|adverb|ADV|adv|adverbe|', $sourceReference)">adverb</xsl:when>
+                    <xsl:when test="contains('|pronoun|PRON|pron|pronom|personalPronoun|', $sourceReference)">pronoun</xsl:when>
+                    <xsl:when test="contains('|determiner|DET|det|article|definiteArticle|', $sourceReference)">determiner</xsl:when>
+                    <xsl:when test="contains('|interjection|INTJ|intj|', $sourceReference)">interjection</xsl:when>
+                    <xsl:when test="contains('|number|NUM|num|nombre|numeral|', $sourceReference)">numeral</xsl:when>
+                    <xsl:when test="contains('|particle|PART|part|particule|', $sourceReference)">particle</xsl:when>
+                    <xsl:when test="contains('|prefix|préfixe|', $sourceReference)">prefix</xsl:when>
+                    <xsl:when test="contains('|coordinating conjunction|CCONJ|cconj|coordinatingConjunction|conjonction de coordination|conjunction|', $sourceReference)">coordinatingConjunction</xsl:when>
+                    <xsl:when test="contains('|auxiliary|AUX|aux|auxiliaire|', $sourceReference)">auxiliary</xsl:when>
+                    <xsl:when test="contains('|preposition|ADP|adp|adposition|préposition|', $sourceReference)">adposition</xsl:when>
+                    <xsl:when test="contains('|proper noun|PROPN|propn|properNoun|', $sourceReference)">properNoun</xsl:when>
+                    <xsl:when test="contains('|punctuation|PUNCT|punct|', $sourceReference)">punctuation</xsl:when>
+                    <xsl:when test="contains('|subordinating conjunction|SCONJ|sconj|subordinatingConjunction|', $sourceReference)">subordinatingConjunction</xsl:when>
+                    <xsl:when test="contains('|symbol|SYM|sym|', $sourceReference)">symbol</xsl:when>
+                    <xsl:when test="contains('|other|X|x|unknown|', $sourceReference)">unknown</xsl:when>
                     <xsl:otherwise>
                         <xsl:message>CategoryRemainsToBeDetermined: <xsl:value-of select="$sourceReference"
                             /></xsl:message>
