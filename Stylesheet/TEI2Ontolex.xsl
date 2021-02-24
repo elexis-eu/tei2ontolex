@@ -585,9 +585,9 @@
     </xsl:template>
 
     <xsl:template match="tei:licence">
-        <dct:licence>
+        <dct:license>
             <xsl:value-of select="normalize-space(@target | .)"/>
-        </dct:licence>
+        </dct:license>
     </xsl:template>
 
     <xsl:template match="tei:sourceDesc">
