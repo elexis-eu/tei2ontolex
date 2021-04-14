@@ -1,5 +1,7 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix lexicog: <http://www.w3.org/ns/lemon/lexicog#> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -32,4 +34,9 @@
             rdf:value "tumeur qui abcède"
         ]
     ] .
+
+[] a lime:Lexicon ;
+    dc:title "Test 10 - Notes" ;
+    lime:entry <#a-2>,
+        <#abcéder> .
 

@@ -1,6 +1,7 @@
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 
 <#yellow> a ontolex:LexicalEntry ;
   ontolex:canonicalForm [ ontolex:writtenRep "yellow"@en ] ;
@@ -129,3 +130,32 @@
 <#Kind> a ontolex:LexicalEntry ;
   ontolex:canonicalForm [ ontolex:writtenRep "Kind"@de ] ;
   lexinfo:gender lexinfo:neuter .
+
+[] a lime:Lexicon ;
+    dc:title "Test 5 - grammatical properties" ;
+    lime:entry <#Frau>,
+        <#John>,
+        <#Kind>,
+        <#Mann>,
+        <#Mary>,
+        <#and>,
+        <#can>,
+        <#cat>,
+        <#comma>,
+        <#fish>,
+        <#fly>,
+        <#for>,
+        <#hash>,
+        <#mus>,
+        <#one>,
+        <#stol>,
+        <#the>,
+        <#to>,
+        <#today>,
+        <#typo>,
+        <#vyras>,
+        <#which>,
+        <#yellow>,
+        <#yes>,
+        <#you> .
+

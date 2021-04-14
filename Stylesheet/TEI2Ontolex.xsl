@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs" version="1.0" xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
-    xml:base="http://lari-datasets.ilc.cnr.it/nenu_sample" xmlns:void="http://rdfs.org/ns/void#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:ns="http://creativecommons.org/ns#"
-    xmlns:lime="http://www.w3.org/ns/lemon/lime" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
-    xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#" xmlns:dct="http://purl.org/dc/terms/"
-    xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:terms="http://purl.org/dc/terms/" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
-    xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:lime1="http://www.w3.org/ns/lemon/lime#" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<xsl:stylesheet
+        exclude-result-prefixes="xs" version="1.0"
+        xmlns="http://lari-datasets.ilc.cnr.it/nenu_sample#"
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xml:base="http://lari-datasets.ilc.cnr.it/nenu_sample"
+        xmlns:void="http://rdfs.org/ns/void#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:ns="http://creativecommons.org/ns#"
+        xmlns:lime="http://www.w3.org/ns/lemon/lime#"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
+        xmlns:lexicog="http://www.w3.org/ns/lemon/lexicog#"
+        xmlns:dct="http://purl.org/dc/terms/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:bibo="http://purl.org/ontology/bibo/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+        xmlns:vann="http://purl.org/vocab/vann/"
+        xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 
     <xsl:variable name="LexiconURI" select="'http://www.mylexica.perso/PLI1906'"/>
 
@@ -18,12 +28,27 @@
 
     <xsl:template match="/">
         <rdf:RDF>
-            <xsl:apply-templates select="descendant::tei:entry"/>
+            <lime:Lexicon>
+                <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc"/>
+                <xsl:apply-templates select="descendant::tei:entry"/>
+            </lime:Lexicon>
         </rdf:RDF>
+    </xsl:template>
+
+    <xsl:template match="tei:teiHeader/tei:fileDesc">
+        <xsl:apply-templates select="tei:titleStmt/tei:title"/>
+        <xsl:apply-templates select="tei:titleStmt/tei:author"/>
+        <xsl:apply-templates select=".//tei:respStmt/tei:name | .//tei:respStmt/tei:orgName | .//tei:respStmt/tei:persName | .//tei:editor"/>
+        <xsl:apply-templates select="tei:publicationStmt/tei:publisher"/>
+        <xsl:apply-templates select="tei:publicationStmt/tei:date"/>
+        <xsl:apply-templates select="tei:publicationStmt/tei:availability/tei:licence"/>
+        <xsl:apply-templates select="tei:sourceDesc"/>
+        <xsl:apply-templates select="tei:extent"/>
     </xsl:template>
 
     <xsl:template match="tei:entry">
         <xsl:variable name="theEntry" select="."/>
+        <lime:entry>
         <xsl:choose>
             <!-- Case when there are two parts of speech: we split the entry in two -->
             <xsl:when test="count(tei:gramGrp/tei:pos) > 1">
@@ -62,6 +87,7 @@
                 </ontolex:LexicalEntry>
             </xsl:otherwise>
         </xsl:choose>
+        </lime:entry>
     </xsl:template>
 
 
@@ -291,7 +317,7 @@
     <!-- Sense related transformation in two ways: a) reference within an entry and b) creation of the actual LexicalSense node -->
 
     <xsl:template match="tei:sense">
-        <ontolex:sense>
+        <ontolex:sense rdf:ID="{@xml:id}">
             <rdf:Description>
                 <xsl:apply-templates/>
             </rdf:Description>
@@ -501,28 +527,54 @@
         <xsl:text> </xsl:text>
     </xsl:template>
 
+    <!-- Dublin Core terms and elements -->
+
     <xsl:template match="tei:author">
         <dc:creator>
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space(.)"/>
         </dc:creator>
     </xsl:template>
 
     <xsl:template match="tei:title">
         <dc:title>
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space(.)"/>
         </dc:title>
     </xsl:template>
 
     <xsl:template match="tei:date">
         <dc:date>
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space(@when | text())"/>
         </dc:date>
     </xsl:template>
 
     <xsl:template match="tei:publisher">
         <dc:publisher>
-            <xsl:apply-templates/>
+            <xsl:value-of select="normalize-space(.)"/>
         </dc:publisher>
+    </xsl:template>
+
+    <xsl:template match="tei:licence">
+        <dct:license>
+            <xsl:value-of select="normalize-space(@target | text())"/>
+        </dct:license>
+    </xsl:template>
+
+    <xsl:template match="tei:sourceDesc">
+        <dct:source>
+            <xsl:value-of select="normalize-space(.)"/>
+        </dct:source>
+    </xsl:template>
+
+    <xsl:template match="tei:respStmt/tei:name | tei:respStmt/tei:orgName | tei:respStmt/tei:persName | tei:editor">
+        <dct:contributor>
+            <xsl:value-of select="normalize-space(.)"/>
+        </dct:contributor>
+    </xsl:template>
+
+    <xsl:template match="tei:extent">
+        <dct:extent>
+            <xsl:value-of select="normalize-space(.)"/>
+        </dct:extent>
     </xsl:template>
 
     <!-- <xr> construct -->
